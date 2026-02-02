@@ -1,0 +1,501 @@
+user_id,full_name,email,phone,shipping_city,shipping_state,shipping_zip,account_created,prime_member,loyalty_tier
+USER-1001,"Thomas, Linda",linda.thomas16@protonmail.com,5558865964,Fort Worth,TX,76122,2020-09-28,Standard,Silver
+USER-1002,"Martin, Ruth",ruth.martin@icloud.com,5553562405,Philadelphia,Pennsylvania,19041,2020-04-26,Standard,Bronze
+USER-1003,"Mitchell, Helen",helen.mitchell@protonmail.com,5552756053,New York,New York,10057,2020-03-28,Standard,Bronze
+USER-1004,Michael Wilson,michael.wilson@yahoo.com,5559156765,Boston,MA,02115,2020-02-20,Prime,Silver
+USER-1005,Donna Bell,donna.bell@protonmail.com,5551636075,San Antonio,Texas,78239,2020-01-08,Standard,Bronze
+USER-1006,"Taylor, Jessica",jessica.taylor97@hotmail.com,5551245067,San Antonio,Texas,78281,2020-03-07,Prime,Bronze
+USER-1007,Maria Howard,maria.howard@aol.com,5554570286,Columbus,Ohio,43065,2020-11-03,Standard,Bronze
+USER-1008,William Davis,william.davis76@gmail.com,5559866873,Seattle,WA,98190,2020-09-21,Prime,Bronze
+USER-1009,"Campbell, Susan",scampbell@outlook.com,5555586506,San Francisco,CA,94145,2020-09-21,Standard,Silver
+USER-1010,"Smith, Lisa",lsmith@yahoo.com,5556823382,Los Angeles,California,90035,2020-08-24,Prime,Gold
+USER-1011,Charles Martinez,charles.martinez@outlook.com,5557350074,San Francisco,CA,94187,2020-12-03,Standard,Platinum
+USER-1012,"Cooper, Brian",brian.cooper@gmail.com,5558788957,Boston,Massachusetts,02114,2020-11-09,Standard,Gold
+USER-1013,"Adams, Susan",susan.adams@gmail.com,5557081964,Charlotte,North Carolina,28201,2020-11-15,Prime,Silver
+USER-1014,"Bobs, Nicholas",nroberts@outlook.com,5554313689,Boston,Massachusetts,02145,2020-11-23,Prime,Bronze
+USER-1015,"King, Ryan",ryan.king@protonmail.com,5559331723,Phoenix,AZ,85059,2020-04-05,Standard,Gold
+USER-1016,"Parker, James",james.parker@icloud.com,5555476587,Houston,Texas,77092,2020-12-07,Standard,Gold
+USER-1017,Deborah Evans,deborah.evans@yahoo.com,5551861749,Chicago,Illinois,60685,2020-08-28,Prime,Platinum
+USER-1018,Bill Jim,william.james@icloud.com,5559422060,Fort Worth,TX,76147,2020-10-28,Standard,Platinum
+USER-1019,Brian Martin,bmartin@icloud.com,5552062215,Denver,CO,80273,2020-03-27,Standard,Gold
+USER-1020,Emily Richardson,erichardson@gmail.com,5553052788,San Antonio,Texas,78277,2020-07-26,Standard,Silver
+USER-1021,Ruth Cooper,ruth.cooper66@yahoo.com,5551026560,Denver,CO,80270,2020-07-12,Standard,Platinum
+USER-1022,Ryan Ward,ryan.ward@gmail.com,5553317535,Boston,MA,02106,2020-10-08,Standard,Gold
+USER-1023,Mark Martinez,mmartinez@outlook.com,5555016957,Boston,Massachusetts,02155,2020-03-20,Standard,Bronze
+USER-1024,"Johnson, Ruth",rjohnson@protonmail.com,5554894817,Philadelphia,PA,19089,2020-07-19,Prime,Platinum
+USER-1025,Mary Allen,mallen@yahoo.com,5554802588,Columbus,OH,43001,2020-11-04,Prime,Gold
+USER-1026,Nancy Mitchell,nancy.mitchell@yahoo.com,5557263744,Dallas,TX,75247,2020-12-16,Standard,Gold
+USER-1027,"Thomas, William",william.thomas@aol.com,5555671902,Phoenix,Arizona,85088,2020-04-01,Standard,Silver
+USER-1028,"Moore, James",jmoore@outlook.com,5554976683,Charlotte,North Carolina,28293,2020-09-05,Standard,Silver
+USER-1029,"Young, Eric",eric.young@outlook.com,5553336542,Phoenix,Arizona,85024,2020-07-12,Prime,Bronze
+USER-1030,"Roberts, Emily",eroberts@protonmail.com,5554041186,Chicago,Illinois,60610,2020-07-25,Standard,Gold
+USER-1031,Jennifer Lee,jennifer.lee@protonmail.com,5554840736,Denver,CO,80210,2020-01-19,Standard,Gold
+USER-1032,"Lopez, Michael",mlopez@outlook.com,5554041442,Los Angeles,California,90027,2020-09-12,Standard,Gold
+USER-1033,"Rodriguez, Ruth",ruth.rodriguez61@protonmail.com,5556172289,New York,NY,10089,2020-08-16,Standard,Bronze
+USER-1034,"Lopez, Melissa",melissa.lopez@protonmail.com,5555660877,Indianapolis,Indiana,46280,2020-03-21,Prime,Platinum
+USER-1035,"Morgan, Maria",mmorgan@outlook.com,5551726122,New York,New York,10080,2020-08-09,Prime,Bronze
+USER-1036,Daniel Collins,daniel.collins@outlook.com,5553902291,Austin,Texas,78789,2020-03-26,Prime,Bronze
+USER-1037,"Collins, Michael",mcollins@hotmail.com,5554147855,Nashville,Tennessee,37215,2020-02-20,Prime,Gold
+USER-1038,"Murphy, Melissa",melissa.murphy@outlook.com,5552736733,Denver,Colorado,80272,2020-03-11,Prime,Silver
+USER-1039,Sharon Garcia,sharon.garcia@aol.com,5555365999,Nashville,Tennessee,37207,2020-05-19,Standard,Bronze
+USER-1040,Eric Campbell,eric.campbell@yahoo.com,5552675940,Philadelphia,PA,19035,2020-02-15,Standard,Gold
+USER-1041,Donna Moore,donna.moore27@hotmail.com,5552719443,Nashville,TN,37270,2020-01-12,Prime,Gold
+USER-1042,Paul Jones,paul.jones79@icloud.com,5553176846,San Francisco,CA,94194,2020-06-28,Standard,Gold
+USER-1043,"Adams, Richard",richard.adams8@outlook.com,5552528598,San Francisco,CA,94147,2020-12-14,Standard,Bronze
+USER-1044,"Rogers, Matthew",mrogers@outlook.com,5551008776,Denver,CO,80267,2020-01-21,Prime,Bronze
+USER-1045,Patricia Cox,patricia.cox@icloud.com,5553949638,Boston,Massachusetts,02133,2020-01-02,Standard,Platinum
+USER-1046,Ruth Wilson,ruth.wilson6@aol.com,5553533415,Columbus,Ohio,43070,2020-10-16,Standard,Gold
+USER-1047,Christopher Carter,christopher.carter@icloud.com,5555420575,Boston,Massachusetts,02174,2020-11-20,Prime,Silver
+USER-1048,"Turner, Susan",sturner@icloud.com,5551673523,Austin,TX,78763,2020-09-04,Standard,Platinum
+USER-1049,Thomas Adams,thomas.adams@protonmail.com,5555610181,San Francisco,CA,94169,2020-01-05,Standard,Bronze
+USER-1050,"Green, Brandon",brandon.green@outlook.com,5558204352,Philadelphia,PA,19047,2020-08-13,Standard,Platinum
+USER-1051,"Adams, Charles",charles.adams@aol.com,5556872864,San Diego,California,92166,2020-08-15,Standard,Bronze
+USER-1052,"Wright, Jen",jennifer.wright54@gmail.com,5555918791,Jacksonville,FL,32079,2020-06-10,Standard,Bronze
+USER-1053,"Cooper, Daniel",daniel.cooper@aol.com,5559789395,Chicago,IL,60672,2020-12-04,Prime,Platinum
+USER-1054,"Baker, David",david.baker@protonmail.com,5554385112,San Diego,CA,92184,2020-12-09,Prime,Bronze
+USER-1055,"Turner, John",john.turner@aol.com,5555750907,Philadelphia,Pennsylvania,19081,2020-12-24,Standard,Platinum
+USER-1056,"Scott, Donald",donald.scott@icloud.com,5557925191,Chicago,IL,60627,2020-11-20,Prime,Bronze
+USER-1057,"Morris, Eric",emorris@hotmail.com,5553784242,Philadelphia,Pennsylvania,19051,2020-08-08,Standard,Silver
+USER-1058,James Wright,james.wright@outlook.com,5559667774,San Francisco,California,94195,2020-08-14,Standard,Gold
+USER-1059,Jason Williams,jason.williams@outlook.com,5559432757,San Diego,CA,92147,2020-12-18,Standard,Bronze
+USER-1060,Susan Brooks,sbrooks@icloud.com,5552061900,Fort Worth,Texas,76187,2020-11-02,Prime,Gold
+USER-1061,"Campbell, Ruth",ruth.campbell42@gmail.com,5559507559,Nashville,TN,37250,2020-02-13,Prime,Silver
+USER-1062,"Allen, Nancy",nancy.allen@hotmail.com,5557612144,Seattle,WA,98159,2020-06-08,Standard,Gold
+USER-1063,Joshua Johnson,jjohnson@outlook.com,5555138437,Chicago,IL,60662,2020-11-25,Standard,Bronze
+USER-1064,Anthony Lee,alee@protonmail.com,5554795981,Dallas,TX,75262,2020-03-20,Standard,Bronze
+USER-1065,William Thomas,william.thomas@protonmail.com,5559732068,Fort Worth,Texas,76165,2020-12-04,Standard,Gold
+USER-1066,"Hill, Jessica",jhill@outlook.com,5554745128,Houston,TX,77031,2020-07-08,Standard,Silver
+USER-1067,"Brown, Kenneth",kbrown@outlook.com,5551837496,Denver,CO,80213,2020-04-21,Prime,Silver
+USER-1068,Michael Smith,msmith@gmail.com,5554758187,Indianapolis,Indiana,46269,2020-11-28,Standard,Bronze
+USER-1069,"Peterson, Richard",richard.peterson@outlook.com,5557014995,San Francisco,CA,94129,2020-02-11,Standard,Gold
+USER-1070,Paul King,paul.king@yahoo.com,5551741185,Austin,Texas,78732,2020-11-01,Standard,Bronze
+USER-1071,Betty Turner,bturner@aol.com,5559740838,Denver,CO,80244,2020-04-19,Prime,Bronze
+USER-1072,Thomas Lopez,tlopez@protonmail.com,5551436406,New York,New York,10042,2020-05-27,Prime,Platinum
+USER-1073,Ashley Gonzalez,agonzalez@hotmail.com,5555950533,Nashville,TN,37297,2020-10-08,Standard,Silver
+USER-1074,"Martin, Brian",brian.martin34@hotmail.com,5558281200,Los Angeles,CA,90091,2020-06-08,Standard,Platinum
+USER-1075,"Thomas, Maria",maria.thomas@icloud.com,5558756425,Philadelphia,PA,19031,2020-08-11,Standard,Silver
+USER-1076,"Hill, Michael",michael.hill@yahoo.com,5553977853,Chicago,IL,60633,2020-12-19,Standard,Platinum
+USER-1077,"Allen, Mary",mary.allen38@icloud.com,5557181195,Indianapolis,Indiana,46230,2020-07-01,Standard,Gold
+USER-1078,"Anderson, Anthony",anthony.anderson@aol.com,5552590580,Dallas,Texas,75246,2020-10-18,Prime,Silver
+USER-1079,Kimberly Hall,kimberly.hall36@hotmail.com,5557194285,Fort Worth,TX,76175,2020-10-13,Prime,Bronze
+USER-1080,"Johnson, Jennifer",jjohnson@gmail.com,5552693849,San Francisco,CA,94112,2020-12-26,Standard,Gold
+USER-1081,Robert Green,robert.green@outlook.com,5556203946,Columbus,Ohio,43074,2020-02-20,Prime,Platinum
+USER-1082,"Wright, Ryan",ryan.wright59@outlook.com,5552666357,Chicago,IL,60658,2020-12-08,Prime,Silver
+USER-1083,"Young, Mary",myoung@hotmail.com,5553048943,Columbus,Ohio,43017,2020-02-24,Standard,Silver
+USER-1084,Richard Gray,richard.gray@aol.com,5559983973,Fort Worth,Texas,76188,2020-05-26,Standard,Silver
+USER-1085,"Walker, Jennifer",jennifer.walker@hotmail.com,5558239826,Austin,Texas,78708,2020-10-02,Prime,Silver
+USER-1086,"Anderson, Kimberly",kimberly.anderson17@aol.com,5555911848,Chicago,IL,60607,2020-07-27,Prime,Bronze
+USER-1087,Jason Thomas,jason.thomas@gmail.com,5559666732,Austin,Texas,78751,2020-05-15,Standard,Bronze
+USER-1088,"Davis, Linda",ldavis@hotmail.com,5557150543,Columbus,OH,43097,2020-03-12,Standard,Platinum
+USER-1089,James Rogers,jrogers@yahoo.com,5551186014,Houston,Texas,77009,2020-06-04,Prime,Bronze
+USER-1090,"Peterson, Jason",jason.peterson@aol.com,5553077488,Fort Worth,TX,76188,2020-06-12,Standard,Bronze
+USER-1091,"Carter, Nancy",ncarter@aol.com,5554491697,Nashville,TN,37211,2020-03-22,Prime,Silver
+USER-1092,Charles Moore,cmoore@hotmail.com,5559267380,New York,New York,10042,2020-07-01,Standard,Silver
+USER-1093,"Campbell, Dorothy",dcampbell@yahoo.com,5552439220,Dallas,TX,75228,2020-04-26,Prime,Bronze
+USER-1094,Tyler Hernandez,tyler.hernandez91@gmail.com,5553697185,Jacksonville,FL,32053,2020-08-28,Standard,Silver
+USER-1095,"Martin, Emily",emily.martin59@gmail.com,5554412642,Fort Worth,Texas,76108,2020-04-28,Standard,Gold
+USER-1096,"Allen, Angela",angela.allen@aol.com,5557023921,San Francisco,CA,94102,2020-08-08,Standard,Silver
+USER-1097,"Campbell, Kevin",kevin.campbell32@hotmail.com,5556443189,Chicago,Illinois,60602,2020-11-01,Standard,Silver
+USER-1098,"Martinez, Kimberly",kmartinez@yahoo.com,5551328552,Philadelphia,Pennsylvania,19081,2020-05-19,Standard,Bronze
+USER-1099,"Moore, Ryan",ryan.moore@gmail.com,5556095000,Denver,Colorado,80275,2020-06-27,Standard,Platinum
+USER-1100,Daniel Brown,daniel.brown48@protonmail.com,5555318707,Indianapolis,IN,46223,2020-09-27,Standard,Bronze
+USER-1101,"Young, Joseph",joseph.young@protonmail.com,5554575038,Philadelphia,PA,19049,2020-04-27,Standard,Platinum
+USER-1102,"Martin, Jason",jmartin@icloud.com,5555601951,Indianapolis,IN,46253,2020-02-25,Prime,Platinum
+USER-1103,Donna Rodriguez,donna.rodriguez@aol.com,5553169328,Charlotte,North Carolina,28225,2020-06-20,Standard,Silver
+USER-1104,"Brooks, Thomas",thomas.brooks@yahoo.com,5552683531,Indianapolis,IN,46221,2020-01-20,Standard,Silver
+USER-1105,"Watson, William",wwatson@gmail.com,5557314607,San Francisco,CA,94134,2020-12-11,Standard,Platinum
+USER-1106,Sharon Thomas,sthomas@yahoo.com,5553540085,Houston,TX,77044,2020-02-11,Prime,Gold
+USER-1107,Steven Mitchell,smitchell@protonmail.com,5558396519,Denver,Colorado,80241,2020-09-11,Standard,Platinum
+USER-1108,John Turner,jturner@gmail.com,5555905409,Houston,TX,77066,2020-11-01,Standard,Bronze
+USER-1109,Carol Smith,carol.smith@yahoo.com,5557555290,Denver,Colorado,80295,2020-08-02,Standard,Silver
+USER-1110,"Lopez, Jason",jason.lopez@icloud.com,5555030120,Houston,TX,77065,2020-01-06,Standard,Platinum
+USER-1111,"Howard, Deborah",deborah.howard@icloud.com,5551391391,Dallas,Texas,75283,2020-11-23,Prime,Silver
+USER-1112,"Bell, Betty",bbell@outlook.com,5559898597,Charlotte,NC,28239,2020-11-09,Standard,Gold
+USER-1113,"Anderson, Kimberly",kimberly.anderson@aol.com,5551517210,Chicago,Illinois,60640,2020-07-24,Standard,Bronze
+USER-1114,"Wright, Jim",jwright@aol.com,5559992409,San Francisco,California,94197,2020-04-05,Prime,Platinum
+USER-1115,Paul Bell,paul.bell@icloud.com,5555661893,Charlotte,North Carolina,28206,2020-03-23,Prime,Bronze
+USER-1116,"Watson, Michael",michael.watson@outlook.com,5551009154,Charlotte,North Carolina,28291,2020-04-13,Standard,Platinum
+USER-1117,Nancy Wilson,nancy.wilson69@hotmail.com,5551302602,Phoenix,Arizona,85018,2020-07-09,Standard,Platinum
+USER-1118,John Morgan,jmorgan@protonmail.com,5559130543,Philadelphia,Pennsylvania,19013,2020-01-15,Standard,Platinum
+USER-1119,"Mitchell, Patricia",pmitchell@gmail.com,5557315646,Philadelphia,PA,19065,2020-12-20,Standard,Silver
+USER-1120,Amanda Rogers,amanda.rogers@outlook.com,5556564027,Chicago,IL,60674,2020-03-19,Prime,Platinum
+USER-1121,Michael Wright,mwright@gmail.com,5559226630,Denver,CO,80271,2020-07-07,Standard,Bronze
+USER-1122,"Brooks, Emily",ebrooks@gmail.com,5556391081,Chicago,Illinois,60618,2020-12-21,Standard,Silver
+USER-1123,"Evans, Dorothy",dorothy.evans@outlook.com,5555261772,New York,NY,10002,2020-08-14,Standard,Platinum
+USER-1124,"Hall, Linda",linda.hall@protonmail.com,5551002475,San Diego,CA,92163,2020-06-01,Prime,Silver
+USER-1125,"Smith, Steven",steven.smith41@aol.com,5558114841,San Francisco,CA,94114,2020-08-17,Standard,Platinum
+USER-1126,"Wilson, Christopher",christopher.wilson44@hotmail.com,5553320801,Austin,Texas,78748,2020-06-07,Prime,Platinum
+USER-1127,Kimberly Cox,kcox@hotmail.com,5556331374,Chicago,IL,60622,2020-10-27,Prime,Bronze
+USER-1128,"Edwards, Sharon",sedwards@gmail.com,5558806861,New York,NY,10081,2020-01-11,Standard,Bronze
+USER-1129,Mark Rogers,mark.rogers@aol.com,5559330906,Columbus,Ohio,43038,2020-02-04,Standard,Bronze
+USER-1130,Jennifer Edwards,jennifer.edwards2@hotmail.com,5559965862,New York,NY,10013,2020-04-01,Prime,Gold
+USER-1131,"Johnson, Paul",paul.johnson@yahoo.com,5552336934,San Francisco,California,94100,2020-04-05,Standard,Bronze
+USER-1132,Ashley Thomas,ashley.thomas26@icloud.com,5552768004,Dallas,Texas,75244,2020-03-04,Standard,Platinum
+USER-1133,Jessica Brown,jessica.brown@protonmail.com,5555031171,Dallas,Texas,75219,2020-04-10,Standard,Silver
+USER-1134,Helen Parker,helen.parker@gmail.com,5556309361,Los Angeles,California,90032,2020-10-16,Standard,Gold
+USER-1135,Daniel Richardson,daniel.richardson@aol.com,5552337018,San Francisco,California,94123,2020-05-06,Standard,Silver
+USER-1136,Angela Murphy,amurphy@aol.com,5558259515,Jacksonville,Florida,32082,2020-09-22,Standard,Bronze
+USER-1137,"Wright, Michelle",michelle.wright@aol.com,5558459463,Los Angeles,California,90050,2020-05-15,Standard,Bronze
+USER-1138,"Morgan, Deborah",deborah.morgan@aol.com,5552719763,Columbus,OH,43012,2020-08-16,Prime,Gold
+USER-1139,Patricia Turner,pturner@aol.com,5556536304,Columbus,OH,43096,2020-06-20,Standard,Platinum
+USER-1140,"Allen, Donna",donna.allen@aol.com,5557845081,San Antonio,TX,78277,2020-06-11,Standard,Platinum
+USER-1141,Maria Howard,mhoward@hotmail.com,5557435396,Los Angeles,CA,90090,2020-01-28,Prime,Bronze
+USER-1142,"Garcia, Mark",mgarcia@protonmail.com,5558486952,Columbus,Ohio,43094,2020-07-26,Standard,Gold
+USER-1143,Bob Baker,robert.baker@gmail.com,5555281537,Austin,TX,78793,2020-12-16,Prime,Platinum
+USER-1144,Richard Baker,richard.baker@gmail.com,5555385113,Seattle,WA,98133,2020-03-09,Standard,Platinum
+USER-1145,Elizabeth Peterson,elizabeth.peterson79@aol.com,5554701247,Houston,TX,77049,2020-08-07,Standard,Platinum
+USER-1146,Paul Allen,paul.allen@yahoo.com,5551860035,Los Angeles,California,90086,2020-02-04,Standard,Silver
+USER-1147,Paul Wright,pwright@yahoo.com,5559819816,Philadelphia,PA,19000,2020-12-04,Prime,Gold
+USER-1148,Donald Rogers,drogers@icloud.com,5558122730,New York,New York,10023,2020-04-16,Standard,Silver
+USER-1149,"Jackson, Andrew",andrew.jackson@icloud.com,5553642577,Charlotte,NC,28265,2020-10-11,Standard,Silver
+USER-1150,"Hill, Joseph",jhill@icloud.com,5559433408,Columbus,OH,43068,2020-03-10,Standard,Gold
+USER-1151,"Morgan, Michael",michael.morgan@gmail.com,5555794401,Boston,Massachusetts,02157,2020-10-10,Prime,Platinum
+USER-1152,"Jackson, David",djackson@outlook.com,5555319252,Phoenix,AZ,85000,2020-02-20,Standard,Gold
+USER-1153,Daniel Garcia,daniel.garcia@yahoo.com,5552625065,Austin,TX,78794,2020-05-16,Standard,Platinum
+USER-1154,"Brown, Anthony",anthony.brown79@icloud.com,5553104691,Austin,Texas,78723,2020-10-04,Standard,Silver
+USER-1155,"Cook, Eric",ecook@icloud.com,5556343468,Charlotte,North Carolina,28203,2020-12-11,Standard,Gold
+USER-1156,Maria Green,maria.green14@gmail.com,5557377788,Philadelphia,PA,19076,2020-01-14,Standard,Gold
+USER-1157,"Phillips, Carol",carol.phillips@aol.com,5556325316,Jacksonville,Florida,32019,2020-03-08,Standard,Bronze
+USER-1158,"Peterson, Bill",william.peterson43@yahoo.com,5554757867,Charlotte,NC,28228,2020-10-03,Standard,Gold
+USER-1159,Donald Johnson,donald.johnson78@outlook.com,5554852376,Austin,TX,78766,2020-03-16,Prime,Platinum
+USER-1160,John Ward,john.ward@gmail.com,5552484730,Jacksonville,FL,32077,2020-06-08,Standard,Bronze
+USER-1161,"Gonzalez, Lisa",lisa.gonzalez@outlook.com,5551722087,New York,New York,10004,2020-07-11,Standard,Silver
+USER-1162,Elizabeth Garcia,egarcia@icloud.com,5556909753,Indianapolis,IN,46289,2020-11-15,Standard,Gold
+USER-1163,"King, Mark",mark.king@gmail.com,5554381195,Austin,TX,78727,2020-08-21,Prime,Platinum
+USER-1164,"Young, Ryan",ryoung@icloud.com,5557730444,Boston,MA,02109,2020-04-13,Standard,Gold
+USER-1165,Emily Howard,emily.howard13@hotmail.com,5552087855,Seattle,Washington,98193,2020-09-12,Prime,Silver
+USER-1166,"Mitchell, Sandra",sandra.mitchell13@aol.com,5552607447,Charlotte,North Carolina,28284,2020-08-14,Prime,Gold
+USER-1167,"Stewart, Tyler",tyler.stewart@aol.com,5558303244,Denver,CO,80203,2020-11-10,Standard,Bronze
+USER-1168,Mary Brown,mary.brown44@icloud.com,5558773493,Nashville,TN,37260,2020-12-03,Standard,Silver
+USER-1169,Andrew James,andrew.james@gmail.com,5554170209,Dallas,Texas,75245,2020-04-02,Standard,Bronze
+USER-1170,"Wilson, Patricia",pwilson@aol.com,5553813994,Philadelphia,PA,19092,2020-12-26,Prime,Platinum
+USER-1171,"Edwards, Jessica",jessica.edwards88@icloud.com,5557561580,Dallas,TX,75274,2020-08-07,Standard,Bronze
+USER-1172,William Garcia,wgarcia@gmail.com,5558037969,Jacksonville,FL,32077,2020-01-07,Prime,Silver
+USER-1173,"Baker, Amanda",amanda.baker@outlook.com,5553274292,Chicago,Illinois,60685,2020-01-12,Standard,Silver
+USER-1174,"Turner, Lisa",lisa.turner@yahoo.com,5558410113,Jacksonville,FL,32088,2020-09-18,Standard,Platinum
+USER-1175,"Rodriguez, Ryan",rrodriguez@protonmail.com,5552490136,Indianapolis,IN,46248,2020-07-24,Prime,Platinum
+USER-1176,Brandon Edwards,brandon.edwards84@icloud.com,5558997758,Chicago,Illinois,60624,2020-08-05,Prime,Silver
+USER-1177,"Howard, Helen",helen.howard@icloud.com,5555106817,Austin,Texas,78720,2020-05-19,Prime,Gold
+USER-1178,Michael Hill,michael.hill@outlook.com,5557876741,Nashville,Tennessee,37243,2020-07-05,Standard,Platinum
+USER-1179,"James, Karen",karen.james@outlook.com,5557606261,Charlotte,North Carolina,28295,2020-08-19,Standard,Platinum
+USER-1180,Brandon Watson,brandon.watson@outlook.com,5558198720,Denver,CO,80263,2020-01-20,Prime,Gold
+USER-1181,"Parker, Tyler",tyler.parker@protonmail.com,5555603817,Denver,CO,80295,2020-07-08,Standard,Silver
+USER-1182,"Hill, Daniel",dhill@aol.com,5559197809,Boston,MA,02104,2020-04-28,Prime,Silver
+USER-1183,Kevin Johnson,kevin.johnson@aol.com,5558539692,Jacksonville,FL,32036,2020-05-18,Standard,Gold
+USER-1184,John Martinez,john.martinez@aol.com,5554015329,Fort Worth,Texas,76171,2020-03-16,Prime,Gold
+USER-1185,Ashley Jones,ashley.jones@yahoo.com,5552518466,Denver,CO,80243,2020-02-07,Standard,Platinum
+USER-1186,Jennifer Ward,jennifer.ward51@aol.com,5559271623,Austin,Texas,78775,2020-12-10,Prime,Bronze
+USER-1187,Brian Brown,brian.brown22@protonmail.com,5558710682,Austin,Texas,78780,2020-10-07,Standard,Silver
+USER-1188,"Brown, Jennifer",jennifer.brown43@icloud.com,5555217897,San Antonio,Texas,78255,2020-08-13,Prime,Silver
+USER-1189,Brandon Moore,brandon.moore@protonmail.com,5552833533,Nashville,Tennessee,37233,2020-12-16,Standard,Silver
+USER-1190,"Cox, Mary",mcox@outlook.com,5558553112,Charlotte,NC,28203,2020-06-05,Prime,Bronze
+USER-1191,"Wilson, Nancy",nancy.wilson34@yahoo.com,5557847531,Jacksonville,Florida,32003,2020-02-13,Standard,Gold
+USER-1192,Dorothy Watson,dorothy.watson@outlook.com,5555172135,Phoenix,AZ,85028,2020-04-01,Standard,Silver
+USER-1193,Andrew Cooper,andrew.cooper@aol.com,5559364343,San Diego,CA,92157,2020-02-27,Standard,Gold
+USER-1194,"Morris, Angela",amorris@protonmail.com,5553168518,San Antonio,TX,78207,2020-05-28,Prime,Gold
+USER-1195,Michael Carter,michael.carter96@hotmail.com,5555203661,San Antonio,Texas,78246,2020-06-16,Standard,Gold
+USER-1196,"Reed, Maria",maria.reed42@aol.com,5556270885,Denver,CO,80217,2020-11-21,Standard,Bronze
+USER-1197,"Miller, Donald",donald.miller@protonmail.com,5553118730,Boston,Massachusetts,02146,2020-09-01,Standard,Bronze
+USER-1198,Patricia Stewart,patricia.stewart@hotmail.com,5556824692,Los Angeles,CA,90049,2020-08-08,Prime,Platinum
+USER-1199,Donna Moore,donna.moore76@protonmail.com,5559196362,San Diego,California,92180,2020-03-21,Standard,Platinum
+USER-1200,Barbara Jones,bjones@icloud.com,5555121856,Austin,Texas,78724,2020-04-04,Prime,Gold
+USER-1201,"Peterson, Elizabeth",elizabeth.peterson@aol.com,5559628201,Fort Worth,TX,76189,2020-02-01,Standard,Platinum
+USER-1202,Helen Roberts,hroberts@icloud.com,5553716619,Austin,Texas,78769,2020-05-25,Standard,Bronze
+USER-1203,"Brooks, Angela",abrooks@yahoo.com,5559739653,Houston,TX,77040,2020-01-27,Prime,Silver
+USER-1204,"Peterson, Jason",jason.peterson24@gmail.com,5558796749,Nashville,TN,37217,2020-09-27,Standard,Platinum
+USER-1205,Eric Taylor,etaylor@gmail.com,5551001050,Fort Worth,TX,76197,2020-07-03,Prime,Platinum
+USER-1206,David Hall,david.hall78@aol.com,5552606227,Philadelphia,Pennsylvania,19055,2020-10-12,Standard,Bronze
+USER-1207,Donna Miller,donna.miller@yahoo.com,5558728619,Los Angeles,CA,90018,2020-08-26,Standard,Gold
+USER-1208,"Ward, Justin",justin.ward@yahoo.com,5552828989,Austin,TX,78797,2020-02-21,Standard,Gold
+USER-1209,"Reed, Elizabeth",ereed@hotmail.com,5553066376,Jacksonville,FL,32008,2020-12-07,Prime,Gold
+USER-1210,"Green, Kevin",kevin.green@hotmail.com,5555968131,Dallas,TX,75252,2020-02-14,Standard,Bronze
+USER-1211,Justin Smith,justin.smith@outlook.com,5556601550,San Antonio,Texas,78279,2020-01-09,Standard,Gold
+USER-1212,Susan Morgan,susan.morgan34@icloud.com,5553699409,Indianapolis,IN,46218,2020-09-18,Standard,Silver
+USER-1213,"Murphy, Jason",jason.murphy@aol.com,5559114381,San Diego,California,92154,2020-07-09,Standard,Gold
+USER-1214,"Campbell, Matthew",matthew.campbell56@outlook.com,5555902215,Los Angeles,California,90098,2020-08-14,Prime,Bronze
+USER-1215,"Phillips, Helen",helen.phillips@hotmail.com,5556547551,Dallas,Texas,75271,2020-10-26,Standard,Gold
+USER-1216,Tyler Martinez,tyler.martinez@hotmail.com,5554465482,New York,NY,10004,2020-03-02,Standard,Gold
+USER-1217,"Martin, Ashley",amartin@outlook.com,5558866514,Houston,TX,77070,2020-02-28,Prime,Platinum
+USER-1218,Robert Turner,robert.turner13@protonmail.com,5552857005,Seattle,WA,98112,2020-08-19,Prime,Bronze
+USER-1219,"Cox, Christopher",christopher.cox72@protonmail.com,5557694891,Indianapolis,IN,46239,2020-10-10,Standard,Silver
+USER-1220,Brian Watson,brian.watson90@gmail.com,5553496615,Charlotte,North Carolina,28291,2020-02-23,Standard,Gold
+USER-1221,"Baker, Kevin",kevin.baker@hotmail.com,5552174597,Chicago,Illinois,60691,2020-12-13,Standard,Bronze
+USER-1222,Brandon Peterson,bpeterson@gmail.com,5556083398,Los Angeles,California,90063,2020-10-09,Standard,Platinum
+USER-1223,Matthew Jones,matthew.jones49@outlook.com,5558472688,Phoenix,Arizona,85063,2020-12-12,Standard,Platinum
+USER-1224,Brian Lee,blee@hotmail.com,5552504093,Charlotte,NC,28264,2020-11-25,Prime,Platinum
+USER-1225,Amanda Rogers,amanda.rogers88@protonmail.com,5555687014,Phoenix,AZ,85096,2020-02-10,Prime,Bronze
+USER-1226,Amanda Murphy,amanda.murphy@gmail.com,5556331316,Indianapolis,Indiana,46277,2020-07-05,Prime,Silver
+USER-1227,Barbara Walker,barbara.walker@outlook.com,5557919054,Jacksonville,FL,32060,2020-08-15,Prime,Bronze
+USER-1228,"Hall, Kimberly",kimberly.hall32@yahoo.com,5551896699,Charlotte,NC,28239,2020-05-18,Standard,Platinum
+USER-1229,"Murphy, Lisa",lisa.murphy@outlook.com,5558199208,Charlotte,North Carolina,28298,2020-03-01,Standard,Bronze
+USER-1230,"Miller, Matthew",mmiller@hotmail.com,5557620431,Indianapolis,IN,46271,2020-07-02,Prime,Gold
+USER-1231,"Davis, Susan",susan.davis44@outlook.com,5553972708,New York,NY,10064,2020-08-21,Prime,Platinum
+USER-1232,"Miller, James",jmiller@yahoo.com,5556085198,Houston,TX,77038,2020-03-21,Prime,Gold
+USER-1233,Jason Jackson,jason.jackson@yahoo.com,5555456690,San Antonio,Texas,78227,2020-03-17,Standard,Silver
+USER-1234,"Reed, Barbara",barbara.reed@yahoo.com,5551585891,Dallas,Texas,75254,2020-03-24,Prime,Platinum
+USER-1235,"Parker, Karen",karen.parker@yahoo.com,5553606710,Los Angeles,California,90003,2020-10-05,Standard,Gold
+USER-1236,"Mitchell, Susan",susan.mitchell67@protonmail.com,5556306917,Dallas,Texas,75254,2020-01-26,Standard,Platinum
+USER-1237,Justin Evans,jevans@hotmail.com,5553785204,Denver,Colorado,80242,2020-08-08,Standard,Silver
+USER-1238,"Rodriguez, Nancy",nrodriguez@outlook.com,5552031211,Chicago,IL,60655,2020-02-01,Standard,Silver
+USER-1239,"Green, Kimberly",kimberly.green@outlook.com,5559611998,Dallas,TX,75277,2020-06-25,Standard,Gold
+USER-1240,Amanda Young,ayoung@outlook.com,5552947278,San Francisco,California,94126,2020-04-13,Prime,Silver
+USER-1241,Ruth Parker,rparker@outlook.com,5551111350,San Francisco,CA,94183,2020-08-09,Standard,Bronze
+USER-1242,Linda Wilson,linda.wilson40@protonmail.com,5551931438,Indianapolis,IN,46238,2020-08-04,Prime,Bronze
+USER-1243,"Ward, Betty",betty.ward@hotmail.com,5551925018,San Francisco,California,94147,2020-12-04,Standard,Bronze
+USER-1244,"Lopez, Ryan",ryan.lopez@protonmail.com,5551073479,Nashville,TN,37280,2020-08-03,Prime,Bronze
+USER-1245,"Taylor, Elizabeth",elizabeth.taylor@aol.com,5555495927,Charlotte,North Carolina,28230,2020-09-24,Prime,Platinum
+USER-1246,Elizabeth Evans,elizabeth.evans82@icloud.com,5556351939,Charlotte,NC,28294,2020-03-15,Standard,Platinum
+USER-1247,Carol Baker,carol.baker64@outlook.com,5556645200,Philadelphia,Pennsylvania,19032,2020-07-12,Standard,Bronze
+USER-1248,"Brooks, Matthew",matthew.brooks@icloud.com,5555361456,Indianapolis,IN,46279,2020-10-19,Prime,Platinum
+USER-1249,"Anderson, Joseph",joseph.anderson78@hotmail.com,5557703318,Columbus,OH,43013,2020-03-11,Prime,Bronze
+USER-1250,Sandra Lopez,sandra.lopez@aol.com,5557356158,Chicago,IL,60677,2020-11-26,Standard,Bronze
+USER-1251,Melissa Walker,melissa.walker@aol.com,5552963303,Los Angeles,CA,90089,2020-08-05,Prime,Bronze
+USER-1252,"Turner, Linda",linda.turner85@protonmail.com,5559898008,Chicago,Illinois,60675,2020-12-11,Standard,Bronze
+USER-1253,Mary Davis,mdavis@icloud.com,5559200134,Jacksonville,FL,32076,2020-01-09,Standard,Platinum
+USER-1254,"Jones, Ashley",ajones@protonmail.com,5555796685,Jacksonville,FL,32090,2020-02-14,Standard,Platinum
+USER-1255,Laura Brown,lbrown@hotmail.com,5556599782,Seattle,Washington,98147,2020-10-08,Standard,Platinum
+USER-1256,"Young, Steven",steven.young52@aol.com,5551804527,Phoenix,AZ,85012,2020-10-24,Standard,Bronze
+USER-1257,"Brooks, Jason",jason.brooks@yahoo.com,5557004234,Denver,Colorado,80213,2020-12-11,Prime,Gold
+USER-1258,"Adams, Patricia",padams@yahoo.com,5551282496,Columbus,OH,43029,2020-04-25,Standard,Gold
+USER-1259,James Cooper,james.cooper@yahoo.com,5551997990,Charlotte,North Carolina,28298,2020-06-16,Prime,Gold
+USER-1260,Steven Murphy,steven.murphy@yahoo.com,5559935634,Denver,Colorado,80227,2020-11-14,Standard,Bronze
+USER-1261,Betty Collins,betty.collins@yahoo.com,5552222696,Chicago,Illinois,60677,2020-05-25,Standard,Bronze
+USER-1262,Mary Wilson,mary.wilson@gmail.com,5552497438,Fort Worth,Texas,76163,2020-02-04,Standard,Bronze
+USER-1263,"Gonzalez, Sandra",sandra.gonzalez@yahoo.com,5558153979,Indianapolis,IN,46251,2020-10-02,Standard,Gold
+USER-1264,Ashley Turner,aturner@outlook.com,5556245251,Jacksonville,FL,32002,2020-09-02,Standard,Silver
+USER-1265,Christopher Cook,ccook@gmail.com,5559110817,Denver,Colorado,80257,2020-04-03,Prime,Silver
+USER-1266,Andrew Murphy,andrew.murphy64@yahoo.com,5556522683,San Diego,California,92153,2020-09-12,Prime,Gold
+USER-1267,Sharon Wright,sharon.wright@aol.com,5555875285,Charlotte,NC,28233,2020-09-02,Prime,Gold
+USER-1268,Kimberly Reed,kimberly.reed@gmail.com,5555904865,Fort Worth,Texas,76109,2020-03-12,Standard,Platinum
+USER-1269,"Roberts, Betty",broberts@gmail.com,5558507802,Jacksonville,FL,32011,2020-08-20,Prime,Bronze
+USER-1270,William Evans,wevans@hotmail.com,5559646628,Indianapolis,IN,46225,2020-06-22,Standard,Bronze
+USER-1271,Barbara Allen,barbara.allen@protonmail.com,5557741923,Charlotte,North Carolina,28202,2020-01-01,Standard,Gold
+USER-1272,Mark Carter,mark.carter@hotmail.com,5558641922,Columbus,OH,43083,2020-03-10,Standard,Gold
+USER-1273,"Peterson, Thomas",thomas.peterson@hotmail.com,5554775187,Austin,TX,78797,2020-04-21,Prime,Gold
+USER-1274,Michelle Ward,michelle.ward@icloud.com,5552760338,Nashville,Tennessee,37244,2020-08-20,Standard,Silver
+USER-1275,Charles Martinez,charles.martinez86@gmail.com,5558805615,Seattle,Washington,98151,2020-07-24,Prime,Gold
+USER-1276,Laura Cook,laura.cook@hotmail.com,5556276157,Denver,CO,80276,2020-01-24,Standard,Platinum
+USER-1277,"Wilson, Elizabeth",elizabeth.wilson@protonmail.com,5556603085,Columbus,OH,43031,2020-01-19,Standard,Bronze
+USER-1278,"Mitchell, Betty",betty.mitchell@protonmail.com,5557899530,Fort Worth,TX,76144,2020-01-15,Standard,Gold
+USER-1279,"Richardson, Helen",hrichardson@aol.com,5552470772,Austin,TX,78701,2020-03-03,Standard,Bronze
+USER-1280,"Green, Emily",emily.green@protonmail.com,5555345098,Denver,Colorado,80250,2020-01-24,Prime,Bronze
+USER-1281,Jason Jackson,jjackson@protonmail.com,5556119663,Fort Worth,TX,76165,2020-04-23,Standard,Platinum
+USER-1282,James Hall,jhall@outlook.com,5552234643,Chicago,Illinois,60665,2020-04-16,Standard,Silver
+USER-1283,"Peterson, Nicholas",npeterson@gmail.com,5552278354,Seattle,WA,98186,2020-02-06,Prime,Bronze
+USER-1284,"Brooks, Justin",jbrooks@yahoo.com,5551212209,San Antonio,Texas,78209,2020-06-04,Prime,Bronze
+USER-1285,Ashley Campbell,ashley.campbell@protonmail.com,5553313441,New York,New York,10036,2020-03-01,Standard,Silver
+USER-1286,"Carter, Christopher",ccarter@outlook.com,5559000229,Indianapolis,IN,46274,2020-02-06,Standard,Silver
+USER-1287,Lisa Watson,lisa.watson56@icloud.com,5558015772,San Francisco,CA,94100,2020-06-13,Standard,Silver
+USER-1288,"Carter, Susan",susan.carter@icloud.com,5554614990,Indianapolis,Indiana,46204,2020-12-09,Standard,Bronze
+USER-1289,"Adams, Brian",brian.adams57@hotmail.com,5556443462,Jacksonville,FL,32055,2020-12-23,Standard,Silver
+USER-1290,Nancy Phillips,nancy.phillips71@protonmail.com,5557037173,Austin,TX,78719,2020-01-13,Standard,Silver
+USER-1291,"Adams, Tyler",tadams@hotmail.com,5553053579,Los Angeles,California,90052,2020-06-04,Prime,Platinum
+USER-1292,Betty Anderson,banderson@aol.com,5558674365,Fort Worth,TX,76144,2020-06-19,Standard,Gold
+USER-1293,Dorothy Hall,dorothy.hall@icloud.com,5556791630,San Diego,CA,92169,2020-09-02,Standard,Gold
+USER-1294,"Evans, Patricia",pevans@hotmail.com,5552306974,Dallas,TX,75258,2020-12-01,Standard,Gold
+USER-1295,"Turner, Jessica",jturner@yahoo.com,5557501240,Los Angeles,California,90058,2020-12-28,Standard,Platinum
+USER-1296,"Howard, David",david.howard17@protonmail.com,5551004752,Charlotte,NC,28203,2020-10-25,Prime,Gold
+USER-1297,"Evans, Charles",cevans@icloud.com,5557526142,Austin,Texas,78746,2020-10-04,Standard,Bronze
+USER-1298,"Thomas, Christopher",christopher.thomas@yahoo.com,5559143381,Los Angeles,CA,90056,2020-03-07,Standard,Platinum
+USER-1299,Kenneth Cook,kenneth.cook@yahoo.com,5552860259,Denver,Colorado,80228,2020-09-10,Standard,Gold
+USER-1300,Ryan Hernandez,ryan.hernandez@gmail.com,5554138616,Chicago,Illinois,60658,2020-07-24,Standard,Bronze
+USER-1301,"Rogers, Jessica",jessica.rogers@outlook.com,5554332831,San Diego,CA,92161,2020-01-04,Prime,Bronze
+USER-1302,Carol Brooks,cbrooks@icloud.com,5551568419,Los Angeles,California,90098,2020-10-21,Standard,Bronze
+USER-1303,Donald Brooks,dbrooks@outlook.com,5559778031,Columbus,Ohio,43079,2020-12-14,Standard,Silver
+USER-1304,"Mitchell, Sandra",smitchell@icloud.com,5556710580,Seattle,WA,98165,2020-01-20,Prime,Silver
+USER-1305,"Moore, Maria",maria.moore26@hotmail.com,5559914693,Nashville,Tennessee,37239,2020-10-17,Standard,Silver
+USER-1306,"Hernandez, Brian",brian.hernandez5@hotmail.com,5554816476,Phoenix,AZ,85059,2020-07-13,Standard,Platinum
+USER-1307,"Johnson, Andrew",andrew.johnson@yahoo.com,5551523652,San Diego,CA,92180,2020-06-28,Prime,Platinum
+USER-1308,"Johnson, Nicholas",njohnson@yahoo.com,5554873778,Seattle,WA,98112,2020-11-19,Standard,Platinum
+USER-1309,Patricia Stewart,patricia.stewart71@hotmail.com,5558074358,Indianapolis,Indiana,46261,2020-03-21,Prime,Gold
+USER-1310,"Morgan, William",william.morgan40@aol.com,5555030332,Austin,Texas,78744,2020-09-09,Standard,Gold
+USER-1311,"Watson, Christopher",christopher.watson@aol.com,5559235027,San Francisco,California,94138,2020-02-02,Standard,Gold
+USER-1312,David Morgan,david.morgan@gmail.com,5551831222,Boston,MA,02123,2020-07-23,Prime,Gold
+USER-1313,"Adams, William",william.adams@protonmail.com,5551146557,New York,NY,10093,2020-05-07,Standard,Platinum
+USER-1314,"Campbell, Thomas",tcampbell@icloud.com,5558349996,Columbus,Ohio,43046,2020-01-07,Standard,Bronze
+USER-1315,Barbara Hall,bhall@icloud.com,5552389232,Jacksonville,Florida,32027,2020-05-28,Standard,Bronze
+USER-1316,"Smith, Elizabeth",elizabeth.smith@hotmail.com,5552735196,Indianapolis,IN,46246,2020-04-17,Standard,Bronze
+USER-1317,"Adams, Ruth",ruth.adams7@yahoo.com,5555129971,Indianapolis,IN,46240,2020-04-06,Prime,Silver
+USER-1318,Ruth Rodriguez,ruth.rodriguez@hotmail.com,5553337873,Denver,CO,80212,2020-10-09,Standard,Gold
+USER-1319,"Howard, Nancy",nhoward@icloud.com,5556736465,Phoenix,AZ,85037,2020-04-12,Standard,Silver
+USER-1320,Mary Gray,mary.gray@protonmail.com,5559610805,Jacksonville,FL,32043,2020-05-15,Standard,Silver
+USER-1321,Sharon Young,sharon.young@aol.com,5551425565,Phoenix,Arizona,85005,2020-06-20,Standard,Silver
+USER-1322,Robert Miller,rmiller@protonmail.com,5559656044,Nashville,TN,37242,2020-06-22,Prime,Bronze
+USER-1323,Richard Campbell,richard.campbell@aol.com,5559343739,Fort Worth,TX,76196,2020-05-01,Standard,Platinum
+USER-1324,"Jones, Karen",karen.jones@hotmail.com,5551118280,Dallas,Texas,75273,2020-03-16,Standard,Silver
+USER-1325,Carol Parker,carol.parker@protonmail.com,5558896240,Dallas,TX,75212,2020-02-24,Standard,Bronze
+USER-1326,"Miller, James",jmiller@hotmail.com,5553042481,Dallas,Texas,75227,2020-09-10,Standard,Bronze
+USER-1327,Michael Williams,michael.williams@gmail.com,5551945125,San Antonio,TX,78289,2020-12-06,Prime,Bronze
+USER-1328,"Brooks, William",william.brooks@hotmail.com,5551275976,Phoenix,AZ,85096,2020-06-23,Standard,Bronze
+USER-1329,"Green, Patricia",patricia.green@gmail.com,5558080157,Chicago,IL,60625,2020-12-19,Prime,Bronze
+USER-1330,"Bell, Charles",charles.bell@protonmail.com,5557945270,Nashville,TN,37252,2020-06-13,Standard,Platinum
+USER-1331,"Williams, Jennifer",jennifer.williams71@outlook.com,5557540957,San Francisco,CA,94143,2020-05-22,Standard,Platinum
+USER-1332,Karen Baker,karen.baker@hotmail.com,5556162147,Chicago,IL,60602,2020-07-14,Prime,Silver
+USER-1333,Steven Martin,smartin@hotmail.com,5559569747,Philadelphia,PA,19086,2020-05-08,Standard,Platinum
+USER-1334,Ashley Morgan,ashley.morgan@icloud.com,5555601963,Boston,Massachusetts,02121,2020-10-16,Prime,Bronze
+USER-1335,"Baker, Steven",steven.baker@hotmail.com,5552771824,Philadelphia,Pennsylvania,19085,2020-09-18,Standard,Platinum
+USER-1336,"Walker, Emily",emily.walker@protonmail.com,5554929186,Seattle,Washington,98183,2020-09-20,Standard,Bronze
+USER-1337,"Jones, Sarah",sarah.jones56@gmail.com,5554506024,San Francisco,California,94123,2020-11-06,Standard,Gold
+USER-1338,Mark Turner,mark.turner@yahoo.com,5555094933,Los Angeles,CA,90049,2020-06-24,Standard,Platinum
+USER-1339,Andrew Phillips,andrew.phillips@aol.com,5558416103,Nashville,Tennessee,37282,2020-07-14,Standard,Bronze
+USER-1340,Donald Lee,dlee@icloud.com,5558820653,Fort Worth,Texas,76105,2020-04-24,Standard,Platinum
+USER-1341,"Adams, Melissa",madams@aol.com,5554199148,Boston,Massachusetts,02181,2020-07-28,Prime,Gold
+USER-1342,"Anderson, Ruth",ruth.anderson@icloud.com,5551959010,Jacksonville,FL,32008,2020-12-22,Standard,Silver
+USER-1343,"Anderson, Brian",brian.anderson29@icloud.com,5557307646,Charlotte,North Carolina,28229,2020-12-07,Prime,Bronze
+USER-1344,"Peterson, Kimberly",kimberly.peterson@protonmail.com,5558850877,Boston,Massachusetts,02138,2020-12-16,Prime,Bronze
+USER-1345,"Gonzalez, Mark",mark.gonzalez55@outlook.com,5551115685,Houston,Texas,77061,2020-06-06,Standard,Gold
+USER-1346,Robert Lee,robert.lee77@gmail.com,5559252183,Seattle,Washington,98135,2020-11-25,Standard,Platinum
+USER-1347,Bob Edwards,redwards@yahoo.com,5555817754,Philadelphia,PA,19057,2020-11-28,Standard,Silver
+USER-1348,"King, Donna",donna.king8@aol.com,5555449863,Seattle,WA,98166,2020-04-08,Standard,Gold
+USER-1349,Brian Johnson,brian.johnson@outlook.com,5557463228,Denver,Colorado,80209,2020-08-03,Standard,Silver
+USER-1350,Karen Lee,klee@protonmail.com,5553815650,Los Angeles,California,90081,2020-07-16,Standard,Silver
+USER-1351,"Baker, Sharon",sbaker@protonmail.com,5556619269,Austin,Texas,78789,2020-06-26,Prime,Bronze
+USER-1352,Mary Parker,mary.parker33@gmail.com,5555720131,Charlotte,North Carolina,28268,2020-03-27,Standard,Silver
+USER-1353,"Parker, Lisa",lparker@icloud.com,5557347113,Seattle,Washington,98116,2020-03-15,Standard,Platinum
+USER-1354,Karen Young,karen.young@outlook.com,5552232915,Houston,TX,77082,2020-05-04,Standard,Bronze
+USER-1355,Deborah Hernandez,deborah.hernandez78@protonmail.com,5556195445,Columbus,Ohio,43053,2020-08-24,Prime,Silver
+USER-1356,Anthony Edwards,anthony.edwards@hotmail.com,5554226391,Houston,TX,77041,2020-12-12,Prime,Platinum
+USER-1357,"Reed, Emily",emily.reed@gmail.com,5557271777,Fort Worth,TX,76104,2020-09-26,Standard,Gold
+USER-1358,Robert Ward,rward@yahoo.com,5559959277,Indianapolis,Indiana,46227,2020-02-05,Standard,Silver
+USER-1359,"Morris, Eric",eric.morris11@hotmail.com,5554900228,Phoenix,Arizona,85090,2020-11-26,Standard,Silver
+USER-1360,Joshua Jackson,joshua.jackson@protonmail.com,5553867922,Indianapolis,IN,46275,2020-12-24,Prime,Silver
+USER-1361,"Anderson, William",wanderson@hotmail.com,5554346233,Houston,TX,77047,2020-01-02,Standard,Gold
+USER-1362,"Miller, Linda",linda.miller50@yahoo.com,5553176517,Denver,Colorado,80284,2020-02-25,Standard,Gold
+USER-1363,Jason Watson,jwatson@protonmail.com,5552168818,San Antonio,TX,78215,2020-03-15,Prime,Gold
+USER-1364,Barbara Lopez,barbara.lopez24@protonmail.com,5558752250,Indianapolis,IN,46201,2020-01-22,Standard,Silver
+USER-1365,"Smith, Jennifer",jsmith@outlook.com,5553092130,New York,New York,10031,2020-12-20,Standard,Bronze
+USER-1366,"Hill, Sarah",sarah.hill@yahoo.com,5551543079,Seattle,WA,98122,2020-04-28,Standard,Bronze
+USER-1367,"Anderson, Patricia",patricia.anderson@outlook.com,5553650082,Denver,Colorado,80277,2020-01-19,Standard,Silver
+USER-1368,Jim Miller,james.miller@hotmail.com,5556750742,Philadelphia,PA,19091,2020-09-10,Prime,Bronze
+USER-1369,Donna Garcia,dgarcia@protonmail.com,5552177918,New York,New York,10011,2020-05-19,Prime,Bronze
+USER-1370,"Johnson, Jim",james.johnson@yahoo.com,5558462744,Houston,TX,77047,2020-01-03,Standard,Gold
+USER-1371,"Campbell, David",david.campbell@protonmail.com,5555018544,Chicago,Illinois,60620,2020-05-17,Standard,Platinum
+USER-1372,"Lopez, Karen",karen.lopez92@hotmail.com,5555714422,Columbus,Ohio,43097,2020-06-09,Standard,Bronze
+USER-1373,Charles Turner,charles.turner@gmail.com,5553361826,Fort Worth,Texas,76197,2020-07-17,Standard,Platinum
+USER-1374,"Jim, Patricia",pjames@outlook.com,5554520246,Seattle,Washington,98126,2020-03-05,Standard,Silver
+USER-1375,"Thomas, Donald",donald.thomas@protonmail.com,5559745621,Austin,Texas,78761,2020-07-05,Standard,Silver
+USER-1376,Brandon Smith,bsmith@gmail.com,5552171733,Austin,TX,78708,2020-06-24,Standard,Gold
+USER-1377,"Baker, John",jbaker@gmail.com,5558615335,Chicago,IL,60604,2020-03-03,Prime,Gold
+USER-1378,"Rogers, Andrew",andrew.rogers@gmail.com,5551855007,San Antonio,TX,78262,2020-10-27,Standard,Platinum
+USER-1379,"Brooks, Kevin",kevin.brooks@hotmail.com,5554503288,Columbus,OH,43051,2020-05-02,Standard,Silver
+USER-1380,"Johnson, Betty",betty.johnson@protonmail.com,5556931817,San Diego,CA,92114,2020-06-16,Standard,Platinum
+USER-1381,Matthew Anderson,matthew.anderson@gmail.com,5559846633,Los Angeles,CA,90020,2020-07-28,Standard,Gold
+USER-1382,"Bell, William",william.bell43@outlook.com,5555806681,Fort Worth,TX,76147,2020-04-13,Standard,Gold
+USER-1383,"Morris, Eric",emorris@yahoo.com,5554106827,Houston,Texas,77037,2020-10-22,Standard,Gold
+USER-1384,Ryan Gonzalez,ryan.gonzalez@gmail.com,5559519874,Columbus,OH,43056,2020-11-25,Standard,Platinum
+USER-1385,Patricia Edwards,patricia.edwards@protonmail.com,5551428571,Los Angeles,California,90018,2020-05-17,Prime,Bronze
+USER-1386,Charles Mitchell,charles.mitchell@yahoo.com,5552940839,Boston,Massachusetts,02176,2020-01-06,Prime,Bronze
+USER-1387,"Allen, Kenneth",kallen@aol.com,5558505336,Seattle,Washington,98156,2020-06-26,Standard,Silver
+USER-1388,"Moore, Andrew",andrew.moore98@icloud.com,5555720901,Houston,TX,77083,2020-07-22,Standard,Platinum
+USER-1389,"Jones, Linda",ljones@hotmail.com,5556976122,Austin,Texas,78741,2020-02-15,Prime,Gold
+USER-1390,Nicholas Williams,nwilliams@aol.com,5554977938,Jacksonville,FL,32098,2020-01-26,Standard,Silver
+USER-1391,"Scott, Nancy",nscott@aol.com,5554157865,Seattle,Washington,98133,2020-09-02,Standard,Platinum
+USER-1392,"Green, Laura",laura.green@hotmail.com,5557717658,Jacksonville,FL,32014,2020-11-09,Standard,Silver
+USER-1393,"Stewart, Nicholas",nstewart@outlook.com,5553096946,San Diego,CA,92155,2020-09-08,Standard,Platinum
+USER-1394,Donald Taylor,donald.taylor81@yahoo.com,5553353619,Jacksonville,Florida,32086,2020-02-06,Standard,Platinum
+USER-1395,"Miller, Barbara",barbara.miller@outlook.com,5556041654,Austin,Texas,78743,2020-01-17,Standard,Silver
+USER-1396,"Morris, William",william.morris@protonmail.com,5551742582,Austin,TX,78718,2020-10-19,Standard,Platinum
+USER-1397,Donna Wilson,donna.wilson@yahoo.com,5552780503,San Diego,CA,92149,2020-02-11,Prime,Gold
+USER-1398,Deborah Turner,deborah.turner@protonmail.com,5558378001,Columbus,Ohio,43067,2020-08-15,Prime,Gold
+USER-1399,"Lopez, Mark",mark.lopez71@hotmail.com,5559791938,San Francisco,CA,94156,2020-02-20,Standard,Gold
+USER-1400,"Cox, Daniel",daniel.cox@protonmail.com,5558118733,Indianapolis,IN,46277,2020-11-12,Standard,Silver
+USER-1401,"Thomas, Linda",linda.thomas16@protonmail.com,5558865964,Fort Worth,Texas,76151,2020-09-28,Standard,Gold
+USER-1402,Ruth Martin,ruth.martin@icloud.com,5553562405,Philadelphia,PA,19081,2020-04-26,Standard,Platinum
+USER-1403,"Mitchell, Helen",hmitchell@hotmail.com,5552756053,New York,NY,10058,2020-03-28,Standard,Platinum
+USER-1404,Michael Wilson,michael.wilson@yahoo.com,5559156765,Boston,MA,02123,2020-02-20,Prime,Bronze
+USER-1405,Donna Bell,donna.bell@protonmail.com,5551636075,San Antonio,Texas,78208,2020-01-08,Standard,Gold
+USER-1406,"Taylor, Jessica",jessica.taylor97@hotmail.com,5551245067,San Antonio,TX,78257,2020-03-07,Prime,Silver
+USER-1407,"Howard, Maria",maria.howard@aol.com,5554570286,Columbus,Ohio,43095,2020-11-03,Standard,Bronze
+USER-1408,William Davis,william.davis76@gmail.com,5559866873,Seattle,Washington,98155,2020-09-21,Prime,Platinum
+USER-1409,Susan Campbell,susan.campbell@hotmail.com,5555586506,San Francisco,California,94198,2020-09-21,Standard,Silver
+USER-1410,Lisa Smith,lisa.smith@protonmail.com,5556823382,Los Angeles,California,90076,2020-08-24,Prime,Silver
+USER-1411,"Martinez, Charles",charles.martinez@outlook.com,5557350074,San Francisco,CA,94135,2020-12-03,Standard,Bronze
+USER-1412,Brian Cooper,bcooper@gmail.com,5558788957,Boston,Massachusetts,02143,2020-11-09,Standard,Silver
+USER-1413,Susan Adams,sadams@gmail.com,5557081964,Charlotte,NC,28210,2020-11-15,Prime,Platinum
+USER-1414,Nicholas Roberts,nroberts@protonmail.com,5554313689,Boston,MA,02114,2020-11-23,Prime,Silver
+USER-1415,"King, Ryan",ryan.king@protonmail.com,5559331723,Phoenix,Arizona,85051,2020-04-05,Standard,Platinum
+USER-1416,James Parker,jparker@gmail.com,5555476587,Houston,Texas,77026,2020-12-07,Standard,Bronze
+USER-1417,"Evans, Deborah",deborah.evans@yahoo.com,5551861749,Chicago,IL,60676,2020-08-28,Prime,Gold
+USER-1418,"Jim, Bill",william.james@icloud.com,5559422060,Fort Worth,TX,76183,2020-10-28,Standard,Platinum
+USER-1419,Brian Martin,bmartin@aol.com,5552062215,Denver,Colorado,80246,2020-03-27,Standard,Gold
+USER-1420,Emily Richardson,erichardson@aol.com,5553052788,San Antonio,TX,78223,2020-07-26,Standard,Bronze
+USER-1421,"Cooper, Ruth",ruth.cooper66@yahoo.com,5551026560,Denver,CO,80276,2020-07-12,Standard,Bronze
+USER-1422,"Ward, Ryan",rward@hotmail.com,5553317535,Boston,Massachusetts,02130,2020-10-08,Standard,Bronze
+USER-1423,Mark Martinez,mark.martinez@yahoo.com,5555016957,Boston,MA,02139,2020-03-20,Standard,Silver
+USER-1424,"Johnson, Ruth",rjohnson@aol.com,5554894817,Philadelphia,PA,19061,2020-07-19,Prime,Bronze
+USER-1425,"Allen, Mary",mary.allen@icloud.com,5554802588,Columbus,OH,43095,2020-11-04,Prime,Bronze
+USER-1426,"Mitchell, Nancy",nancy.mitchell@yahoo.com,5557263744,Dallas,TX,75212,2020-12-16,Standard,Gold
+USER-1427,William Thomas,william.thomas@aol.com,5555671902,Phoenix,Arizona,85081,2020-04-01,Standard,Bronze
+USER-1428,James Moore,james.moore@yahoo.com,5554976683,Charlotte,NC,28224,2020-09-05,Standard,Silver
+USER-1429,Eric Young,eyoung@icloud.com,5553336542,Phoenix,Arizona,85091,2020-07-12,Prime,Gold
+USER-1430,"Bobs, Emily",emily.roberts@outlook.com,5554041186,Chicago,Illinois,60648,2020-07-25,Standard,Platinum
+USER-1431,"Lee, Jennifer",jennifer.lee@protonmail.com,5554840736,Denver,Colorado,80243,2020-01-19,Standard,Platinum
+USER-1432,"Lopez, Michael",mlopez@hotmail.com,5554041442,Los Angeles,California,90040,2020-09-12,Standard,Platinum
+USER-1433,Ruth Rodriguez,ruth.rodriguez61@protonmail.com,5556172289,New York,NY,10030,2020-08-16,Standard,Bronze
+USER-1434,"Lopez, Melissa",melissa.lopez@protonmail.com,5555660877,Indianapolis,IN,46241,2020-03-21,Prime,Bronze
+USER-1435,Maria Morgan,mmorgan@icloud.com,5551726122,New York,NY,10022,2020-08-09,Prime,Silver
+USER-1436,"Collins, Daniel",daniel.collins@outlook.com,5553902291,Austin,Texas,78762,2020-03-26,Prime,Platinum
+USER-1437,"Collins, Michael",michael.collins@yahoo.com,5554147855,Nashville,TN,37256,2020-02-20,Prime,Gold
+USER-1438,Melissa Murphy,melissa.murphy@outlook.com,5552736733,Denver,Colorado,80266,2020-03-11,Prime,Bronze
+USER-1439,Sharon Garcia,sharon.garcia@aol.com,5555365999,Nashville,Tennessee,37220,2020-05-19,Standard,Bronze
+USER-1440,"Campbell, Eric",eric.campbell@yahoo.com,5552675940,Philadelphia,Pennsylvania,19073,2020-02-15,Standard,Bronze
+USER-1441,Donna Moore,donna.moore27@hotmail.com,5552719443,Nashville,TN,37267,2020-01-12,Prime,Silver
+USER-1442,Paul Jones,paul.jones79@icloud.com,5553176846,San Francisco,CA,94187,2020-06-28,Standard,Bronze
+USER-1443,"Adams, Richard",richard.adams8@outlook.com,5552528598,San Francisco,California,94176,2020-12-14,Standard,Platinum
+USER-1444,Matthew Rogers,matthew.rogers@outlook.com,5551008776,Denver,Colorado,80269,2020-01-21,Prime,Platinum
+USER-1445,"Cox, Patricia",patricia.cox@icloud.com,5553949638,Boston,MA,02151,2020-01-02,Standard,Silver
+USER-1446,Ruth Wilson,rwilson@hotmail.com,5553533415,Columbus,Ohio,43074,2020-10-16,Standard,Silver
+USER-1447,"Carter, Christopher",christopher.carter@icloud.com,5555420575,Boston,MA,02109,2020-11-20,Prime,Bronze
+USER-1448,"Turner, Susan",susan.turner@aol.com,5551673523,Austin,TX,78763,2020-09-04,Standard,Bronze
+USER-1449,Thomas Adams,thomas.adams@protonmail.com,5555610181,San Francisco,CA,94163,2020-01-05,Standard,Platinum
+USER-1450,Brandon Green,brandon.green@outlook.com,5558204352,Philadelphia,PA,19009,2020-08-13,Standard,Gold
+USER-1451,Charles Adams,cadams@outlook.com,5556872864,San Diego,CA,92123,2020-08-15,Standard,Gold
+USER-1452,Jennifer Wright,jennifer.wright54@gmail.com,5555918791,Jacksonville,FL,32032,2020-06-10,Standard,Silver
+USER-1453,"Cooper, Daniel",daniel.cooper@aol.com,5559789395,Chicago,IL,60679,2020-12-04,Prime,Bronze
+USER-1454,"Baker, David",david.baker@protonmail.com,5554385112,San Diego,California,92111,2020-12-09,Prime,Silver
+USER-1455,John Turner,john.turner@aol.com,5555750907,Philadelphia,PA,19064,2020-12-24,Standard,Bronze
+USER-1456,"Scott, Donald",donald.scott@icloud.com,5557925191,Chicago,Illinois,60673,2020-11-20,Prime,Bronze
+USER-1457,Eric Morris,eric.morris@hotmail.com,5553784242,Philadelphia,PA,19059,2020-08-08,Standard,Gold
+USER-1458,"Wright, James",james.wright@outlook.com,5559667774,San Francisco,CA,94103,2020-08-14,Standard,Platinum
+USER-1459,"Williams, Jason",jason.williams@outlook.com,5559432757,San Diego,CA,92179,2020-12-18,Standard,Silver
+USER-1460,"Brooks, Susan",susan.brooks@gmail.com,5552061900,Fort Worth,Texas,76164,2020-11-02,Prime,Bronze
+USER-1461,Ruth Campbell,ruth.campbell42@gmail.com,5559507559,Nashville,TN,37265,2020-02-13,Prime,Gold
+USER-1462,Nancy Allen,nancy.allen@hotmail.com,5557612144,Seattle,WA,98109,2020-06-08,Standard,Silver
+USER-1463,"Johnson, Joshua",joshua.johnson@gmail.com,5555138437,Chicago,IL,60688,2020-11-25,Standard,Silver
+USER-1464,"Lee, Anthony",anthony.lee21@hotmail.com,5554795981,Dallas,Texas,75221,2020-03-20,Standard,Silver
+USER-1465,"Thomas, William",william.thomas@protonmail.com,5559732068,Fort Worth,TX,76171,2020-12-04,Standard,Bronze
+USER-1466,Jessica Hill,jessica.hill26@hotmail.com,5554745128,Houston,TX,77091,2020-07-08,Standard,Platinum
+USER-1467,"Brown, Kenneth",kenneth.brown@gmail.com,5551837496,Denver,Colorado,80261,2020-04-21,Prime,Platinum
+USER-1468,Michael Smith,michael.smith76@aol.com,5554758187,Indianapolis,IN,46279,2020-11-28,Standard,Bronze
+USER-1469,Richard Peterson,richard.peterson@outlook.com,5557014995,San Francisco,CA,94120,2020-02-11,Standard,Bronze
+USER-1470,"King, Paul",paul.king@yahoo.com,5551741185,Austin,TX,78703,2020-11-01,Standard,Platinum
+USER-1471,Betty Turner,bturner@icloud.com,5559740838,Denver,Colorado,80235,2020-04-19,Prime,Gold
+USER-1472,Thomas Lopez,thomas.lopez@hotmail.com,5551436406,New York,New York,10062,2020-05-27,Prime,Platinum
+USER-1473,Ashley Gonzalez,ashley.gonzalez@hotmail.com,5555950533,Nashville,TN,37278,2020-10-08,Standard,Bronze
+USER-1474,Brian Martin,brian.martin34@hotmail.com,5558281200,Los Angeles,California,90088,2020-06-08,Standard,Platinum
+USER-1475,Maria Thomas,maria.thomas@icloud.com,5558756425,Philadelphia,Pennsylvania,19043,2020-08-11,Standard,Gold
+USER-1476,"Hill, Michael",mhill@outlook.com,5553977853,Chicago,IL,60630,2020-12-19,Standard,Bronze
+USER-1477,"Allen, Mary",mary.allen38@icloud.com,5557181195,Indianapolis,IN,46203,2020-07-01,Standard,Gold
+USER-1478,"Anderson, Anthony",aanderson@icloud.com,5552590580,Dallas,Texas,75255,2020-10-18,Prime,Gold
+USER-1479,"Hall, Kimberly",khall@aol.com,5557194285,Fort Worth,TX,76119,2020-10-13,Prime,Bronze
+USER-1480,"Johnson, Jennifer",jjohnson@icloud.com,5552693849,San Francisco,CA,94113,2020-12-26,Standard,Gold
+USER-1481,"Green, Robert",robert.green@outlook.com,5556203946,Columbus,Ohio,43076,2020-02-20,Prime,Silver
+USER-1482,"Wright, Ryan",ryan.wright59@outlook.com,5552666357,Chicago,IL,60674,2020-12-08,Prime,Gold
+USER-1483,Mary Young,mary.young@icloud.com,5553048943,Columbus,OH,43000,2020-02-24,Standard,Bronze
+USER-1484,"Gray, Richard",rgray@hotmail.com,5559983973,Fort Worth,TX,76120,2020-05-26,Standard,Gold
+USER-1485,"Walker, Jennifer",jennifer.walker@hotmail.com,5558239826,Austin,Texas,78739,2020-10-02,Prime,Gold
+USER-1486,Kimberly Anderson,kanderson@protonmail.com,5555911848,Chicago,Illinois,60607,2020-07-27,Prime,Bronze
+USER-1487,Jason Thomas,jthomas@icloud.com,5559666732,Austin,Texas,78704,2020-05-15,Standard,Silver
+USER-1488,"Davis, Linda",linda.davis@yahoo.com,5557150543,Columbus,Ohio,43029,2020-03-12,Standard,Silver
+USER-1489,"Rogers, James",jrogers@gmail.com,5551186014,Houston,Texas,77032,2020-06-04,Prime,Bronze
+USER-1490,Jason Peterson,jason.peterson@aol.com,5553077488,Fort Worth,TX,76183,2020-06-12,Standard,Gold
+USER-1491,"Carter, Nancy",nancy.carter@outlook.com,5554491697,Nashville,TN,37286,2020-03-22,Prime,Bronze
+USER-1492,"Moore, Charles",cmoore@aol.com,5559267380,New York,New York,10030,2020-07-01,Standard,Silver
+USER-1493,"Campbell, Dorothy",dcampbell@yahoo.com,5552439220,Dallas,TX,75202,2020-04-26,Prime,Platinum
+USER-1494,Tyler Hernandez,tyler.hernandez91@gmail.com,5553697185,Jacksonville,FL,32018,2020-08-28,Standard,Silver
+USER-1495,"Martin, Emily",emily.martin59@gmail.com,5554412642,Fort Worth,TX,76158,2020-04-28,Standard,Silver
+USER-1496,Angela Allen,aallen@icloud.com,5557023921,San Francisco,California,94138,2020-08-08,Standard,Silver
+USER-1497,Kevin Campbell,kevin.campbell32@hotmail.com,5556443189,Chicago,IL,60611,2020-11-01,Standard,Bronze
+USER-1498,Kimberly Martinez,kimberly.martinez@icloud.com,5551328552,Philadelphia,PA,19046,2020-05-19,Standard,Gold
+USER-1499,"Moore, Ryan",ryan.moore@gmail.com,5556095000,Denver,CO,80296,2020-06-27,Standard,Platinum
+USER-1500,Daniel Brown,daniel.brown48@protonmail.com,5555318707,Indianapolis,IN,46238,2020-09-27,Standard,Gold

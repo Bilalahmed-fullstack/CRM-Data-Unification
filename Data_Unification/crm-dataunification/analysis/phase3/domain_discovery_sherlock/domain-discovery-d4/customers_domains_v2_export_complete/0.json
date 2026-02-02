@@ -1,0 +1,52 @@
+{
+  "columns": [
+    {
+      "id": 4,
+      "name": "shipping_city",
+      "dataset": "modern_customers"
+    },
+    {
+      "id": 16,
+      "name": "city",
+      "dataset": "legacy_customers"
+    }
+  ],
+  "terms": [
+    [
+      {
+        "id": 6,
+        "termCount": 19,
+        "weight": "1.00000000",
+        "terms": [
+          "AUSTIN",
+          "BOSTON",
+          "CHARLOTTE",
+          "CHICAGO",
+          "COLUMBUS",
+          "DALLAS",
+          "DENVER",
+          "FORT WORTH",
+          "HOUSTON",
+          "INDIANAPOLIS",
+          "JACKSONVILLE",
+          "LOS ANGELES",
+          "NASHVILLE",
+          "PHILADELPHIA",
+          "PHOENIX",
+          "SAN ANTONIO",
+          "SAN DIEGO",
+          "SAN FRANCISCO",
+          "SEATTLE"
+        ]
+      },
+      {
+        "id": 13,
+        "termCount": 1,
+        "weight": "1.00000000",
+        "terms": [
+          "NEW YORK"
+        ]
+      }
+    ]
+  ]
+}

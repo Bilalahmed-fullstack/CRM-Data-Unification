@@ -24,6 +24,7 @@ ENV/
 .DS_Store
 Thumbs.db
 __MACOSX/
+**/__MACOSX/
 
 # Logs
 *.log

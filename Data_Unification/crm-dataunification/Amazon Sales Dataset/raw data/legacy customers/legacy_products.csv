@@ -1,0 +1,21 @@
+product_sku,product_name,product_category,brand,manufacturer,list_price,weight_lbs,dimensions,is_active,inventory_count
+PROD-A001,Wireless Bluetooth Headphones - Noise Cancelling,Electronics,Sony,Sony Electronics,299.99,0.68,"""""",1,494
+PROD-A002,Organic Cotton T-Shirt - Medium,Clothing,Amazon Essentials,Amazon Fashion,19.99,0.35,"""""",1,354
+PROD-A003,USB-C Charging Cable 6ft,Electronics,Anker,Anker Innovations,12.99,0.12,"""""",1,159
+PROD-A004,Smart Watch - Fitness Tracker,Electronics,Fitbit,Fitbit Inc,149.99,0.25,"""""",1,298
+PROD-A005,Yoga Mat - Extra Thick,Sports,Manduka,Manduka LLC,79.99,2.1,"""""",1,280
+PROD-A006,Kitchen Stand Mixer 5qt,Home & Kitchen,KitchenAid,Whirlpool Corp,349.99,22,15.6x7.6x19.7,1,435
+PROD-A007,Running Shoes - Size 10,Clothing,Nike,Nike Inc,119.99,1.5,"""""",1,338
+PROD-A008,Stainless Steel Water Bottle 32oz,Sports,Hydro Flask,Helen of Troy,34.99,0.62,"""""",1,441
+PROD-A009,Wireless Computer Mouse,Electronics,Logitech,Logitech International,99.99,0.31,"""""",1,444
+PROD-A010,LED Desk Lamp with USB Port,Home & Kitchen,TaoTronics,Sunvalley Brands,42.99,1.8,"""""",1,218
+PROD-A011,Bluetooth Speaker - Waterproof,Electronics,JBL,Harman International,89.99,1.2,"""""",1,159
+PROD-A012,Coffee Maker - 12 Cup Programmable,Home & Kitchen,Cuisinart,Conair Corp,79.99,7.5,15.3x13.8x17.7,1,491
+PROD-A013,Backpack - Laptop Compatible,Luggage,SwissGear,Wenger SA,64.99,2.3,"""""",1,241
+PROD-A014,Wireless Earbuds - In Ear,Electronics,Apple,Apple Inc,249.99,0.19,"""""",1,107
+PROD-A015,Protein Powder - Chocolate 2lb,Health,Optimum Nutrition,Glanbia,49.99,2,"""""",1,353
+PROD-A016,Digital Air Fryer 5.8qt,Home & Kitchen,Ninja,SharkNinja,129.99,11.8,13.2x7.6x13.0,1,165
+PROD-A017,Women's Leggings - High Waist,Clothing,Lululemon,Lululemon Athletica,98,0.42,"""""",1,212
+PROD-A018,Hardcover Fiction Novel,Books,Penguin,Penguin Random House,26,1.1,"""""",1,311
+PROD-A019,HDMI Cable 10ft - 4K,Electronics,Amazon Basics,Amazon,8.99,0.28,"""""",1,227
+PROD-A020,Face Moisturizer with SPF 30,Beauty,Neutrogena,Johnson & Johnson,18.99,0.35,"""""",1,347

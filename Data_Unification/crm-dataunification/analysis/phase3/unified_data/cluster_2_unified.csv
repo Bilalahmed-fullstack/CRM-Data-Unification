@@ -1,0 +1,61 @@
+product_sku,product_name,product_category,brand,manufacturer,list_price,weight_lbs,dimensions,is_active,inventory_count
+ITEM-3001,,Electronics,Sony,Sony Electronics,289.35,0.67,,In Stock,70
+ITEM-3002,,Clothing,Amazon Essentials,Amazon Fashion,20.75,0.34,,In Stock,205
+ITEM-3003,,Electronics,Anker,Anker Innovations,14.26,0.12,,In Stock,465
+ITEM-3004,,Electronics,Fitbit,Fitbit Inc,153.99,0.25,,In Stock,267
+ITEM-3005,,Sports,Manduka,Manduka LLC,82.23,2.13,,In Stock,154
+ITEM-3006,,Home & Kitchen,KitchenAid,Whirlpool Corp,370.64,21.67,15.6x7.6x19.7,In Stock,213
+ITEM-3007,,Clothing,Nike,Nike Inc,119.53,1.5,,In Stock,235
+ITEM-3008,,Sports,Hydro Flask,Helen of Troy,37.6,0.63,,In Stock,85
+ITEM-3009,,Electronics,Logitech,Logitech International,96.29,0.31,,In Stock,481
+ITEM-3010,,Home & Kitchen,TaoTronics,Sunvalley Brands,46.12,1.77,,In Stock,489
+ITEM-3011,,Electronics,JBL,Harman International,95.37,1.22,,In Stock,456
+ITEM-3012,,Home & Kitchen,Cuisinart,Conair Corp,86.4,7.51,15.3x13.8x17.7,In Stock,154
+ITEM-3013,,Luggage,SwissGear,Wenger SA,65.55,2.28,,In Stock,161
+ITEM-3014,,Electronics,Apple,Apple Inc,246.69,0.19,,In Stock,482
+ITEM-3015,,Health,Optimum Nutrition,Glanbia,54.68,2.04,,In Stock,59
+ITEM-3016,,Home & Kitchen,Ninja,SharkNinja,142.57,11.67,13.2x7.6x13.0,In Stock,122
+ITEM-3017,,Clothing,Lululemon,Lululemon Athletica,107.6,0.42,,In Stock,416
+ITEM-3018,,Books,Penguin,Penguin Random House,26.2,1.11,,In Stock,236
+ITEM-3019,,Electronics,Amazon Basics,Amazon,9.01,0.28,,In Stock,384
+ITEM-3020,,Beauty,Neutrogena,Johnson & Johnson,18.67,0.35,,In Stock,244
+,New,,Sony,,289.99,0.30844256,"{""weight"":""0.31kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,133
+,New,,Amazon Essentials,,24.99,0.1587572,"{""weight"":""0.16kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,167
+,New,,Anker,,14.99,0.05443104,"{""weight"":""0.05kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,197
+,New,,Fitbit,,139.99,0.113398,"{""weight"":""0.11kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,123
+,New,,Manduka,,84.99,0.9525432,"{""weight"":""0.95kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,144
+,New,,KitchenAid,,329.99,9.979024,"{""weight"":""9.98kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,353
+,New,,Nike,,129.99,0.680388,"{""weight"":""0.68kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,409
+,New,,Hydro Flask,,39.99,0.28122704,"{""weight"":""0.28kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,302
+,New,,Logitech,,94.99,0.14061352,"{""weight"":""0.14kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,307
+,New,,TaoTronics,,45.99,0.8164656,"{""weight"":""0.82kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,423
+,New,,JBL,,99.99,0.5443104,"{""weight"":""0.54kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,280
+,New,,Cuisinart,,74.99,3.40194,"{""weight"":""3.40kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,427
+,New,,SwissGear,,69.99,1.0432616,"{""weight"":""1.04kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,223
+,New,,Apple,,239.99,0.08618248,"{""weight"":""0.09kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,130
+,New,,Optimum Nutrition,,54.99,0.907184,"{""weight"":""0.91kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,175
+,New,,Ninja,,119.99,5.3523856,"{""weight"":""5.35kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,246
+,New,,Lululemon,,98.0,0.1905086399999999,"{""weight"":""0.19kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,375
+,New,,Penguin,,24.99,0.4989512,"{""weight"":""0.50kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,135
+,New,,Amazon Basics,,9.99,0.12700576,"{""weight"":""0.13kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,282
+,New,,Neutrogena,,16.99,0.1587572,"{""weight"":""0.16kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",,337
+PROD-A001,Wireless Bluetooth Headphones - Noise Cancelling,Electronics,Sony,Sony Electronics,299.99,0.68,"""""",1,494
+PROD-A002,Organic Cotton T-Shirt - Medium,Clothing,Amazon Essentials,Amazon Fashion,19.99,0.35,"""""",1,354
+PROD-A003,USB-C Charging Cable 6ft,Electronics,Anker,Anker Innovations,12.99,0.12,"""""",1,159
+PROD-A004,Smart Watch - Fitness Tracker,Electronics,Fitbit,Fitbit Inc,149.99,0.25,"""""",1,298
+PROD-A005,Yoga Mat - Extra Thick,Sports,Manduka,Manduka LLC,79.99,2.1,"""""",1,280
+PROD-A006,Kitchen Stand Mixer 5qt,Home & Kitchen,KitchenAid,Whirlpool Corp,349.99,22.0,15.6x7.6x19.7,1,435
+PROD-A007,Running Shoes - Size 10,Clothing,Nike,Nike Inc,119.99,1.5,"""""",1,338
+PROD-A008,Stainless Steel Water Bottle 32oz,Sports,Hydro Flask,Helen of Troy,34.99,0.62,"""""",1,441
+PROD-A009,Wireless Computer Mouse,Electronics,Logitech,Logitech International,99.99,0.31,"""""",1,444
+PROD-A010,LED Desk Lamp with USB Port,Home & Kitchen,TaoTronics,Sunvalley Brands,42.99,1.8,"""""",1,218
+PROD-A011,Bluetooth Speaker - Waterproof,Electronics,JBL,Harman International,89.99,1.2,"""""",1,159
+PROD-A012,Coffee Maker - 12 Cup Programmable,Home & Kitchen,Cuisinart,Conair Corp,79.99,7.5,15.3x13.8x17.7,1,491
+PROD-A013,Backpack - Laptop Compatible,Luggage,SwissGear,Wenger SA,64.99,2.3,"""""",1,241
+PROD-A014,Wireless Earbuds - In Ear,Electronics,Apple,Apple Inc,249.99,0.19,"""""",1,107
+PROD-A015,Protein Powder - Chocolate 2lb,Health,Optimum Nutrition,Glanbia,49.99,2.0,"""""",1,353
+PROD-A016,Digital Air Fryer 5.8qt,Home & Kitchen,Ninja,SharkNinja,129.99,11.8,13.2x7.6x13.0,1,165
+PROD-A017,Women's Leggings - High Waist,Clothing,Lululemon,Lululemon Athletica,98.0,0.42,"""""",1,212
+PROD-A018,Hardcover Fiction Novel,Books,Penguin,Penguin Random House,26.0,1.1,"""""",1,311
+PROD-A019,HDMI Cable 10ft - 4K,Electronics,Amazon Basics,Amazon,8.99,0.28,"""""",1,227
+PROD-A020,Face Moisturizer with SPF 30,Beauty,Neutrogena,Johnson & Johnson,18.99,0.35,"""""",1,347

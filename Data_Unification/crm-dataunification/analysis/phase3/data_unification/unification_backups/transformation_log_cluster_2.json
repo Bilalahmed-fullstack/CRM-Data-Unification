@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-01-14T17:23:51.200184",
+  "cluster_id": 2,
+  "input_files": [
+    "third_system_products.json",
+    "modern_products.csv",
+    "legacy_products.csv"
+  ],
+  "output_file": "unified_output/unified_cluster_2_20260114_172351.csv",
+  "transformation_summary": {
+    "files_merged": 3,
+    "total_input_records": 60,
+    "output_records": 20,
+    "output_columns": 12,
+    "backup_available": true,
+    "original_files_preserved": true
+  },
+  "column_statistics": {
+    "product_sku": {
+      "sample_values": [
+        "ITEM-3001",
+        "ITEM-3002",
+        "ITEM-3003",
+        "ITEM-3004",
+        "ITEM-3005"
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "str"
+      ]
+    },
+    "product_name": {
+      "sample_values": [
+        "WiFi BT Headphones Noise Cancelling",
+        "Organic Cotton T-Shirt Medium",
+        "USB-C Charging Cable 6ft",
+        "Smart Watch Fitness Tracker",
+        "Yoga Mat Extra Thick"
+      ],
+      "total_non_null": 20,
+      "value_types": [
+        "str"
+      ]
+    },
+    "product_category": {
+      "sample_values": [
+        "Electronics",
+        "Clothing",
+        "Electronics",
+        "Electronics",
+        "Sports"
+      ],
+      "total_non_null": 20,
+      "value_types": [
+        "str"
+      ]
+    },
+    "brand": {
+      "sample_values": [
+        "Sony",
+        "Amazon Essentials",
+        "Anker",
+        "Fitbit",
+        "Manduka"
+      ],
+      "total_non_null": 20,
+      "value_types": [
+        "str"
+      ]
+    },
+    "manufacturer": {
+      "sample_values": [
+        "Sony Electronics",
+        "Amazon Fashion",
+        "Anker Innovations",
+        "Fitbit Inc",
+        "Manduka LLC"
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "str"
+      ]
+    },
+    "list_price": {
+      "sample_values": [
+        289.35,
+        20.75,
+        14.26,
+        153.99,
+        82.23
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "float"
+      ]
+    },
+    "weight_lbs": {
+      "sample_values": [
+        0.67,
+        0.34,
+        0.12,
+        0.25,
+        2.13
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "float"
+      ]
+    },
+    "dimensions": {
+      "sample_values": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "str"
+      ]
+    },
+    "is_active": {
+      "sample_values": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "total_non_null": 20,
+      "value_types": [
+        "bool"
+      ]
+    },
+    "inventory_count": {
+      "sample_values": [
+        70,
+        205,
+        465,
+        267,
+        154
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "int"
+      ]
+    }
+  }
+}

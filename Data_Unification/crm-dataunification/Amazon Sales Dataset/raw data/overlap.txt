@@ -1,0 +1,22 @@
+LEGACY_CUSTOMERS.customer_id (CUST-001 to CUST-400)
+           ║
+           ║ 80% overlap (same people, different records)
+           ║
+           ▼
+MODERN_CUSTOMERS.user_id (USER-1001 to USER-1400)
+
+
+LEGACY_CUSTOMERS.customer_id (CUST-401 to CUST-500)
+           ║
+           ║ 20% overlap (different people than above)
+           ║
+           ▼
+THIRD_SYSTEM_CUSTOMERS.account_id (ACC-02001 to ACC-02100)
+
+
+MODERN_CUSTOMERS.user_id (USER-1401 to USER-1500)
+           ║
+           ║ 20% overlap (different people than above)
+           ║
+           ▼
+THIRD_SYSTEM_CUSTOMERS.account_id (ACC-02101 to ACC-02200)

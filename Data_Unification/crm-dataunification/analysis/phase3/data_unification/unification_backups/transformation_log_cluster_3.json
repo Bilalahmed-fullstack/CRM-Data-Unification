@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-01-14T17:23:51.338891",
+  "cluster_id": 3,
+  "input_files": [
+    "third_system_customers.json",
+    "modern_customers.csv",
+    "legacy_customers.csv"
+  ],
+  "output_file": "unified_output/unified_cluster_3_20260114_172351.csv",
+  "transformation_summary": {
+    "files_merged": 3,
+    "total_input_records": 1500,
+    "output_records": 500,
+    "output_columns": 17,
+    "backup_available": true,
+    "original_files_preserved": true
+  },
+  "column_statistics": {
+    "customer_id": {
+      "sample_values": [
+        "Cox, Melissa",
+        "Richard Young",
+        "Michelle Murphy",
+        "Baker, Daniel",
+        "Nelson, Donna"
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "str"
+      ]
+    },
+    "first_name": {
+      "sample_values": [
+        "Thomas, Linda",
+        "Martin, Ruth",
+        "Mitchell, Helen",
+        "Michael Wilson",
+        "Donna Bell"
+      ],
+      "total_non_null": 20,
+      "value_types": [
+        "str"
+      ]
+    },
+    "last_name": {
+      "sample_values": [
+        "Thomas",
+        "Martin",
+        "Mitchell",
+        "Wilson",
+        "Bell"
+      ],
+      "total_non_null": 10,
+      "value_types": [
+        "str"
+      ]
+    },
+    "email_address": {
+      "sample_values": [
+        "melissac@outlook.com",
+        "richardy@mail.com",
+        "michellem@outlook.com",
+        "danielb@icloud.com",
+        "donnan@outlook.com"
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "str"
+      ]
+    },
+    "phone_number": {
+      "sample_values": [
+        "5558256534",
+        "5551563980",
+        "5558660442",
+        "5551309706",
+        "5554421793"
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "str"
+      ]
+    },
+    "street_address": {
+      "sample_values": [
+        "5190 River Dr",
+        "6110 Hill St, # 23D",
+        "1820 Oak Ave",
+        "4800 Hill St",
+        "5095 Broadway, # 7C"
+      ],
+      "total_non_null": 20,
+      "value_types": [
+        "str"
+      ]
+    },
+    "city": {
+      "sample_values": [
+        "Dallas",
+        "Nashville",
+        "San Antonio",
+        "Columbus",
+        "Denver"
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "str"
+      ]
+    },
+    "state": {
+      "sample_values": [
+        "TX",
+        "TN",
+        "TX",
+        "OH",
+        "CO"
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "str"
+      ]
+    },
+    "zip_code": {
+      "sample_values": [
+        75285,
+        37264,
+        78228,
+        43090,
+        80202
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "int"
+      ]
+    },
+    "country": {
+      "sample_values": [
+        "nan",
+        "nan",
+        "nan",
+        "nan",
+        "nan"
+      ],
+      "total_non_null": 20,
+      "value_types": [
+        "str"
+      ]
+    }
+  }
+}

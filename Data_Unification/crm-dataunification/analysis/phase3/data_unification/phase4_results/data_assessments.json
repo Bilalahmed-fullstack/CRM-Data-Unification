@@ -1,0 +1,761 @@
+{
+  "timestamp": "2026-01-13T20:36:54.906995",
+  "total_clusters": 3,
+  "clusters": {
+    "1": {
+      "cluster_id": 1,
+      "files": [
+        "third_system_sales.json",
+        "modern_sales.csv",
+        "legacy_sales.csv"
+      ],
+      "file_assessments": {
+        "third_system_sales.json": {
+          "file_path": "../../../Amazon Sales Dataset/raw data/third customers/third_system_sales.json",
+          "exists": true,
+          "error": null,
+          "row_count": 1000,
+          "column_count": 10,
+          "columns": [
+            "sale_id",
+            "account_id",
+            "item_code",
+            "order_quantity",
+            "item_price",
+            "sale_total",
+            "sale_date",
+            "delivery_status",
+            "payment_option",
+            "customer_address"
+          ],
+          "data_types": {
+            "sale_id": "object",
+            "account_id": "object",
+            "item_code": "object",
+            "order_quantity": "int64",
+            "item_price": "float64",
+            "sale_total": "float64",
+            "sale_date": "object",
+            "delivery_status": "object",
+            "payment_option": "object",
+            "customer_address": "object"
+          },
+          "null_percentages": {
+            "sale_id": 0.0,
+            "account_id": 0.0,
+            "item_code": 0.0,
+            "order_quantity": 0.0,
+            "item_price": 0.0,
+            "sale_total": 0.0,
+            "sale_date": 0.0,
+            "delivery_status": 0.0,
+            "payment_option": 0.0,
+            "customer_address": 0.0
+          },
+          "unique_counts": {
+            "sale_id": 1000,
+            "account_id": 433,
+            "item_code": 20,
+            "order_quantity": 5,
+            "item_price": 198,
+            "sale_total": 269,
+            "sale_date": 209,
+            "delivery_status": 7,
+            "payment_option": 6,
+            "customer_address": 433
+          },
+          "file_size_mb": 0.32621002197265625,
+          "sample_data": {
+            "sale_id": "SALE-03001",
+            "account_id": "ACC-02399",
+            "item_code": "ITEM-3010",
+            "order_quantity": "3",
+            "item_price": "46.12",
+            "sale_total": "138.36",
+            "sale_date": "2023-01-01",
+            "delivery_status": "Delivered",
+            "payment_option": "PayPal",
+            "customer_address": "362 Center St #188, New York, NY 10001"
+          },
+          "temporal_fields": [
+            "sale_date"
+          ],
+          "candidate_keys": []
+        },
+        "modern_sales.csv": {
+          "file_path": "../../../Amazon Sales Dataset/raw data/modern customers/modern_sales.csv",
+          "exists": true,
+          "error": null,
+          "row_count": 1000,
+          "column_count": 10,
+          "columns": [
+            "transaction_id",
+            "user_id",
+            "product_asin",
+            "qty",
+            "price_per_item",
+            "transaction_total",
+            "timestamp",
+            "fulfillment_channel",
+            "payment_type",
+            "promotion_applied"
+          ],
+          "data_types": {
+            "transaction_id": "object",
+            "user_id": "object",
+            "product_asin": "object",
+            "qty": "int64",
+            "price_per_item": "float64",
+            "transaction_total": "float64",
+            "timestamp": "object",
+            "fulfillment_channel": "object",
+            "payment_type": "object",
+            "promotion_applied": "object"
+          },
+          "null_percentages": {
+            "transaction_id": 0.0,
+            "user_id": 0.0,
+            "product_asin": 0.0,
+            "qty": 0.0,
+            "price_per_item": 0.0,
+            "transaction_total": 0.0,
+            "timestamp": 0.0,
+            "fulfillment_channel": 0.0,
+            "payment_type": 0.0,
+            "promotion_applied": 43.5
+          },
+          "unique_counts": {
+            "transaction_id": 1000,
+            "user_id": 424,
+            "product_asin": 20,
+            "qty": 4,
+            "price_per_item": 164,
+            "transaction_total": 222,
+            "timestamp": 1000,
+            "fulfillment_channel": 3,
+            "payment_type": 6,
+            "promotion_applied": 4
+          },
+          "file_size_mb": 0.08816909790039062,
+          "sample_data": {
+            "transaction_id": "TXN-M2001",
+            "user_id": "USER-1404",
+            "product_asin": "B08TW5NKRQ",
+            "qty": "1",
+            "price_per_item": "94.99",
+            "transaction_total": "94.99",
+            "timestamp": "2023-01-01T04:47:37.445Z",
+            "fulfillment_channel": "FBM",
+            "payment_type": "Discover",
+            "promotion_applied": "LIGHTNING_DEAL"
+          },
+          "temporal_fields": [
+            "timestamp"
+          ],
+          "candidate_keys": []
+        },
+        "legacy_sales.csv": {
+          "file_path": "../../../Amazon Sales Dataset/raw data/legacy customers/legacy_sales.csv",
+          "exists": true,
+          "error": null,
+          "row_count": 1000,
+          "column_count": 10,
+          "columns": [
+            "order_id",
+            "customer_id",
+            "product_sku",
+            "quantity",
+            "unit_price",
+            "total_amount",
+            "order_date",
+            "shipping_status",
+            "payment_method",
+            "shipping_address"
+          ],
+          "data_types": {
+            "order_id": "object",
+            "customer_id": "object",
+            "product_sku": "object",
+            "quantity": "int64",
+            "unit_price": "float64",
+            "total_amount": "float64",
+            "order_date": "object",
+            "shipping_status": "object",
+            "payment_method": "object",
+            "shipping_address": "object"
+          },
+          "null_percentages": {
+            "order_id": 0.0,
+            "customer_id": 0.0,
+            "product_sku": 0.0,
+            "quantity": 0.0,
+            "unit_price": 0.0,
+            "total_amount": 0.0,
+            "order_date": 0.0,
+            "shipping_status": 0.0,
+            "payment_method": 0.0,
+            "shipping_address": 0.0
+          },
+          "unique_counts": {
+            "order_id": 1000,
+            "customer_id": 437,
+            "product_sku": 20,
+            "quantity": 4,
+            "unit_price": 212,
+            "total_amount": 267,
+            "order_date": 196,
+            "shipping_status": 5,
+            "payment_method": 5,
+            "shipping_address": 437
+          },
+          "file_size_mb": 0.11286735534667969,
+          "sample_data": {
+            "order_id": "ORD-L1001",
+            "customer_id": "CUST-112",
+            "product_sku": "PROD-A013",
+            "quantity": "1",
+            "unit_price": "64.99",
+            "total_amount": "64.99",
+            "order_date": "2023-01-01",
+            "shipping_status": "Cancelled",
+            "payment_method": "CREDIT_CARD",
+            "shipping_address": "3316 Market Street, Charlotte, NC 28227"
+          },
+          "temporal_fields": [
+            "order_date"
+          ],
+          "candidate_keys": []
+        }
+      },
+      "summary": {
+        "total_files": 3,
+        "total_rows": 3000,
+        "avg_rows_per_file": 1000.0,
+        "unique_columns_across_files": 30,
+        "total_file_size_mb": 0.5272464752197266,
+        "avg_file_size_mb": 0.1757488250732422,
+        "has_temporal_data": true,
+        "temporal_fields": [
+          "timestamp",
+          "sale_date",
+          "order_date"
+        ],
+        "column_overlap_ratio": 0.0,
+        "estimated_overlap_rows": 0.1
+      },
+      "warnings": [],
+      "recommendations": [
+        "Low column overlap suggests vertical merge",
+        "Use temporal field 'timestamp' for conflict resolution"
+      ]
+    },
+    "2": {
+      "cluster_id": 2,
+      "files": [
+        "third_system_products.json",
+        "modern_products.csv",
+        "legacy_products.csv"
+      ],
+      "file_assessments": {
+        "third_system_products.json": {
+          "file_path": "../../../Amazon Sales Dataset/raw data/third customers/third_system_products.json",
+          "exists": true,
+          "error": null,
+          "row_count": 20,
+          "column_count": 10,
+          "columns": [
+            "item_code",
+            "item_name",
+            "category_name",
+            "brand_name",
+            "supplier",
+            "retail_price",
+            "item_weight",
+            "product_dimensions",
+            "availability_status",
+            "stock_level"
+          ],
+          "data_types": {
+            "item_code": "object",
+            "item_name": "object",
+            "category_name": "object",
+            "brand_name": "object",
+            "supplier": "object",
+            "retail_price": "float64",
+            "item_weight": "float64",
+            "product_dimensions": "object",
+            "availability_status": "object",
+            "stock_level": "int64"
+          },
+          "null_percentages": {
+            "item_code": 0.0,
+            "item_name": 0.0,
+            "category_name": 0.0,
+            "brand_name": 0.0,
+            "supplier": 0.0,
+            "retail_price": 0.0,
+            "item_weight": 0.0,
+            "product_dimensions": 0.0,
+            "availability_status": 0.0,
+            "stock_level": 0.0
+          },
+          "unique_counts": {
+            "item_code": 20,
+            "item_name": 20,
+            "category_name": 8,
+            "brand_name": 20,
+            "supplier": 20,
+            "retail_price": 20,
+            "item_weight": 20,
+            "product_dimensions": 4,
+            "availability_status": 1,
+            "stock_level": 19
+          },
+          "file_size_mb": 0.006290435791015625,
+          "sample_data": {
+            "item_code": "ITEM-3001",
+            "item_name": "WiFi BT Headphones Noise Cancelling",
+            "category_name": "Electronics",
+            "brand_name": "Sony",
+            "supplier": "Sony Electronics",
+            "retail_price": "289.35",
+            "item_weight": "0.67",
+            "product_dimensions": "",
+            "availability_status": "In Stock",
+            "stock_level": "70"
+          },
+          "temporal_fields": [],
+          "candidate_keys": [
+            "retail_price",
+            "item_weight"
+          ]
+        },
+        "modern_products.csv": {
+          "file_path": "../../../Amazon Sales Dataset/raw data/modern customers/modern_products.csv",
+          "exists": true,
+          "error": null,
+          "row_count": 20,
+          "column_count": 11,
+          "columns": [
+            "asin",
+            "title",
+            "category",
+            "subcategory",
+            "seller",
+            "brand",
+            "current_price",
+            "weight_kg",
+            "specifications",
+            "stock_quantity",
+            "product_condition"
+          ],
+          "data_types": {
+            "asin": "object",
+            "title": "object",
+            "category": "object",
+            "subcategory": "object",
+            "seller": "object",
+            "brand": "object",
+            "current_price": "float64",
+            "weight_kg": "float64",
+            "specifications": "object",
+            "stock_quantity": "int64",
+            "product_condition": "object"
+          },
+          "null_percentages": {
+            "asin": 0.0,
+            "title": 0.0,
+            "category": 0.0,
+            "subcategory": 0.0,
+            "seller": 0.0,
+            "brand": 0.0,
+            "current_price": 0.0,
+            "weight_kg": 0.0,
+            "specifications": 0.0,
+            "stock_quantity": 0.0,
+            "product_condition": 0.0
+          },
+          "unique_counts": {
+            "asin": 20,
+            "title": 20,
+            "category": 8,
+            "subcategory": 15,
+            "seller": 20,
+            "brand": 20,
+            "current_price": 19,
+            "weight_kg": 19,
+            "specifications": 19,
+            "stock_quantity": 20,
+            "product_condition": 1
+          },
+          "file_size_mb": 0.004426002502441406,
+          "sample_data": {
+            "asin": "B08HGH6J8X",
+            "title": "Sony WH-1000XM4 Wireless Noise-Canceling Headphone",
+            "category": "Electronics",
+            "subcategory": "Audio",
+            "seller": "Sony_Official",
+            "brand": "Sony",
+            "current_price": "289.99",
+            "weight_kg": "0.30844256",
+            "specifications": "{\"weight\":\"0.31kg\",\"condition\":\"New\",\"features\":[\"",
+            "stock_quantity": "133",
+            "product_condition": "New"
+          },
+          "temporal_fields": [],
+          "candidate_keys": [
+            "stock_quantity"
+          ]
+        },
+        "legacy_products.csv": {
+          "file_path": "../../../Amazon Sales Dataset/raw data/legacy customers/legacy_products.csv",
+          "exists": true,
+          "error": null,
+          "row_count": 20,
+          "column_count": 10,
+          "columns": [
+            "product_sku",
+            "product_name",
+            "product_category",
+            "brand",
+            "manufacturer",
+            "list_price",
+            "weight_lbs",
+            "dimensions",
+            "is_active",
+            "inventory_count"
+          ],
+          "data_types": {
+            "product_sku": "object",
+            "product_name": "object",
+            "product_category": "object",
+            "brand": "object",
+            "manufacturer": "object",
+            "list_price": "float64",
+            "weight_lbs": "float64",
+            "dimensions": "object",
+            "is_active": "int64",
+            "inventory_count": "int64"
+          },
+          "null_percentages": {
+            "product_sku": 0.0,
+            "product_name": 0.0,
+            "product_category": 0.0,
+            "brand": 0.0,
+            "manufacturer": 0.0,
+            "list_price": 0.0,
+            "weight_lbs": 0.0,
+            "dimensions": 0.0,
+            "is_active": 0.0,
+            "inventory_count": 0.0
+          },
+          "unique_counts": {
+            "product_sku": 20,
+            "product_name": 20,
+            "product_category": 8,
+            "brand": 20,
+            "manufacturer": 20,
+            "list_price": 19,
+            "weight_lbs": 19,
+            "dimensions": 4,
+            "is_active": 1,
+            "inventory_count": 19
+          },
+          "file_size_mb": 0.0019769668579101562,
+          "sample_data": {
+            "product_sku": "PROD-A001",
+            "product_name": "Wireless Bluetooth Headphones - Noise Cancelling",
+            "product_category": "Electronics",
+            "brand": "Sony",
+            "manufacturer": "Sony Electronics",
+            "list_price": "299.99",
+            "weight_lbs": "0.68",
+            "dimensions": "\"\"",
+            "is_active": "1",
+            "inventory_count": "494"
+          },
+          "temporal_fields": [],
+          "candidate_keys": []
+        }
+      },
+      "summary": {
+        "total_files": 3,
+        "total_rows": 60,
+        "avg_rows_per_file": 20.0,
+        "unique_columns_across_files": 30,
+        "total_file_size_mb": 0.012693405151367188,
+        "avg_file_size_mb": 0.0042311350504557295,
+        "has_temporal_data": false,
+        "temporal_fields": [],
+        "column_overlap_ratio": 0.016666666666666666,
+        "estimated_overlap_rows": 0.1
+      },
+      "warnings": [],
+      "recommendations": [
+        "Low column overlap suggests vertical merge"
+      ]
+    },
+    "3": {
+      "cluster_id": 3,
+      "files": [
+        "third_system_customers.json",
+        "modern_customers.csv",
+        "legacy_customers.csv"
+      ],
+      "file_assessments": {
+        "third_system_customers.json": {
+          "file_path": "../../../Amazon Sales Dataset/raw data/third customers/third_system_customers.json",
+          "exists": true,
+          "error": null,
+          "row_count": 500,
+          "column_count": 11,
+          "columns": [
+            "account_id",
+            "customer_name",
+            "email_addr",
+            "contact_number",
+            "address_line",
+            "city_name",
+            "state_province",
+            "postal_code",
+            "country_code",
+            "signup_date",
+            "membership_status"
+          ],
+          "data_types": {
+            "account_id": "object",
+            "customer_name": "object",
+            "email_addr": "object",
+            "contact_number": "object",
+            "address_line": "object",
+            "city_name": "object",
+            "state_province": "object",
+            "postal_code": "object",
+            "country_code": "object",
+            "signup_date": "object",
+            "membership_status": "object"
+          },
+          "null_percentages": {
+            "account_id": 0.0,
+            "customer_name": 0.0,
+            "email_addr": 0.0,
+            "contact_number": 0.0,
+            "address_line": 0.0,
+            "city_name": 0.0,
+            "state_province": 0.0,
+            "postal_code": 0.0,
+            "country_code": 0.0,
+            "signup_date": 0.0,
+            "membership_status": 0.0
+          },
+          "unique_counts": {
+            "account_id": 500,
+            "customer_name": 492,
+            "email_addr": 499,
+            "contact_number": 500,
+            "address_line": 500,
+            "city_name": 24,
+            "state_province": 28,
+            "postal_code": 211,
+            "country_code": 1,
+            "signup_date": 394,
+            "membership_status": 2
+          },
+          "file_size_mb": 0.1803874969482422,
+          "sample_data": {
+            "account_id": "ACC-02001",
+            "customer_name": "Cox, Melissa",
+            "email_addr": "melissac@outlook.com",
+            "contact_number": "5558256534",
+            "address_line": "5190 River Dr",
+            "city_name": "Dallas",
+            "state_province": "TX",
+            "postal_code": "75285",
+            "country_code": "US",
+            "signup_date": "2020-02-04",
+            "membership_status": "Premium"
+          },
+          "temporal_fields": [
+            "signup_date"
+          ],
+          "candidate_keys": []
+        },
+        "modern_customers.csv": {
+          "file_path": "../../../Amazon Sales Dataset/raw data/modern customers/modern_customers.csv",
+          "exists": true,
+          "error": null,
+          "row_count": 500,
+          "column_count": 10,
+          "columns": [
+            "user_id",
+            "full_name",
+            "email",
+            "phone",
+            "shipping_city",
+            "shipping_state",
+            "shipping_zip",
+            "account_created",
+            "prime_member",
+            "loyalty_tier"
+          ],
+          "data_types": {
+            "user_id": "object",
+            "full_name": "object",
+            "email": "object",
+            "phone": "int64",
+            "shipping_city": "object",
+            "shipping_state": "object",
+            "shipping_zip": "int64",
+            "account_created": "object",
+            "prime_member": "object",
+            "loyalty_tier": "object"
+          },
+          "null_percentages": {
+            "user_id": 0.0,
+            "full_name": 0.0,
+            "email": 0.0,
+            "phone": 0.0,
+            "shipping_city": 0.0,
+            "shipping_state": 0.0,
+            "shipping_zip": 0.0,
+            "account_created": 0.0,
+            "prime_member": 0.0,
+            "loyalty_tier": 0.0
+          },
+          "unique_counts": {
+            "user_id": 500,
+            "full_name": 437,
+            "email": 447,
+            "phone": 400,
+            "shipping_city": 20,
+            "shipping_state": 28,
+            "shipping_zip": 440,
+            "account_created": 239,
+            "prime_member": 2,
+            "loyalty_tier": 4
+          },
+          "file_size_mb": 0.051428794860839844,
+          "sample_data": {
+            "user_id": "USER-1001",
+            "full_name": "Thomas, Linda",
+            "email": "linda.thomas16@protonmail.com",
+            "phone": "5558865964",
+            "shipping_city": "Fort Worth",
+            "shipping_state": "TX",
+            "shipping_zip": "76122",
+            "account_created": "2020-09-28",
+            "prime_member": "Standard",
+            "loyalty_tier": "Silver"
+          },
+          "temporal_fields": [
+            "account_created"
+          ],
+          "candidate_keys": []
+        },
+        "legacy_customers.csv": {
+          "file_path": "../../../Amazon Sales Dataset/raw data/legacy customers/legacy_customers.csv",
+          "exists": true,
+          "error": null,
+          "row_count": 500,
+          "column_count": 12,
+          "columns": [
+            "customer_id",
+            "first_name",
+            "last_name",
+            "email_address",
+            "phone_number",
+            "street_address",
+            "city",
+            "state",
+            "zip_code",
+            "country",
+            "registration_date",
+            "premium_member"
+          ],
+          "data_types": {
+            "customer_id": "object",
+            "first_name": "object",
+            "last_name": "object",
+            "email_address": "object",
+            "phone_number": "object",
+            "street_address": "object",
+            "city": "object",
+            "state": "object",
+            "zip_code": "int64",
+            "country": "object",
+            "registration_date": "object",
+            "premium_member": "int64"
+          },
+          "null_percentages": {
+            "customer_id": 0.0,
+            "first_name": 0.0,
+            "last_name": 0.0,
+            "email_address": 0.0,
+            "phone_number": 0.0,
+            "street_address": 0.0,
+            "city": 0.0,
+            "state": 0.0,
+            "zip_code": 0.0,
+            "country": 0.0,
+            "registration_date": 0.0,
+            "premium_member": 0.0
+          },
+          "unique_counts": {
+            "customer_id": 500,
+            "first_name": 60,
+            "last_name": 61,
+            "email_address": 498,
+            "phone_number": 500,
+            "street_address": 500,
+            "city": 20,
+            "state": 14,
+            "zip_code": 451,
+            "country": 1,
+            "registration_date": 261,
+            "premium_member": 2
+          },
+          "file_size_mb": 0.057369232177734375,
+          "sample_data": {
+            "customer_id": "CUST-001",
+            "first_name": "Linda",
+            "last_name": "Thomas",
+            "email_address": "linda.thomas16@protonmail.com",
+            "phone_number": "555.886.5964",
+            "street_address": "3590 River Drive, Apt 24C",
+            "city": "Fort Worth",
+            "state": "TX",
+            "zip_code": "76135",
+            "country": "USA",
+            "registration_date": "2020-09-28",
+            "premium_member": "0"
+          },
+          "temporal_fields": [
+            "registration_date"
+          ],
+          "candidate_keys": []
+        }
+      },
+      "summary": {
+        "total_files": 3,
+        "total_rows": 1500,
+        "avg_rows_per_file": 500.0,
+        "unique_columns_across_files": 33,
+        "total_file_size_mb": 0.2891855239868164,
+        "avg_file_size_mb": 0.09639517466227214,
+        "has_temporal_data": true,
+        "temporal_fields": [
+          "account_created",
+          "signup_date",
+          "registration_date"
+        ],
+        "column_overlap_ratio": 0.0,
+        "estimated_overlap_rows": 0.1
+      },
+      "warnings": [],
+      "recommendations": [
+        "Low column overlap suggests vertical merge",
+        "Use temporal field 'account_created' for conflict resolution"
+      ]
+    }
+  }
+}

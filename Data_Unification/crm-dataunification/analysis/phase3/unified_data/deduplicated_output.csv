@@ -1,0 +1,37 @@
+cluster_id,source_records,product_name,brand,list_price,weight_lbs,inventory_count,product_sku,product_category,manufacturer,is_active,dimensions
+0,20,new,amazon essentials,79.99,0.40,263.00,,,,,
+1,4,,amazon essentials,16.46,0.31,314.00,item-3002,electronics,anker innovations,in stock,
+2,3,,lululemon,96.29,0.42,456.00,item-3009,electronics,logitech international,in stock,
+3,1,,sony,289.35,0.67,70.00,item-3001,electronics,sony electronics,in stock,
+4,1,,fitbit,153.99,0.25,267.00,item-3004,electronics,fitbit inc,in stock,
+5,1,,manduka,82.23,2.13,154.00,item-3005,sports,manduka llc,in stock,
+6,1,,kitchenaid,370.64,21.67,213.00,item-3006,home & kitchen,whirlpool corp,in stock,15.6x7.6x19.7
+7,1,,nike,119.53,1.50,235.00,item-3007,clothing,nike inc,in stock,
+8,1,,hydro flask,37.60,0.63,85.00,item-3008,sports,helen of troy,in stock,
+9,1,,taotronics,46.12,1.77,489.00,item-3010,home & kitchen,sunvalley brands,in stock,
+10,1,,cuisinart,86.40,7.51,154.00,item-3012,home & kitchen,conair corp,in stock,15.3x13.8x17.7
+11,1,,swissgear,65.55,2.28,161.00,item-3013,luggage,wenger sa,in stock,
+12,1,,apple,246.69,0.19,482.00,item-3014,electronics,apple inc,in stock,
+13,1,,optimum nutrition,54.68,2.04,59.00,item-3015,health,glanbia,in stock,
+14,1,,ninja,142.57,11.67,122.00,item-3016,home & kitchen,sharkninja,in stock,13.2x7.6x13.0
+15,1,,penguin,26.20,1.11,236.00,item-3018,books,penguin random house,in stock,
+16,1,wireless bluetooth headphones - noise cancelling,sony,299.99,0.68,494.00,prod-a001,electronics,sony electronics,1,""""""
+17,1,organic cotton t-shirt - medium,amazon essentials,19.99,0.35,354.00,prod-a002,clothing,amazon fashion,1,""""""
+18,1,usb-c charging cable 6ft,anker,12.99,0.12,159.00,prod-a003,electronics,anker innovations,1,""""""
+19,1,smart watch - fitness tracker,fitbit,149.99,0.25,298.00,prod-a004,electronics,fitbit inc,1,""""""
+20,1,yoga mat - extra thick,manduka,79.99,2.10,280.00,prod-a005,sports,manduka llc,1,""""""
+21,1,kitchen stand mixer 5qt,kitchenaid,349.99,22.00,435.00,prod-a006,home & kitchen,whirlpool corp,1,15.6x7.6x19.7
+22,1,running shoes - size 10,nike,119.99,1.50,338.00,prod-a007,clothing,nike inc,1,""""""
+23,1,stainless steel water bottle 32oz,hydro flask,34.99,0.62,441.00,prod-a008,sports,helen of troy,1,""""""
+24,1,wireless computer mouse,logitech,99.99,0.31,444.00,prod-a009,electronics,logitech international,1,""""""
+25,1,led desk lamp with usb port,taotronics,42.99,1.80,218.00,prod-a010,home & kitchen,sunvalley brands,1,""""""
+26,1,bluetooth speaker - waterproof,jbl,89.99,1.20,159.00,prod-a011,electronics,harman international,1,""""""
+27,1,coffee maker - 12 cup programmable,cuisinart,79.99,7.50,491.00,prod-a012,home & kitchen,conair corp,1,15.3x13.8x17.7
+28,1,backpack - laptop compatible,swissgear,64.99,2.30,241.00,prod-a013,luggage,wenger sa,1,""""""
+29,1,wireless earbuds - in ear,apple,249.99,0.19,107.00,prod-a014,electronics,apple inc,1,""""""
+30,1,protein powder - chocolate 2lb,optimum nutrition,49.99,2.00,353.00,prod-a015,health,glanbia,1,""""""
+31,1,digital air fryer 5.8qt,ninja,129.99,11.80,165.00,prod-a016,home & kitchen,sharkninja,1,13.2x7.6x13.0
+32,1,women's leggings - high waist,lululemon,98.00,0.42,212.00,prod-a017,clothing,lululemon athletica,1,""""""
+33,1,hardcover fiction novel,penguin,26.00,1.10,311.00,prod-a018,books,penguin random house,1,""""""
+34,1,hdmi cable 10ft - 4k,amazon basics,8.99,0.28,227.00,prod-a019,electronics,amazon,1,""""""
+35,1,face moisturizer with spf 30,neutrogena,18.99,0.35,347.00,prod-a020,beauty,johnson & johnson,1,""""""

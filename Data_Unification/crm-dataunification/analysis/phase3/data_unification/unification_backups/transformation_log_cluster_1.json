@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-01-14T17:23:51.078252",
+  "cluster_id": 1,
+  "input_files": [
+    "third_system_sales.json",
+    "modern_sales.csv",
+    "legacy_sales.csv"
+  ],
+  "output_file": "unified_output/unified_cluster_1_20260114_172351.csv",
+  "transformation_summary": {
+    "files_merged": 3,
+    "total_input_records": 3000,
+    "output_records": 1000,
+    "output_columns": 13,
+    "backup_available": true,
+    "original_files_preserved": true
+  },
+  "column_statistics": {
+    "order_id": {
+      "sample_values": [
+        "SALE-03001",
+        "SALE-03002",
+        "SALE-03003",
+        "SALE-03004",
+        "SALE-03005"
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "str"
+      ]
+    },
+    "customer_id": {
+      "sample_values": [
+        "362 Center St #188, New York, NY 10001",
+        "5203 Forest Ave #25, Chicago, IL 60616",
+        "4056 Spring St, New York, NY 10030",
+        "8963 Main St, Portland, OR 97201",
+        "7749 Spring St, Dallas, TX 75201"
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "str"
+      ]
+    },
+    "product_sku": {
+      "sample_values": [
+        "ITEM-3010",
+        "ITEM-3002",
+        "ITEM-3001",
+        "ITEM-3019",
+        "ITEM-3020"
+      ],
+      "total_non_null": 20,
+      "value_types": [
+        "str"
+      ]
+    },
+    "quantity": {
+      "sample_values": [
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "int"
+      ]
+    },
+    "unit_price": {
+      "sample_values": [
+        46.12,
+        20.75,
+        289.35,
+        9.01,
+        18.67
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "float"
+      ]
+    },
+    "total_amount": {
+      "sample_values": [
+        138.36,
+        20.75,
+        289.35,
+        9.01,
+        18.67
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "float"
+      ]
+    },
+    "order_date": {
+      "sample_values": [
+        "2023-01-01",
+        "2023-01-01",
+        "2023-01-01",
+        "2023-01-01",
+        "2023-01-02"
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "str"
+      ]
+    },
+    "shipping_status": {
+      "sample_values": [
+        "Delivered",
+        "Pending",
+        "In Transit",
+        "Delivered",
+        "In Transit"
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "str"
+      ]
+    },
+    "payment_method": {
+      "sample_values": [
+        "PayPal",
+        "Bank Transfer",
+        "Cash on Delivery",
+        "PayPal",
+        "Bank Transfer"
+      ],
+      "total_non_null": 30,
+      "value_types": [
+        "str"
+      ]
+    },
+    "shipping_address": {
+      "sample_values": [
+        "3316 Market Street, Charlotte, NC 28227",
+        "6966 Cedar Lane, Apt 24C, Los Angeles, CA 90075",
+        "5065 Maple Drive, Seattle, WA 98177",
+        "831 Park Place, Apt 10A, Philadelphia, PA 19040",
+        "1272 Market Street, Apt 30D, Chicago, IL 60639"
+      ],
+      "total_non_null": 10,
+      "value_types": [
+        "str"
+      ]
+    }
+  }
+}

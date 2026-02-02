@@ -1,0 +1,2891 @@
+{
+  "Cluster_1": {
+    "cluster_files": [
+      "third_system_sales.json",
+      "modern_sales.csv",
+      "legacy_sales.csv"
+    ],
+    "reference_schema": "legacy_sales.csv",
+    "golden_schema": {
+      "name": "Golden_Schema_9",
+      "total_columns": 9,
+      "columns": [
+        "order_id",
+        "customer_id",
+        "product_sku",
+        "quantity",
+        "unit_price",
+        "total_amount",
+        "order_date",
+        "shipping_status",
+        "payment_method"
+      ],
+      "column_details": {
+        "order_id": {
+          "name": "order_id",
+          "original_reference": "order_id",
+          "consensus_type": "string",
+          "confidence": 0.6358173847198486,
+          "mapped_schemas": 2,
+          "source_mappings": [
+            {
+              "schema": "legacy_sales.csv",
+              "column": "order_id",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_sales.json",
+              "column": "sale_id",
+              "type": "string"
+            }
+          ]
+        },
+        "customer_id": {
+          "name": "customer_id",
+          "original_reference": "customer_id",
+          "consensus_type": "string",
+          "confidence": 0.7154314279556275,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_sales.csv",
+              "column": "customer_id",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_sales.json",
+              "column": "account_id",
+              "type": "string"
+            },
+            {
+              "schema": "modern_sales.csv",
+              "column": "user_id",
+              "type": "string"
+            }
+          ]
+        },
+        "product_sku": {
+          "name": "product_sku",
+          "original_reference": "product_sku",
+          "consensus_type": "string",
+          "confidence": 0.6359607028961182,
+          "mapped_schemas": 2,
+          "source_mappings": [
+            {
+              "schema": "legacy_sales.csv",
+              "column": "product_sku",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_sales.json",
+              "column": "item_code",
+              "type": "string"
+            }
+          ]
+        },
+        "quantity": {
+          "name": "quantity",
+          "original_reference": "quantity",
+          "consensus_type": "integer",
+          "confidence": 0.6675885152816772,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_sales.csv",
+              "column": "quantity",
+              "type": "integer"
+            },
+            {
+              "schema": "third_system_sales.json",
+              "column": "order_quantity",
+              "type": "integer"
+            },
+            {
+              "schema": "modern_sales.csv",
+              "column": "qty",
+              "type": "integer"
+            }
+          ]
+        },
+        "unit_price": {
+          "name": "unit_price",
+          "original_reference": "unit_price",
+          "consensus_type": "float",
+          "confidence": 0.7401629829406737,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_sales.csv",
+              "column": "unit_price",
+              "type": "float"
+            },
+            {
+              "schema": "third_system_sales.json",
+              "column": "item_price",
+              "type": "float"
+            },
+            {
+              "schema": "modern_sales.csv",
+              "column": "price_per_item",
+              "type": "float"
+            }
+          ]
+        },
+        "total_amount": {
+          "name": "total_amount",
+          "original_reference": "total_amount",
+          "consensus_type": "float",
+          "confidence": 0.709368290901184,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_sales.csv",
+              "column": "total_amount",
+              "type": "float"
+            },
+            {
+              "schema": "third_system_sales.json",
+              "column": "sale_total",
+              "type": "float"
+            },
+            {
+              "schema": "modern_sales.csv",
+              "column": "transaction_total",
+              "type": "float"
+            }
+          ]
+        },
+        "order_date": {
+          "name": "order_date",
+          "original_reference": "order_date",
+          "consensus_type": "string",
+          "confidence": 0.5820113468170166,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_sales.csv",
+              "column": "order_date",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_sales.json",
+              "column": "sale_date",
+              "type": "string"
+            },
+            {
+              "schema": "modern_sales.csv",
+              "column": "timestamp",
+              "type": "datetime"
+            }
+          ]
+        },
+        "shipping_status": {
+          "name": "shipping_status",
+          "original_reference": "shipping_status",
+          "consensus_type": "string",
+          "confidence": 0.6598537349700928,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_sales.csv",
+              "column": "shipping_status",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_sales.json",
+              "column": "delivery_status",
+              "type": "string"
+            },
+            {
+              "schema": "modern_sales.csv",
+              "column": "fulfillment_channel",
+              "type": "string"
+            }
+          ]
+        },
+        "payment_method": {
+          "name": "payment_method",
+          "original_reference": "payment_method",
+          "consensus_type": "string",
+          "confidence": 0.7111746454238892,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_sales.csv",
+              "column": "payment_method",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_sales.json",
+              "column": "payment_option",
+              "type": "string"
+            },
+            {
+              "schema": "modern_sales.csv",
+              "column": "payment_type",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    "mapping_matrix": {
+      "schemas": [
+        "third_system_sales.json",
+        "modern_sales.csv",
+        "legacy_sales.csv"
+      ],
+      "golden_columns": [
+        "order_id",
+        "customer_id",
+        "product_sku",
+        "quantity",
+        "unit_price",
+        "total_amount",
+        "order_date",
+        "shipping_status",
+        "payment_method"
+      ],
+      "mappings": [
+        {
+          "golden_column": "order_id",
+          "original_reference": "order_id",
+          "consensus_type": "string",
+          "confidence": 0.6358173847198486,
+          "schema_mappings": {
+            "third_system_sales.json": {
+              "column": "sale_id",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_sales.csv": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "legacy_sales.csv": {
+              "column": "order_id",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "customer_id",
+          "original_reference": "customer_id",
+          "consensus_type": "string",
+          "confidence": 0.7154314279556275,
+          "schema_mappings": {
+            "third_system_sales.json": {
+              "column": "account_id",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_sales.csv": {
+              "column": "user_id",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_sales.csv": {
+              "column": "customer_id",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "product_sku",
+          "original_reference": "product_sku",
+          "consensus_type": "string",
+          "confidence": 0.6359607028961182,
+          "schema_mappings": {
+            "third_system_sales.json": {
+              "column": "item_code",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_sales.csv": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "legacy_sales.csv": {
+              "column": "product_sku",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "quantity",
+          "original_reference": "quantity",
+          "consensus_type": "integer",
+          "confidence": 0.6675885152816772,
+          "schema_mappings": {
+            "third_system_sales.json": {
+              "column": "order_quantity",
+              "type": "integer",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_sales.csv": {
+              "column": "qty",
+              "type": "integer",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_sales.csv": {
+              "column": "quantity",
+              "type": "integer",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "unit_price",
+          "original_reference": "unit_price",
+          "consensus_type": "float",
+          "confidence": 0.7401629829406737,
+          "schema_mappings": {
+            "third_system_sales.json": {
+              "column": "item_price",
+              "type": "float",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_sales.csv": {
+              "column": "price_per_item",
+              "type": "float",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_sales.csv": {
+              "column": "unit_price",
+              "type": "float",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "total_amount",
+          "original_reference": "total_amount",
+          "consensus_type": "float",
+          "confidence": 0.709368290901184,
+          "schema_mappings": {
+            "third_system_sales.json": {
+              "column": "sale_total",
+              "type": "float",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_sales.csv": {
+              "column": "transaction_total",
+              "type": "float",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_sales.csv": {
+              "column": "total_amount",
+              "type": "float",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "order_date",
+          "original_reference": "order_date",
+          "consensus_type": "string",
+          "confidence": 0.5820113468170166,
+          "schema_mappings": {
+            "third_system_sales.json": {
+              "column": "sale_date",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_sales.csv": {
+              "column": "timestamp",
+              "type": "datetime",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_sales.csv": {
+              "column": "order_date",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "shipping_status",
+          "original_reference": "shipping_status",
+          "consensus_type": "string",
+          "confidence": 0.6598537349700928,
+          "schema_mappings": {
+            "third_system_sales.json": {
+              "column": "delivery_status",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_sales.csv": {
+              "column": "fulfillment_channel",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_sales.csv": {
+              "column": "shipping_status",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "payment_method",
+          "original_reference": "payment_method",
+          "consensus_type": "string",
+          "confidence": 0.7111746454238892,
+          "schema_mappings": {
+            "third_system_sales.json": {
+              "column": "payment_option",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_sales.csv": {
+              "column": "payment_type",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_sales.csv": {
+              "column": "payment_method",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        }
+      ]
+    },
+    "quality_metrics": {
+      "average_similarity": 0.6776849985122682,
+      "median_similarity": 0.6955185365676879,
+      "min_similarity": 0.46624305725097664,
+      "max_similarity": 0.7836065292358398,
+      "mapped_columns": 25,
+      "total_columns": 30,
+      "coverage": 0.8333333333333334
+    },
+    "column_groups": [
+      {
+        "reference_schema": "legacy_sales.csv",
+        "reference_column": "order_id",
+        "reference_info": {
+          "name": "order_id",
+          "description": "The column stores a unique identifier for each order placed.",
+          "type": "string",
+          "tokens": [
+            "order",
+            "id"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_sales.json": {
+            "column": "sale_id",
+            "similarity": 0.6358173847198486,
+            "info": {
+              "name": "sale_id",
+              "description": "This column stores a unique identifier for each sale transaction.",
+              "type": "string",
+              "tokens": [
+                "sale",
+                "id"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_sales.csv",
+        "reference_column": "customer_id",
+        "reference_info": {
+          "name": "customer_id",
+          "description": "The column stores a unique identifier for each customer record.",
+          "type": "string",
+          "tokens": [
+            "customer",
+            "id"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_sales.json": {
+            "column": "account_id",
+            "similarity": 0.6932574367523193,
+            "info": {
+              "name": "account_id",
+              "description": "The column stores a unique identifier for each account.",
+              "type": "string",
+              "tokens": [
+                "account",
+                "id"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_sales.csv": {
+            "column": "user_id",
+            "similarity": 0.7376054191589356,
+            "info": {
+              "name": "user_id",
+              "description": "The column stores a unique identifier for each user record.",
+              "type": "string",
+              "tokens": [
+                "user",
+                "id"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_sales.csv",
+        "reference_column": "product_sku",
+        "reference_info": {
+          "name": "product_sku",
+          "description": "The column stores a unique identifier for each product item.",
+          "type": "string",
+          "tokens": [
+            "product",
+            "sku"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_sales.json": {
+            "column": "item_code",
+            "similarity": 0.6359607028961182,
+            "info": {
+              "name": "item_code",
+              "description": "The column stores a unique identifier for each item.",
+              "type": "string",
+              "tokens": [
+                "item",
+                "code"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_sales.csv",
+        "reference_column": "quantity",
+        "reference_info": {
+          "name": "quantity",
+          "description": "The column stores the number of items or units present within the dataset.",
+          "type": "integer",
+          "tokens": [
+            "quantity"
+          ],
+          "token_count": 1,
+          "has_separators": false
+        },
+        "matches": {
+          "third_system_sales.json": {
+            "column": "order_quantity",
+            "similarity": 0.6698642539978027,
+            "info": {
+              "name": "order_quantity",
+              "description": "The column stores the number of items ordered.",
+              "type": "integer",
+              "tokens": [
+                "order",
+                "quantity"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_sales.csv": {
+            "column": "qty",
+            "similarity": 0.6653127765655518,
+            "info": {
+              "name": "qty",
+              "description": "The column stores the quantity of a specific item or unit.",
+              "type": "integer",
+              "tokens": [
+                "qty"
+              ],
+              "token_count": 1,
+              "has_separators": false
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_sales.csv",
+        "reference_column": "unit_price",
+        "reference_info": {
+          "name": "unit_price",
+          "description": "The column stores the monetary value associated with a product or item.",
+          "type": "float",
+          "tokens": [
+            "unit",
+            "price"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_sales.json": {
+            "column": "item_price",
+            "similarity": 0.7680066871643065,
+            "info": {
+              "name": "item_price",
+              "description": "The column stores the monetary value associated with each item.",
+              "type": "float",
+              "tokens": [
+                "item",
+                "price"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_sales.csv": {
+            "column": "price_per_item",
+            "similarity": 0.712319278717041,
+            "info": {
+              "name": "price_per_item",
+              "description": "The column stores the price of each individual item.",
+              "type": "float",
+              "tokens": [
+                "price",
+                "per",
+                "item"
+              ],
+              "token_count": 3,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_sales.csv",
+        "reference_column": "total_amount",
+        "reference_info": {
+          "name": "total_amount",
+          "description": "The column stores the total value of the data contained within.",
+          "type": "float",
+          "tokens": [
+            "total",
+            "amount"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_sales.json": {
+            "column": "sale_total",
+            "similarity": 0.6677293872833252,
+            "info": {
+              "name": "sale_total",
+              "description": "The column stores the total monetary value of a sale transaction.",
+              "type": "float",
+              "tokens": [
+                "sale",
+                "total"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_sales.csv": {
+            "column": "transaction_total",
+            "similarity": 0.751007194519043,
+            "info": {
+              "name": "transaction_total",
+              "description": "The column stores the total value of each transaction.",
+              "type": "float",
+              "tokens": [
+                "transaction",
+                "total"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_sales.csv",
+        "reference_column": "order_date",
+        "reference_info": {
+          "name": "order_date",
+          "description": "The column stores the date when an order was placed.",
+          "type": "string",
+          "tokens": [
+            "order",
+            "date"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_sales.json": {
+            "column": "sale_date",
+            "similarity": 0.6977796363830566,
+            "info": {
+              "name": "sale_date",
+              "description": "The column stores the date the sale occurred.",
+              "type": "string",
+              "tokens": [
+                "sale",
+                "date"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_sales.csv": {
+            "column": "timestamp",
+            "similarity": 0.46624305725097664,
+            "info": {
+              "name": "timestamp",
+              "description": "The column stores a point in time.",
+              "type": "datetime",
+              "tokens": [
+                "timestamp"
+              ],
+              "token_count": 1,
+              "has_separators": false
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_sales.csv",
+        "reference_column": "shipping_status",
+        "reference_info": {
+          "name": "shipping_status",
+          "description": "The column stores information about the current state of a shipment.",
+          "type": "string",
+          "tokens": [
+            "shipping",
+            "status"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_sales.json": {
+            "column": "delivery_status",
+            "similarity": 0.7836065292358398,
+            "info": {
+              "name": "delivery_status",
+              "description": "The column stores the current state of a delivery, indicating whether it has been shipped, received, or otherwise completed.",
+              "type": "string",
+              "tokens": [
+                "delivery",
+                "status"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_sales.csv": {
+            "column": "fulfillment_channel",
+            "similarity": 0.5361009407043457,
+            "info": {
+              "name": "fulfillment_channel",
+              "description": "The column stores the channel used for delivering a product or service.",
+              "type": "string",
+              "tokens": [
+                "fulfillment",
+                "channel"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_sales.csv",
+        "reference_column": "payment_method",
+        "reference_info": {
+          "name": "payment_method",
+          "description": "The column stores information related to the method used to authorize transactions.",
+          "type": "string",
+          "tokens": [
+            "payment",
+            "method"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_sales.json": {
+            "column": "payment_option",
+            "similarity": 0.6980724620819092,
+            "info": {
+              "name": "payment_option",
+              "description": "The column stores the selected payment method.",
+              "type": "string",
+              "tokens": [
+                "payment",
+                "option"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_sales.csv": {
+            "column": "payment_type",
+            "similarity": 0.7242768287658692,
+            "info": {
+              "name": "payment_type",
+              "description": "The column stores the classification of the payment transaction.",
+              "type": "string",
+              "tokens": [
+                "payment",
+                "type"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      }
+    ]
+  },
+  "Cluster_2": {
+    "cluster_files": [
+      "third_system_products.json",
+      "modern_products.csv",
+      "legacy_products.csv"
+    ],
+    "reference_schema": "legacy_products.csv",
+    "golden_schema": {
+      "name": "Golden_Schema_10",
+      "total_columns": 10,
+      "columns": [
+        "product_sku",
+        "product_name",
+        "product_category",
+        "brand",
+        "manufacturer",
+        "list_price",
+        "weight_lbs",
+        "dimensions",
+        "is_active",
+        "inventory_count"
+      ],
+      "column_details": {
+        "product_sku": {
+          "name": "product_sku",
+          "original_reference": "product_sku",
+          "consensus_type": "string",
+          "confidence": 0.6359607028961182,
+          "mapped_schemas": 2,
+          "source_mappings": [
+            {
+              "schema": "legacy_products.csv",
+              "column": "product_sku",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_products.json",
+              "column": "item_code",
+              "type": "string"
+            }
+          ]
+        },
+        "product_name": {
+          "name": "product_name",
+          "original_reference": "product_name",
+          "consensus_type": "string",
+          "confidence": 0.7015891647338867,
+          "mapped_schemas": 2,
+          "source_mappings": [
+            {
+              "schema": "legacy_products.csv",
+              "column": "product_name",
+              "type": "string"
+            },
+            {
+              "schema": "modern_products.csv",
+              "column": "product_condition",
+              "type": "string"
+            }
+          ]
+        },
+        "product_category": {
+          "name": "product_category",
+          "original_reference": "product_category",
+          "consensus_type": "string",
+          "confidence": 0.6919037818908691,
+          "mapped_schemas": 2,
+          "source_mappings": [
+            {
+              "schema": "legacy_products.csv",
+              "column": "product_category",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_products.json",
+              "column": "category_name",
+              "type": "string"
+            }
+          ]
+        },
+        "brand": {
+          "name": "brand",
+          "original_reference": "brand",
+          "consensus_type": "string",
+          "confidence": 0.8463348054885864,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_products.csv",
+              "column": "brand",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_products.json",
+              "column": "brand_name",
+              "type": "string"
+            },
+            {
+              "schema": "modern_products.csv",
+              "column": "brand",
+              "type": "string"
+            }
+          ]
+        },
+        "manufacturer": {
+          "name": "manufacturer",
+          "original_reference": "manufacturer",
+          "consensus_type": "string",
+          "confidence": 0.6992234992980958,
+          "mapped_schemas": 2,
+          "source_mappings": [
+            {
+              "schema": "legacy_products.csv",
+              "column": "manufacturer",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_products.json",
+              "column": "supplier",
+              "type": "string"
+            }
+          ]
+        },
+        "list_price": {
+          "name": "list_price",
+          "original_reference": "list_price",
+          "consensus_type": "float",
+          "confidence": 0.689040036201477,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_products.csv",
+              "column": "list_price",
+              "type": "float"
+            },
+            {
+              "schema": "third_system_products.json",
+              "column": "retail_price",
+              "type": "float"
+            },
+            {
+              "schema": "modern_products.csv",
+              "column": "current_price",
+              "type": "float"
+            }
+          ]
+        },
+        "weight_lbs": {
+          "name": "weight_lbs",
+          "original_reference": "weight_lbs",
+          "consensus_type": "float",
+          "confidence": 0.789031286239624,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_products.csv",
+              "column": "weight_lbs",
+              "type": "float"
+            },
+            {
+              "schema": "third_system_products.json",
+              "column": "item_weight",
+              "type": "float"
+            },
+            {
+              "schema": "modern_products.csv",
+              "column": "weight_kg",
+              "type": "float"
+            }
+          ]
+        },
+        "dimensions": {
+          "name": "dimensions",
+          "original_reference": "dimensions",
+          "consensus_type": "string",
+          "confidence": 0.5813115739822388,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_products.csv",
+              "column": "dimensions",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_products.json",
+              "column": "product_dimensions",
+              "type": "string"
+            },
+            {
+              "schema": "modern_products.csv",
+              "column": "specifications",
+              "type": "string"
+            }
+          ]
+        },
+        "is_active": {
+          "name": "is_active",
+          "original_reference": "is_active",
+          "consensus_type": "boolean",
+          "confidence": 0.5159060001373291,
+          "mapped_schemas": 2,
+          "source_mappings": [
+            {
+              "schema": "legacy_products.csv",
+              "column": "is_active",
+              "type": "boolean"
+            },
+            {
+              "schema": "third_system_products.json",
+              "column": "availability_status",
+              "type": "string"
+            }
+          ]
+        },
+        "inventory_count": {
+          "name": "inventory_count",
+          "original_reference": "inventory_count",
+          "consensus_type": "integer",
+          "confidence": 0.6968773651123047,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_products.csv",
+              "column": "inventory_count",
+              "type": "integer"
+            },
+            {
+              "schema": "third_system_products.json",
+              "column": "stock_level",
+              "type": "integer"
+            },
+            {
+              "schema": "modern_products.csv",
+              "column": "stock_quantity",
+              "type": "integer"
+            }
+          ]
+        }
+      }
+    },
+    "mapping_matrix": {
+      "schemas": [
+        "third_system_products.json",
+        "modern_products.csv",
+        "legacy_products.csv"
+      ],
+      "golden_columns": [
+        "product_sku",
+        "product_name",
+        "product_category",
+        "brand",
+        "manufacturer",
+        "list_price",
+        "weight_lbs",
+        "dimensions",
+        "is_active",
+        "inventory_count"
+      ],
+      "mappings": [
+        {
+          "golden_column": "product_sku",
+          "original_reference": "product_sku",
+          "consensus_type": "string",
+          "confidence": 0.6359607028961182,
+          "schema_mappings": {
+            "third_system_products.json": {
+              "column": "item_code",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_products.csv": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "legacy_products.csv": {
+              "column": "product_sku",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "product_name",
+          "original_reference": "product_name",
+          "consensus_type": "string",
+          "confidence": 0.7015891647338867,
+          "schema_mappings": {
+            "third_system_products.json": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "modern_products.csv": {
+              "column": "product_condition",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_products.csv": {
+              "column": "product_name",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "product_category",
+          "original_reference": "product_category",
+          "consensus_type": "string",
+          "confidence": 0.6919037818908691,
+          "schema_mappings": {
+            "third_system_products.json": {
+              "column": "category_name",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_products.csv": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "legacy_products.csv": {
+              "column": "product_category",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "brand",
+          "original_reference": "brand",
+          "consensus_type": "string",
+          "confidence": 0.8463348054885864,
+          "schema_mappings": {
+            "third_system_products.json": {
+              "column": "brand_name",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_products.csv": {
+              "column": "brand",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            },
+            "legacy_products.csv": {
+              "column": "brand",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "manufacturer",
+          "original_reference": "manufacturer",
+          "consensus_type": "string",
+          "confidence": 0.6992234992980958,
+          "schema_mappings": {
+            "third_system_products.json": {
+              "column": "supplier",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_products.csv": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "legacy_products.csv": {
+              "column": "manufacturer",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "list_price",
+          "original_reference": "list_price",
+          "consensus_type": "float",
+          "confidence": 0.689040036201477,
+          "schema_mappings": {
+            "third_system_products.json": {
+              "column": "retail_price",
+              "type": "float",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_products.csv": {
+              "column": "current_price",
+              "type": "float",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_products.csv": {
+              "column": "list_price",
+              "type": "float",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "weight_lbs",
+          "original_reference": "weight_lbs",
+          "consensus_type": "float",
+          "confidence": 0.789031286239624,
+          "schema_mappings": {
+            "third_system_products.json": {
+              "column": "item_weight",
+              "type": "float",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_products.csv": {
+              "column": "weight_kg",
+              "type": "float",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_products.csv": {
+              "column": "weight_lbs",
+              "type": "float",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "dimensions",
+          "original_reference": "dimensions",
+          "consensus_type": "string",
+          "confidence": 0.5813115739822388,
+          "schema_mappings": {
+            "third_system_products.json": {
+              "column": "product_dimensions",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_products.csv": {
+              "column": "specifications",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_products.csv": {
+              "column": "dimensions",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "is_active",
+          "original_reference": "is_active",
+          "consensus_type": "boolean",
+          "confidence": 0.5159060001373291,
+          "schema_mappings": {
+            "third_system_products.json": {
+              "column": "availability_status",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_products.csv": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "legacy_products.csv": {
+              "column": "is_active",
+              "type": "boolean",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "inventory_count",
+          "original_reference": "inventory_count",
+          "consensus_type": "integer",
+          "confidence": 0.6968773651123047,
+          "schema_mappings": {
+            "third_system_products.json": {
+              "column": "stock_level",
+              "type": "integer",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_products.csv": {
+              "column": "stock_quantity",
+              "type": "integer",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_products.csv": {
+              "column": "inventory_count",
+              "type": "integer",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        }
+      ]
+    },
+    "quality_metrics": {
+      "average_similarity": 0.6966515522003175,
+      "median_similarity": 0.6992234992980958,
+      "min_similarity": 0.5159060001373291,
+      "max_similarity": 0.9,
+      "mapped_columns": 25,
+      "total_columns": 31,
+      "coverage": 0.8064516129032258
+    },
+    "column_groups": [
+      {
+        "reference_schema": "legacy_products.csv",
+        "reference_column": "product_sku",
+        "reference_info": {
+          "name": "product_sku",
+          "description": "The column stores a unique identifier for each product item.",
+          "type": "string",
+          "tokens": [
+            "product",
+            "sku"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_products.json": {
+            "column": "item_code",
+            "similarity": 0.6359607028961182,
+            "info": {
+              "name": "item_code",
+              "description": "The column stores a unique identifier for each item.",
+              "type": "string",
+              "tokens": [
+                "item",
+                "code"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_products.csv",
+        "reference_column": "product_name",
+        "reference_info": {
+          "name": "product_name",
+          "description": "The column stores the name of the product being analyzed.",
+          "type": "string",
+          "tokens": [
+            "product",
+            "name"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "modern_products.csv": {
+            "column": "product_condition",
+            "similarity": 0.7015891647338867,
+            "info": {
+              "name": "product_condition",
+              "description": "The column stores information about the state of a product.",
+              "type": "string",
+              "tokens": [
+                "product",
+                "condition"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_products.csv",
+        "reference_column": "product_category",
+        "reference_info": {
+          "name": "product_category",
+          "description": "The column stores information about the category to which a product belongs.",
+          "type": "string",
+          "tokens": [
+            "product",
+            "category"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_products.json": {
+            "column": "category_name",
+            "similarity": 0.6919037818908691,
+            "info": {
+              "name": "category_name",
+              "description": "The column stores the name of the category or type of item associated with this record.",
+              "type": "string",
+              "tokens": [
+                "category",
+                "name"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_products.csv",
+        "reference_column": "brand",
+        "reference_info": {
+          "name": "brand",
+          "description": "The column stores information about the brand of a product or item.",
+          "type": "string",
+          "tokens": [
+            "brand"
+          ],
+          "token_count": 1,
+          "has_separators": false
+        },
+        "matches": {
+          "third_system_products.json": {
+            "column": "brand_name",
+            "similarity": 0.7926696109771728,
+            "info": {
+              "name": "brand_name",
+              "description": "The column stores the name of the brand.",
+              "type": "string",
+              "tokens": [
+                "brand",
+                "name"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_products.csv": {
+            "column": "brand",
+            "similarity": 0.9,
+            "info": {
+              "name": "brand",
+              "description": "The column stores information about the brand of a product or item.",
+              "type": "string",
+              "tokens": [
+                "brand"
+              ],
+              "token_count": 1,
+              "has_separators": false
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_products.csv",
+        "reference_column": "manufacturer",
+        "reference_info": {
+          "name": "manufacturer",
+          "description": "The column stores information about the brand or manufacturer of the data record.",
+          "type": "string",
+          "tokens": [
+            "manufacturer"
+          ],
+          "token_count": 1,
+          "has_separators": false
+        },
+        "matches": {
+          "third_system_products.json": {
+            "column": "supplier",
+            "similarity": 0.6992234992980958,
+            "info": {
+              "name": "supplier",
+              "description": "The column stores information about the source of the data.",
+              "type": "string",
+              "tokens": [
+                "supplier"
+              ],
+              "token_count": 1,
+              "has_separators": false
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_products.csv",
+        "reference_column": "list_price",
+        "reference_info": {
+          "name": "list_price",
+          "description": "The column stores a list of numerical values representing the price of a product or item.",
+          "type": "float",
+          "tokens": [
+            "list",
+            "price"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_products.json": {
+            "column": "retail_price",
+            "similarity": 0.6607401752471924,
+            "info": {
+              "name": "retail_price",
+              "description": "The column stores the monetary value associated with a retail transaction.",
+              "type": "float",
+              "tokens": [
+                "retail",
+                "price"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_products.csv": {
+            "column": "current_price",
+            "similarity": 0.7173398971557617,
+            "info": {
+              "name": "current_price",
+              "description": "The column stores the current price of an item.",
+              "type": "float",
+              "tokens": [
+                "current",
+                "price"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_products.csv",
+        "reference_column": "weight_lbs",
+        "reference_info": {
+          "name": "weight_lbs",
+          "description": "The column stores the weight of an item in pounds.",
+          "type": "float",
+          "tokens": [
+            "weight",
+            "lbs"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_products.json": {
+            "column": "item_weight",
+            "similarity": 0.7748215484619141,
+            "info": {
+              "name": "item_weight",
+              "description": "The column stores the weight of each individual item.",
+              "type": "float",
+              "tokens": [
+                "item",
+                "weight"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_products.csv": {
+            "column": "weight_kg",
+            "similarity": 0.803241024017334,
+            "info": {
+              "name": "weight_kg",
+              "description": "The column stores the weight of an object in kilograms.",
+              "type": "float",
+              "tokens": [
+                "weight",
+                "kg"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_products.csv",
+        "reference_column": "dimensions",
+        "reference_info": {
+          "name": "dimensions",
+          "description": "The column represents attributes associated with each record.",
+          "type": "string",
+          "tokens": [
+            "dimensions"
+          ],
+          "token_count": 1,
+          "has_separators": false
+        },
+        "matches": {
+          "third_system_products.json": {
+            "column": "product_dimensions",
+            "similarity": 0.5933074378967286,
+            "info": {
+              "name": "product_dimensions",
+              "description": "The column stores the physical dimensions of a product.",
+              "type": "string",
+              "tokens": [
+                "product",
+                "dimensions"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_products.csv": {
+            "column": "specifications",
+            "similarity": 0.5693157100677491,
+            "info": {
+              "name": "specifications",
+              "description": "The column stores detailed characteristics or parameters related to a product or item.",
+              "type": "string",
+              "tokens": [
+                "specifications"
+              ],
+              "token_count": 1,
+              "has_separators": false
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_products.csv",
+        "reference_column": "is_active",
+        "reference_info": {
+          "name": "is_active",
+          "description": "The column stores a boolean value indicating whether the record is currently active.",
+          "type": "boolean",
+          "tokens": [
+            "is",
+            "active"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_products.json": {
+            "column": "availability_status",
+            "similarity": 0.5159060001373291,
+            "info": {
+              "name": "availability_status",
+              "description": "The column represents the status of a record \u2013 whether it is currently available or not.",
+              "type": "string",
+              "tokens": [
+                "availability",
+                "status"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_products.csv",
+        "reference_column": "inventory_count",
+        "reference_info": {
+          "name": "inventory_count",
+          "description": "The column stores the number of items currently in stock.",
+          "type": "integer",
+          "tokens": [
+            "inventory",
+            "count"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_products.json": {
+            "column": "stock_level",
+            "similarity": 0.6280878067016602,
+            "info": {
+              "name": "stock_level",
+              "description": "The column stores the current quantity of a product.",
+              "type": "integer",
+              "tokens": [
+                "stock",
+                "level"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_products.csv": {
+            "column": "stock_quantity",
+            "similarity": 0.7656669235229492,
+            "info": {
+              "name": "stock_quantity",
+              "description": "The column stores the amount of a specific item currently in stock.",
+              "type": "integer",
+              "tokens": [
+                "stock",
+                "quantity"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      }
+    ]
+  },
+  "Cluster_3": {
+    "cluster_files": [
+      "third_system_customers.json",
+      "modern_customers.csv",
+      "legacy_customers.csv"
+    ],
+    "reference_schema": "legacy_customers.csv",
+    "golden_schema": {
+      "name": "Golden_Schema_12",
+      "total_columns": 12,
+      "columns": [
+        "customer_id",
+        "first_name",
+        "last_name",
+        "email_address",
+        "phone_number",
+        "street_address",
+        "city",
+        "state",
+        "zip_code",
+        "country",
+        "registration_date",
+        "premium_member"
+      ],
+      "column_details": {
+        "customer_id": {
+          "name": "customer_id",
+          "original_reference": "customer_id",
+          "consensus_type": "string",
+          "confidence": 0.7554283046722413,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_customers.csv",
+              "column": "customer_id",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_customers.json",
+              "column": "customer_name",
+              "type": "string"
+            },
+            {
+              "schema": "modern_customers.csv",
+              "column": "user_id",
+              "type": "string"
+            }
+          ]
+        },
+        "first_name": {
+          "name": "first_name",
+          "original_reference": "first_name",
+          "consensus_type": "string",
+          "confidence": 0.5,
+          "mapped_schemas": 1,
+          "source_mappings": [
+            {
+              "schema": "legacy_customers.csv",
+              "column": "first_name",
+              "type": "string"
+            }
+          ]
+        },
+        "last_name": {
+          "name": "last_name",
+          "original_reference": "last_name",
+          "consensus_type": "string",
+          "confidence": 0.7090084743499755,
+          "mapped_schemas": 2,
+          "source_mappings": [
+            {
+              "schema": "legacy_customers.csv",
+              "column": "last_name",
+              "type": "string"
+            },
+            {
+              "schema": "modern_customers.csv",
+              "column": "full_name",
+              "type": "string"
+            }
+          ]
+        },
+        "email_address": {
+          "name": "email_address",
+          "original_reference": "email_address",
+          "consensus_type": "string",
+          "confidence": 0.714311761856079,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_customers.csv",
+              "column": "email_address",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_customers.json",
+              "column": "email_addr",
+              "type": "string"
+            },
+            {
+              "schema": "modern_customers.csv",
+              "column": "email",
+              "type": "string"
+            }
+          ]
+        },
+        "phone_number": {
+          "name": "phone_number",
+          "original_reference": "phone_number",
+          "consensus_type": "string",
+          "confidence": 0.7419882965087891,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_customers.csv",
+              "column": "phone_number",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_customers.json",
+              "column": "contact_number",
+              "type": "string"
+            },
+            {
+              "schema": "modern_customers.csv",
+              "column": "phone",
+              "type": "string"
+            }
+          ]
+        },
+        "street_address": {
+          "name": "street_address",
+          "original_reference": "street_address",
+          "consensus_type": "string",
+          "confidence": 0.7121017742156982,
+          "mapped_schemas": 2,
+          "source_mappings": [
+            {
+              "schema": "legacy_customers.csv",
+              "column": "street_address",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_customers.json",
+              "column": "address_line",
+              "type": "string"
+            }
+          ]
+        },
+        "city": {
+          "name": "city",
+          "original_reference": "city",
+          "consensus_type": "string",
+          "confidence": 0.6905515193939209,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_customers.csv",
+              "column": "city",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_customers.json",
+              "column": "city_name",
+              "type": "string"
+            },
+            {
+              "schema": "modern_customers.csv",
+              "column": "shipping_city",
+              "type": "string"
+            }
+          ]
+        },
+        "state": {
+          "name": "state",
+          "original_reference": "state",
+          "consensus_type": "string",
+          "confidence": 0.5889882183074951,
+          "mapped_schemas": 2,
+          "source_mappings": [
+            {
+              "schema": "legacy_customers.csv",
+              "column": "state",
+              "type": "string"
+            },
+            {
+              "schema": "modern_customers.csv",
+              "column": "shipping_state",
+              "type": "string"
+            }
+          ]
+        },
+        "zip_code": {
+          "name": "zip_code",
+          "original_reference": "zip_code",
+          "consensus_type": "integer",
+          "confidence": 0.7387581586837768,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_customers.csv",
+              "column": "zip_code",
+              "type": "integer"
+            },
+            {
+              "schema": "third_system_customers.json",
+              "column": "postal_code",
+              "type": "integer"
+            },
+            {
+              "schema": "modern_customers.csv",
+              "column": "shipping_zip",
+              "type": "integer"
+            }
+          ]
+        },
+        "country": {
+          "name": "country",
+          "original_reference": "country",
+          "consensus_type": "string",
+          "confidence": 0.6945694923400879,
+          "mapped_schemas": 2,
+          "source_mappings": [
+            {
+              "schema": "legacy_customers.csv",
+              "column": "country",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_customers.json",
+              "column": "state_province",
+              "type": "string"
+            }
+          ]
+        },
+        "registration_date": {
+          "name": "registration_date",
+          "original_reference": "registration_date",
+          "consensus_type": "string",
+          "confidence": 0.68752938747406,
+          "mapped_schemas": 3,
+          "source_mappings": [
+            {
+              "schema": "legacy_customers.csv",
+              "column": "registration_date",
+              "type": "string"
+            },
+            {
+              "schema": "third_system_customers.json",
+              "column": "signup_date",
+              "type": "string"
+            },
+            {
+              "schema": "modern_customers.csv",
+              "column": "account_created",
+              "type": "string"
+            }
+          ]
+        },
+        "premium_member": {
+          "name": "premium_member",
+          "original_reference": "premium_member",
+          "consensus_type": "boolean",
+          "confidence": 0.5925145053863525,
+          "mapped_schemas": 2,
+          "source_mappings": [
+            {
+              "schema": "legacy_customers.csv",
+              "column": "premium_member",
+              "type": "boolean"
+            },
+            {
+              "schema": "modern_customers.csv",
+              "column": "loyalty_tier",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    "mapping_matrix": {
+      "schemas": [
+        "third_system_customers.json",
+        "modern_customers.csv",
+        "legacy_customers.csv"
+      ],
+      "golden_columns": [
+        "customer_id",
+        "first_name",
+        "last_name",
+        "email_address",
+        "phone_number",
+        "street_address",
+        "city",
+        "state",
+        "zip_code",
+        "country",
+        "registration_date",
+        "premium_member"
+      ],
+      "mappings": [
+        {
+          "golden_column": "customer_id",
+          "original_reference": "customer_id",
+          "consensus_type": "string",
+          "confidence": 0.7554283046722413,
+          "schema_mappings": {
+            "third_system_customers.json": {
+              "column": "customer_name",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_customers.csv": {
+              "column": "user_id",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_customers.csv": {
+              "column": "customer_id",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "first_name",
+          "original_reference": "first_name",
+          "consensus_type": "string",
+          "confidence": 0.5,
+          "schema_mappings": {
+            "third_system_customers.json": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "modern_customers.csv": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "legacy_customers.csv": {
+              "column": "first_name",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "last_name",
+          "original_reference": "last_name",
+          "consensus_type": "string",
+          "confidence": 0.7090084743499755,
+          "schema_mappings": {
+            "third_system_customers.json": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "modern_customers.csv": {
+              "column": "full_name",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_customers.csv": {
+              "column": "last_name",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "email_address",
+          "original_reference": "email_address",
+          "consensus_type": "string",
+          "confidence": 0.714311761856079,
+          "schema_mappings": {
+            "third_system_customers.json": {
+              "column": "email_addr",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_customers.csv": {
+              "column": "email",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_customers.csv": {
+              "column": "email_address",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "phone_number",
+          "original_reference": "phone_number",
+          "consensus_type": "string",
+          "confidence": 0.7419882965087891,
+          "schema_mappings": {
+            "third_system_customers.json": {
+              "column": "contact_number",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_customers.csv": {
+              "column": "phone",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_customers.csv": {
+              "column": "phone_number",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "street_address",
+          "original_reference": "street_address",
+          "consensus_type": "string",
+          "confidence": 0.7121017742156982,
+          "schema_mappings": {
+            "third_system_customers.json": {
+              "column": "address_line",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_customers.csv": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "legacy_customers.csv": {
+              "column": "street_address",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "city",
+          "original_reference": "city",
+          "consensus_type": "string",
+          "confidence": 0.6905515193939209,
+          "schema_mappings": {
+            "third_system_customers.json": {
+              "column": "city_name",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_customers.csv": {
+              "column": "shipping_city",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_customers.csv": {
+              "column": "city",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "state",
+          "original_reference": "state",
+          "consensus_type": "string",
+          "confidence": 0.5889882183074951,
+          "schema_mappings": {
+            "third_system_customers.json": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "modern_customers.csv": {
+              "column": "shipping_state",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_customers.csv": {
+              "column": "state",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "zip_code",
+          "original_reference": "zip_code",
+          "consensus_type": "integer",
+          "confidence": 0.7387581586837768,
+          "schema_mappings": {
+            "third_system_customers.json": {
+              "column": "postal_code",
+              "type": "integer",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_customers.csv": {
+              "column": "shipping_zip",
+              "type": "integer",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_customers.csv": {
+              "column": "zip_code",
+              "type": "integer",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "country",
+          "original_reference": "country",
+          "consensus_type": "string",
+          "confidence": 0.6945694923400879,
+          "schema_mappings": {
+            "third_system_customers.json": {
+              "column": "state_province",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_customers.csv": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "legacy_customers.csv": {
+              "column": "country",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "registration_date",
+          "original_reference": "registration_date",
+          "consensus_type": "string",
+          "confidence": 0.68752938747406,
+          "schema_mappings": {
+            "third_system_customers.json": {
+              "column": "signup_date",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "modern_customers.csv": {
+              "column": "account_created",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_customers.csv": {
+              "column": "registration_date",
+              "type": "string",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        },
+        {
+          "golden_column": "premium_member",
+          "original_reference": "premium_member",
+          "consensus_type": "boolean",
+          "confidence": 0.5925145053863525,
+          "schema_mappings": {
+            "third_system_customers.json": {
+              "column": null,
+              "type": null,
+              "mapped": false,
+              "is_reference": false
+            },
+            "modern_customers.csv": {
+              "column": "loyalty_tier",
+              "type": "string",
+              "mapped": true,
+              "is_reference": false
+            },
+            "legacy_customers.csv": {
+              "column": "premium_member",
+              "type": "boolean",
+              "mapped": true,
+              "is_reference": true
+            }
+          }
+        }
+      ]
+    },
+    "quality_metrics": {
+      "average_similarity": 0.7031951365751379,
+      "median_similarity": 0.7121017742156982,
+      "min_similarity": 0.5816164493560791,
+      "max_similarity": 0.8027453422546387,
+      "mapped_columns": 29,
+      "total_columns": 33,
+      "coverage": 0.8787878787878788
+    },
+    "column_groups": [
+      {
+        "reference_schema": "legacy_customers.csv",
+        "reference_column": "customer_id",
+        "reference_info": {
+          "name": "customer_id",
+          "description": "The column stores a unique identifier for each customer.",
+          "type": "string",
+          "tokens": [
+            "customer",
+            "id"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_customers.json": {
+            "column": "customer_name",
+            "similarity": 0.7685224914550782,
+            "info": {
+              "name": "customer_name",
+              "description": "The column stores the name of the customer.",
+              "type": "string",
+              "tokens": [
+                "customer",
+                "name"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_customers.csv": {
+            "column": "user_id",
+            "similarity": 0.7423341178894044,
+            "info": {
+              "name": "user_id",
+              "description": "The column stores a unique identifier for each user.",
+              "type": "string",
+              "tokens": [
+                "user",
+                "id"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_customers.csv",
+        "reference_column": "first_name",
+        "reference_info": {
+          "name": "first_name",
+          "description": "The column stores the first name of a record.",
+          "type": "string",
+          "tokens": [
+            "first",
+            "name"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {}
+      },
+      {
+        "reference_schema": "legacy_customers.csv",
+        "reference_column": "last_name",
+        "reference_info": {
+          "name": "last_name",
+          "description": "The column stores the individual last name of a record.",
+          "type": "string",
+          "tokens": [
+            "last",
+            "name"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "modern_customers.csv": {
+            "column": "full_name",
+            "similarity": 0.7090084743499755,
+            "info": {
+              "name": "full_name",
+              "description": "The column stores the full name of a person.",
+              "type": "string",
+              "tokens": [
+                "full",
+                "name"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_customers.csv",
+        "reference_column": "email_address",
+        "reference_info": {
+          "name": "email_address",
+          "description": "The column stores the electronic address associated with each record.",
+          "type": "string",
+          "tokens": [
+            "email",
+            "address"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_customers.json": {
+            "column": "email_addr",
+            "similarity": 0.715474681854248,
+            "info": {
+              "name": "email_addr",
+              "description": "The column stores the address associated with an email address.",
+              "type": "string",
+              "tokens": [
+                "email",
+                "addr"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_customers.csv": {
+            "column": "email",
+            "similarity": 0.7131488418579102,
+            "info": {
+              "name": "email",
+              "description": "The column stores user email addresses.",
+              "type": "string",
+              "tokens": [
+                "email"
+              ],
+              "token_count": 1,
+              "has_separators": false
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_customers.csv",
+        "reference_column": "phone_number",
+        "reference_info": {
+          "name": "phone_number",
+          "description": "The column stores numerical identifiers representing phone numbers.",
+          "type": "string",
+          "tokens": [
+            "phone",
+            "number"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_customers.json": {
+            "column": "contact_number",
+            "similarity": 0.8027453422546387,
+            "info": {
+              "name": "contact_number",
+              "description": "The column stores a unique identifier for a telephone number.",
+              "type": "string",
+              "tokens": [
+                "contact",
+                "number"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_customers.csv": {
+            "column": "phone",
+            "similarity": 0.6812312507629394,
+            "info": {
+              "name": "phone",
+              "description": "The column stores phone numbers.",
+              "type": "string",
+              "tokens": [
+                "phone"
+              ],
+              "token_count": 1,
+              "has_separators": false
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_customers.csv",
+        "reference_column": "street_address",
+        "reference_info": {
+          "name": "street_address",
+          "description": "The column stores the complete address of a record.",
+          "type": "string",
+          "tokens": [
+            "street",
+            "address"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_customers.json": {
+            "column": "address_line",
+            "similarity": 0.7121017742156982,
+            "info": {
+              "name": "address_line",
+              "description": "The column stores the text of the address component.",
+              "type": "string",
+              "tokens": [
+                "address",
+                "line"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_customers.csv",
+        "reference_column": "city",
+        "reference_info": {
+          "name": "city",
+          "description": "The column stores information about the location of a specific geographic entity.",
+          "type": "string",
+          "tokens": [
+            "city"
+          ],
+          "token_count": 1,
+          "has_separators": false
+        },
+        "matches": {
+          "third_system_customers.json": {
+            "column": "city_name",
+            "similarity": 0.7156629371643066,
+            "info": {
+              "name": "city_name",
+              "description": "The column stores the name of the city where a data point originates.",
+              "type": "string",
+              "tokens": [
+                "city",
+                "name"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_customers.csv": {
+            "column": "shipping_city",
+            "similarity": 0.6654401016235352,
+            "info": {
+              "name": "shipping_city",
+              "description": "The column stores the geographical location of the shipping destination.",
+              "type": "string",
+              "tokens": [
+                "shipping",
+                "city"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_customers.csv",
+        "reference_column": "state",
+        "reference_info": {
+          "name": "state",
+          "description": "The column stores information about the current state of the system.",
+          "type": "string",
+          "tokens": [
+            "state"
+          ],
+          "token_count": 1,
+          "has_separators": false
+        },
+        "matches": {
+          "modern_customers.csv": {
+            "column": "shipping_state",
+            "similarity": 0.5889882183074951,
+            "info": {
+              "name": "shipping_state",
+              "description": "The column stores the state where a package is shipped.",
+              "type": "string",
+              "tokens": [
+                "shipping",
+                "state"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_customers.csv",
+        "reference_column": "zip_code",
+        "reference_info": {
+          "name": "zip_code",
+          "description": "The column stores a numerical identifier for a postal location.",
+          "type": "integer",
+          "tokens": [
+            "zip",
+            "code"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_customers.json": {
+            "column": "postal_code",
+            "similarity": 0.7878643226623535,
+            "info": {
+              "name": "postal_code",
+              "description": "The column stores a numerical identifier representing a postal location.",
+              "type": "integer",
+              "tokens": [
+                "postal",
+                "code"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_customers.csv": {
+            "column": "shipping_zip",
+            "similarity": 0.6896519947052002,
+            "info": {
+              "name": "shipping_zip",
+              "description": "The column stores the ZIP code associated with shipping orders.",
+              "type": "integer",
+              "tokens": [
+                "shipping",
+                "zip"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_customers.csv",
+        "reference_column": "country",
+        "reference_info": {
+          "name": "country",
+          "description": "The column stores information about the geographical location of an entity.",
+          "type": "string",
+          "tokens": [
+            "country"
+          ],
+          "token_count": 1,
+          "has_separators": false
+        },
+        "matches": {
+          "third_system_customers.json": {
+            "column": "state_province",
+            "similarity": 0.6945694923400879,
+            "info": {
+              "name": "state_province",
+              "description": "The column stores information about the geographic state and province of a particular location.",
+              "type": "string",
+              "tokens": [
+                "state",
+                "province"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_customers.csv",
+        "reference_column": "registration_date",
+        "reference_info": {
+          "name": "registration_date",
+          "description": "The column stores the date when a user registered for the system.",
+          "type": "string",
+          "tokens": [
+            "registration",
+            "date"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "third_system_customers.json": {
+            "column": "signup_date",
+            "similarity": 0.793442325592041,
+            "info": {
+              "name": "signup_date",
+              "description": "The column stores the date when a user initially registered.",
+              "type": "string",
+              "tokens": [
+                "signup",
+                "date"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          },
+          "modern_customers.csv": {
+            "column": "account_created",
+            "similarity": 0.5816164493560791,
+            "info": {
+              "name": "account_created",
+              "description": "The column stores information about the initial creation of an account.",
+              "type": "string",
+              "tokens": [
+                "account",
+                "created"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      },
+      {
+        "reference_schema": "legacy_customers.csv",
+        "reference_column": "premium_member",
+        "reference_info": {
+          "name": "premium_member",
+          "description": "The column stores information about members with a high level of loyalty or spending.",
+          "type": "boolean",
+          "tokens": [
+            "premium",
+            "member"
+          ],
+          "token_count": 2,
+          "has_separators": true
+        },
+        "matches": {
+          "modern_customers.csv": {
+            "column": "loyalty_tier",
+            "similarity": 0.5925145053863525,
+            "info": {
+              "name": "loyalty_tier",
+              "description": "The column stores information about the customer's assigned loyalty tier.",
+              "type": "string",
+              "tokens": [
+                "loyalty",
+                "tier"
+              ],
+              "token_count": 2,
+              "has_separators": true
+            }
+          }
+        }
+      }
+    ]
+  }
+}

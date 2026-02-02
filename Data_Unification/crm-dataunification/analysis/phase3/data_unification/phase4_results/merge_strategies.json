@@ -1,0 +1,55 @@
+[
+  {
+    "cluster_id": 1,
+    "strategy_type": "vertical",
+    "merge_key": null,
+    "temporal_field": "timestamp",
+    "priority_order": [
+      "third_system_sales.json",
+      "modern_sales.csv",
+      "legacy_sales.csv"
+    ],
+    "confidence_level": 0.7276276745200156,
+    "reasoning": [
+      "Low column overlap (0.00) - files represent complementary attributes",
+      "Temporal field 'timestamp' available for conflict resolution",
+      "Priority order based on file names (temporal inference if possible)",
+      "Mapping confidence: 0.73"
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "strategy_type": "vertical",
+    "merge_key": null,
+    "temporal_field": null,
+    "priority_order": [
+      "third_system_products.json",
+      "modern_products.csv",
+      "legacy_products.csv"
+    ],
+    "confidence_level": 0.7645718649814003,
+    "reasoning": [
+      "Low column overlap (0.02) - files represent complementary attributes",
+      "Potential merge key 'retail_price' but appears in only 1 file",
+      "Mapping confidence: 0.76"
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "strategy_type": "vertical",
+    "merge_key": null,
+    "temporal_field": "account_created",
+    "priority_order": [
+      "third_system_customers.json",
+      "modern_customers.csv",
+      "legacy_customers.csv"
+    ],
+    "confidence_level": 0.7453074906766415,
+    "reasoning": [
+      "Low column overlap (0.00) - files represent complementary attributes",
+      "Temporal field 'account_created' available for conflict resolution",
+      "Priority order based on file names (temporal inference if possible)",
+      "Mapping confidence: 0.75"
+    ]
+  }
+]

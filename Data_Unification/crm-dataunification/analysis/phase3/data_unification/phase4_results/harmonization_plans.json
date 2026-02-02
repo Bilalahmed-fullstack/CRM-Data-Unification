@@ -1,0 +1,1950 @@
+{
+  "1": {
+    "cluster_id": 1,
+    "golden_schema_name": "Golden_Schema_10",
+    "golden_columns": [
+      "order_id",
+      "customer_id",
+      "product_sku",
+      "quantity",
+      "unit_price",
+      "total_amount",
+      "order_date",
+      "shipping_status",
+      "payment_method",
+      "shipping_address"
+    ],
+    "column_details": {
+      "order_id": {
+        "name": "order_id",
+        "original_reference": "order_id",
+        "consensus_type": "string",
+        "confidence": 0.7204633092880249,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_sales.csv",
+            "column": "order_id",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_sales.json",
+            "column": "sale_id",
+            "type": "string"
+          },
+          {
+            "schema": "modern_sales.csv",
+            "column": "transaction_id",
+            "type": "string"
+          }
+        ]
+      },
+      "customer_id": {
+        "name": "customer_id",
+        "original_reference": "customer_id",
+        "consensus_type": "string",
+        "confidence": 0.7960575670003891,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_sales.csv",
+            "column": "customer_id",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_sales.json",
+            "column": "customer_address",
+            "type": "string"
+          },
+          {
+            "schema": "modern_sales.csv",
+            "column": "user_id",
+            "type": "string"
+          }
+        ]
+      },
+      "product_sku": {
+        "name": "product_sku",
+        "original_reference": "product_sku",
+        "consensus_type": "string",
+        "confidence": 0.6409365361928939,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_sales.csv",
+            "column": "product_sku",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_sales.json",
+            "column": "item_code",
+            "type": "string"
+          },
+          {
+            "schema": "modern_sales.csv",
+            "column": "user_id",
+            "type": "string"
+          }
+        ]
+      },
+      "quantity": {
+        "name": "quantity",
+        "original_reference": "quantity",
+        "consensus_type": "integer",
+        "confidence": 0.7616140979528427,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_sales.csv",
+            "column": "quantity",
+            "type": "integer"
+          },
+          {
+            "schema": "third_system_sales.json",
+            "column": "order_quantity",
+            "type": "integer"
+          },
+          {
+            "schema": "modern_sales.csv",
+            "column": "qty",
+            "type": "integer"
+          }
+        ]
+      },
+      "unit_price": {
+        "name": "unit_price",
+        "original_reference": "unit_price",
+        "consensus_type": "float",
+        "confidence": 0.8098577147722245,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_sales.csv",
+            "column": "unit_price",
+            "type": "float"
+          },
+          {
+            "schema": "third_system_sales.json",
+            "column": "item_price",
+            "type": "float"
+          },
+          {
+            "schema": "modern_sales.csv",
+            "column": "price_per_item",
+            "type": "float"
+          }
+        ]
+      },
+      "total_amount": {
+        "name": "total_amount",
+        "original_reference": "total_amount",
+        "consensus_type": "float",
+        "confidence": 0.7713457852602005,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_sales.csv",
+            "column": "total_amount",
+            "type": "float"
+          },
+          {
+            "schema": "third_system_sales.json",
+            "column": "sale_total",
+            "type": "float"
+          },
+          {
+            "schema": "modern_sales.csv",
+            "column": "transaction_total",
+            "type": "float"
+          }
+        ]
+      },
+      "order_date": {
+        "name": "order_date",
+        "original_reference": "order_date",
+        "consensus_type": "string",
+        "confidence": 0.6642794352769852,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_sales.csv",
+            "column": "order_date",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_sales.json",
+            "column": "sale_date",
+            "type": "string"
+          },
+          {
+            "schema": "modern_sales.csv",
+            "column": "timestamp",
+            "type": "datetime"
+          }
+        ]
+      },
+      "shipping_status": {
+        "name": "shipping_status",
+        "original_reference": "shipping_status",
+        "consensus_type": "string",
+        "confidence": 0.7096395605802537,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_sales.csv",
+            "column": "shipping_status",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_sales.json",
+            "column": "delivery_status",
+            "type": "string"
+          },
+          {
+            "schema": "modern_sales.csv",
+            "column": "fulfillment_channel",
+            "type": "string"
+          }
+        ]
+      },
+      "payment_method": {
+        "name": "payment_method",
+        "original_reference": "payment_method",
+        "consensus_type": "string",
+        "confidence": 0.7762280654907227,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_sales.csv",
+            "column": "payment_method",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_sales.json",
+            "column": "payment_option",
+            "type": "string"
+          },
+          {
+            "schema": "modern_sales.csv",
+            "column": "payment_type",
+            "type": "string"
+          }
+        ]
+      },
+      "shipping_address": {
+        "name": "shipping_address",
+        "original_reference": "shipping_address",
+        "consensus_type": "string",
+        "confidence": 0.6258546733856201,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_sales.csv",
+            "column": "shipping_address",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_sales.json",
+            "column": "delivery_status",
+            "type": "string"
+          },
+          {
+            "schema": "modern_sales.csv",
+            "column": "fulfillment_channel",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "file_plans": {
+      "third_system_sales.json": {
+        "filename": "third_system_sales.json",
+        "golden_columns_mapped": [
+          "order_id",
+          "customer_id",
+          "product_sku",
+          "quantity",
+          "unit_price",
+          "total_amount",
+          "order_date",
+          "shipping_status",
+          "payment_method",
+          "shipping_address"
+        ],
+        "column_mappings": {
+          "order_id": "sale_id",
+          "customer_id": "customer_address",
+          "product_sku": "item_code",
+          "quantity": "order_quantity",
+          "unit_price": "item_price",
+          "total_amount": "sale_total",
+          "order_date": "sale_date",
+          "shipping_status": "delivery_status",
+          "payment_method": "payment_option",
+          "shipping_address": "delivery_status"
+        },
+        "columns_to_add": [],
+        "columns_to_rename": [
+          {
+            "from": "sale_id",
+            "to": "order_id"
+          },
+          {
+            "from": "customer_address",
+            "to": "customer_id"
+          },
+          {
+            "from": "item_code",
+            "to": "product_sku"
+          },
+          {
+            "from": "order_quantity",
+            "to": "quantity"
+          },
+          {
+            "from": "item_price",
+            "to": "unit_price"
+          },
+          {
+            "from": "sale_total",
+            "to": "total_amount"
+          },
+          {
+            "from": "sale_date",
+            "to": "order_date"
+          },
+          {
+            "from": "delivery_status",
+            "to": "shipping_status"
+          },
+          {
+            "from": "payment_option",
+            "to": "payment_method"
+          },
+          {
+            "from": "delivery_status",
+            "to": "shipping_address"
+          }
+        ],
+        "columns_to_drop": [
+          "account_id"
+        ],
+        "type_conversions": [
+          {
+            "column": "quantity",
+            "from_type": "int64",
+            "to_type": "integer",
+            "original_column": "order_quantity"
+          },
+          {
+            "column": "unit_price",
+            "from_type": "float64",
+            "to_type": "float",
+            "original_column": "item_price"
+          },
+          {
+            "column": "total_amount",
+            "from_type": "float64",
+            "to_type": "float",
+            "original_column": "sale_total"
+          }
+        ],
+        "transformations_needed": [
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "type_conversion",
+          "rename",
+          "type_conversion",
+          "rename",
+          "type_conversion",
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "drop_columns"
+        ]
+      },
+      "modern_sales.csv": {
+        "filename": "modern_sales.csv",
+        "golden_columns_mapped": [
+          "order_id",
+          "customer_id",
+          "product_sku",
+          "quantity",
+          "unit_price",
+          "total_amount",
+          "order_date",
+          "shipping_status",
+          "payment_method",
+          "shipping_address"
+        ],
+        "column_mappings": {
+          "order_id": "transaction_id",
+          "customer_id": "user_id",
+          "product_sku": "user_id",
+          "quantity": "qty",
+          "unit_price": "price_per_item",
+          "total_amount": "transaction_total",
+          "order_date": "timestamp",
+          "shipping_status": "fulfillment_channel",
+          "payment_method": "payment_type",
+          "shipping_address": "fulfillment_channel"
+        },
+        "columns_to_add": [],
+        "columns_to_rename": [
+          {
+            "from": "transaction_id",
+            "to": "order_id"
+          },
+          {
+            "from": "user_id",
+            "to": "customer_id"
+          },
+          {
+            "from": "user_id",
+            "to": "product_sku"
+          },
+          {
+            "from": "qty",
+            "to": "quantity"
+          },
+          {
+            "from": "price_per_item",
+            "to": "unit_price"
+          },
+          {
+            "from": "transaction_total",
+            "to": "total_amount"
+          },
+          {
+            "from": "timestamp",
+            "to": "order_date"
+          },
+          {
+            "from": "fulfillment_channel",
+            "to": "shipping_status"
+          },
+          {
+            "from": "payment_type",
+            "to": "payment_method"
+          },
+          {
+            "from": "fulfillment_channel",
+            "to": "shipping_address"
+          }
+        ],
+        "columns_to_drop": [
+          "product_asin",
+          "promotion_applied"
+        ],
+        "type_conversions": [
+          {
+            "column": "quantity",
+            "from_type": "int64",
+            "to_type": "integer",
+            "original_column": "qty"
+          },
+          {
+            "column": "unit_price",
+            "from_type": "float64",
+            "to_type": "float",
+            "original_column": "price_per_item"
+          },
+          {
+            "column": "total_amount",
+            "from_type": "float64",
+            "to_type": "float",
+            "original_column": "transaction_total"
+          }
+        ],
+        "transformations_needed": [
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "type_conversion",
+          "rename",
+          "type_conversion",
+          "rename",
+          "type_conversion",
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "drop_columns"
+        ]
+      },
+      "legacy_sales.csv": {
+        "filename": "legacy_sales.csv",
+        "golden_columns_mapped": [
+          "order_id",
+          "customer_id",
+          "product_sku",
+          "quantity",
+          "unit_price",
+          "total_amount",
+          "order_date",
+          "shipping_status",
+          "payment_method",
+          "shipping_address"
+        ],
+        "column_mappings": {
+          "order_id": "order_id",
+          "customer_id": "customer_id",
+          "product_sku": "product_sku",
+          "quantity": "quantity",
+          "unit_price": "unit_price",
+          "total_amount": "total_amount",
+          "order_date": "order_date",
+          "shipping_status": "shipping_status",
+          "payment_method": "payment_method",
+          "shipping_address": "shipping_address"
+        },
+        "columns_to_add": [],
+        "columns_to_rename": [],
+        "columns_to_drop": [],
+        "type_conversions": [
+          {
+            "column": "quantity",
+            "from_type": "int64",
+            "to_type": "integer",
+            "original_column": "quantity"
+          },
+          {
+            "column": "unit_price",
+            "from_type": "float64",
+            "to_type": "float",
+            "original_column": "unit_price"
+          },
+          {
+            "column": "total_amount",
+            "from_type": "float64",
+            "to_type": "float",
+            "original_column": "total_amount"
+          }
+        ],
+        "transformations_needed": [
+          "type_conversion",
+          "type_conversion",
+          "type_conversion"
+        ]
+      }
+    },
+    "transformations_needed": [
+      "drop_columns",
+      "type_conversion",
+      "rename"
+    ],
+    "data_type_resolutions": {
+      "order_id": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "customer_id": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "product_sku": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "quantity": {
+        "consensus_type": "integer",
+        "type_distribution": {
+          "integer": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "unit_price": {
+        "consensus_type": "float",
+        "type_distribution": {
+          "float": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "total_amount": {
+        "consensus_type": "float",
+        "type_distribution": {
+          "float": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "order_date": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 2,
+          "datetime": 1
+        },
+        "confidence": 0.6666666666666666,
+        "requires_conversion": true
+      },
+      "shipping_status": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "payment_method": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "shipping_address": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      }
+    },
+    "warnings": []
+  },
+  "2": {
+    "cluster_id": 2,
+    "golden_schema_name": "Golden_Schema_10",
+    "golden_columns": [
+      "product_sku",
+      "product_name",
+      "product_category",
+      "brand",
+      "manufacturer",
+      "list_price",
+      "weight_lbs",
+      "dimensions",
+      "is_active",
+      "inventory_count"
+    ],
+    "column_details": {
+      "product_sku": {
+        "name": "product_sku",
+        "original_reference": "product_sku",
+        "consensus_type": "string",
+        "confidence": 0.6974363088607788,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_products.csv",
+            "column": "product_sku",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_products.json",
+            "column": "item_code",
+            "type": "string"
+          },
+          {
+            "schema": "modern_products.csv",
+            "column": "product_condition",
+            "type": "string"
+          }
+        ]
+      },
+      "product_name": {
+        "name": "product_name",
+        "original_reference": "product_name",
+        "consensus_type": "string",
+        "confidence": 0.8018032717704773,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_products.csv",
+            "column": "product_name",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_products.json",
+            "column": "item_name",
+            "type": "string"
+          },
+          {
+            "schema": "modern_products.csv",
+            "column": "product_condition",
+            "type": "string"
+          }
+        ]
+      },
+      "product_category": {
+        "name": "product_category",
+        "original_reference": "product_category",
+        "consensus_type": "string",
+        "confidence": 0.7732165402173996,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_products.csv",
+            "column": "product_category",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_products.json",
+            "column": "category_name",
+            "type": "string"
+          },
+          {
+            "schema": "modern_products.csv",
+            "column": "product_condition",
+            "type": "string"
+          }
+        ]
+      },
+      "brand": {
+        "name": "brand",
+        "original_reference": "brand",
+        "consensus_type": "string",
+        "confidence": 0.9396266561746598,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_products.csv",
+            "column": "brand",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_products.json",
+            "column": "brand_name",
+            "type": "string"
+          },
+          {
+            "schema": "modern_products.csv",
+            "column": "brand",
+            "type": "string"
+          }
+        ]
+      },
+      "manufacturer": {
+        "name": "manufacturer",
+        "original_reference": "manufacturer",
+        "consensus_type": "string",
+        "confidence": 0.7445574641227721,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_products.csv",
+            "column": "manufacturer",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_products.json",
+            "column": "supplier",
+            "type": "string"
+          },
+          {
+            "schema": "modern_products.csv",
+            "column": "brand",
+            "type": "string"
+          }
+        ]
+      },
+      "list_price": {
+        "name": "list_price",
+        "original_reference": "list_price",
+        "consensus_type": "float",
+        "confidence": 0.735458391904831,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_products.csv",
+            "column": "list_price",
+            "type": "float"
+          },
+          {
+            "schema": "third_system_products.json",
+            "column": "retail_price",
+            "type": "float"
+          },
+          {
+            "schema": "modern_products.csv",
+            "column": "current_price",
+            "type": "float"
+          }
+        ]
+      },
+      "weight_lbs": {
+        "name": "weight_lbs",
+        "original_reference": "weight_lbs",
+        "consensus_type": "float",
+        "confidence": 0.8786103171110153,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_products.csv",
+            "column": "weight_lbs",
+            "type": "float"
+          },
+          {
+            "schema": "third_system_products.json",
+            "column": "item_weight",
+            "type": "float"
+          },
+          {
+            "schema": "modern_products.csv",
+            "column": "weight_kg",
+            "type": "float"
+          }
+        ]
+      },
+      "dimensions": {
+        "name": "dimensions",
+        "original_reference": "dimensions",
+        "consensus_type": "string",
+        "confidence": 0.6817905706167221,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_products.csv",
+            "column": "dimensions",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_products.json",
+            "column": "product_dimensions",
+            "type": "string"
+          },
+          {
+            "schema": "modern_products.csv",
+            "column": "specifications",
+            "type": "string"
+          }
+        ]
+      },
+      "is_active": {
+        "name": "is_active",
+        "original_reference": "is_active",
+        "consensus_type": "boolean",
+        "confidence": 0.5306122100353241,
+        "mapped_schemas": 2,
+        "source_mappings": [
+          {
+            "schema": "legacy_products.csv",
+            "column": "is_active",
+            "type": "boolean"
+          },
+          {
+            "schema": "third_system_products.json",
+            "column": "availability_status",
+            "type": "string"
+          }
+        ]
+      },
+      "inventory_count": {
+        "name": "inventory_count",
+        "original_reference": "inventory_count",
+        "consensus_type": "integer",
+        "confidence": 0.7456270915269851,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_products.csv",
+            "column": "inventory_count",
+            "type": "integer"
+          },
+          {
+            "schema": "third_system_products.json",
+            "column": "stock_level",
+            "type": "integer"
+          },
+          {
+            "schema": "modern_products.csv",
+            "column": "stock_quantity",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    "file_plans": {
+      "third_system_products.json": {
+        "filename": "third_system_products.json",
+        "golden_columns_mapped": [
+          "product_sku",
+          "product_name",
+          "product_category",
+          "brand",
+          "manufacturer",
+          "list_price",
+          "weight_lbs",
+          "dimensions",
+          "is_active",
+          "inventory_count"
+        ],
+        "column_mappings": {
+          "product_sku": "item_code",
+          "product_name": "item_name",
+          "product_category": "category_name",
+          "brand": "brand_name",
+          "manufacturer": "supplier",
+          "list_price": "retail_price",
+          "weight_lbs": "item_weight",
+          "dimensions": "product_dimensions",
+          "is_active": "availability_status",
+          "inventory_count": "stock_level"
+        },
+        "columns_to_add": [],
+        "columns_to_rename": [
+          {
+            "from": "item_code",
+            "to": "product_sku"
+          },
+          {
+            "from": "item_name",
+            "to": "product_name"
+          },
+          {
+            "from": "category_name",
+            "to": "product_category"
+          },
+          {
+            "from": "brand_name",
+            "to": "brand"
+          },
+          {
+            "from": "supplier",
+            "to": "manufacturer"
+          },
+          {
+            "from": "retail_price",
+            "to": "list_price"
+          },
+          {
+            "from": "item_weight",
+            "to": "weight_lbs"
+          },
+          {
+            "from": "product_dimensions",
+            "to": "dimensions"
+          },
+          {
+            "from": "availability_status",
+            "to": "is_active"
+          },
+          {
+            "from": "stock_level",
+            "to": "inventory_count"
+          }
+        ],
+        "columns_to_drop": [],
+        "type_conversions": [
+          {
+            "column": "list_price",
+            "from_type": "float64",
+            "to_type": "float",
+            "original_column": "retail_price"
+          },
+          {
+            "column": "weight_lbs",
+            "from_type": "float64",
+            "to_type": "float",
+            "original_column": "item_weight"
+          },
+          {
+            "column": "is_active",
+            "from_type": "object",
+            "to_type": "boolean",
+            "original_column": "availability_status"
+          },
+          {
+            "column": "inventory_count",
+            "from_type": "int64",
+            "to_type": "integer",
+            "original_column": "stock_level"
+          }
+        ],
+        "transformations_needed": [
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "type_conversion",
+          "rename",
+          "type_conversion",
+          "rename",
+          "rename",
+          "type_conversion",
+          "rename",
+          "type_conversion"
+        ]
+      },
+      "modern_products.csv": {
+        "filename": "modern_products.csv",
+        "golden_columns_mapped": [
+          "product_sku",
+          "product_name",
+          "product_category",
+          "brand",
+          "manufacturer",
+          "list_price",
+          "weight_lbs",
+          "dimensions",
+          "inventory_count"
+        ],
+        "column_mappings": {
+          "product_sku": "product_condition",
+          "product_name": "product_condition",
+          "product_category": "product_condition",
+          "brand": "brand",
+          "manufacturer": "brand",
+          "list_price": "current_price",
+          "weight_lbs": "weight_kg",
+          "dimensions": "specifications",
+          "inventory_count": "stock_quantity"
+        },
+        "columns_to_add": [
+          "is_active"
+        ],
+        "columns_to_rename": [
+          {
+            "from": "product_condition",
+            "to": "product_sku"
+          },
+          {
+            "from": "product_condition",
+            "to": "product_name"
+          },
+          {
+            "from": "product_condition",
+            "to": "product_category"
+          },
+          {
+            "from": "brand",
+            "to": "manufacturer"
+          },
+          {
+            "from": "current_price",
+            "to": "list_price"
+          },
+          {
+            "from": "weight_kg",
+            "to": "weight_lbs"
+          },
+          {
+            "from": "specifications",
+            "to": "dimensions"
+          },
+          {
+            "from": "stock_quantity",
+            "to": "inventory_count"
+          }
+        ],
+        "columns_to_drop": [
+          "asin",
+          "title",
+          "category",
+          "subcategory",
+          "seller"
+        ],
+        "type_conversions": [
+          {
+            "column": "list_price",
+            "from_type": "float64",
+            "to_type": "float",
+            "original_column": "current_price"
+          },
+          {
+            "column": "weight_lbs",
+            "from_type": "float64",
+            "to_type": "float",
+            "original_column": "weight_kg"
+          },
+          {
+            "column": "inventory_count",
+            "from_type": "int64",
+            "to_type": "integer",
+            "original_column": "stock_quantity"
+          }
+        ],
+        "transformations_needed": [
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "type_conversion",
+          "rename",
+          "type_conversion",
+          "rename",
+          "rename",
+          "type_conversion",
+          "add_columns",
+          "drop_columns"
+        ]
+      },
+      "legacy_products.csv": {
+        "filename": "legacy_products.csv",
+        "golden_columns_mapped": [
+          "product_sku",
+          "product_name",
+          "product_category",
+          "brand",
+          "manufacturer",
+          "list_price",
+          "weight_lbs",
+          "dimensions",
+          "is_active",
+          "inventory_count"
+        ],
+        "column_mappings": {
+          "product_sku": "product_sku",
+          "product_name": "product_name",
+          "product_category": "product_category",
+          "brand": "brand",
+          "manufacturer": "manufacturer",
+          "list_price": "list_price",
+          "weight_lbs": "weight_lbs",
+          "dimensions": "dimensions",
+          "is_active": "is_active",
+          "inventory_count": "inventory_count"
+        },
+        "columns_to_add": [],
+        "columns_to_rename": [],
+        "columns_to_drop": [],
+        "type_conversions": [
+          {
+            "column": "list_price",
+            "from_type": "float64",
+            "to_type": "float",
+            "original_column": "list_price"
+          },
+          {
+            "column": "weight_lbs",
+            "from_type": "float64",
+            "to_type": "float",
+            "original_column": "weight_lbs"
+          },
+          {
+            "column": "is_active",
+            "from_type": "int64",
+            "to_type": "boolean",
+            "original_column": "is_active"
+          },
+          {
+            "column": "inventory_count",
+            "from_type": "int64",
+            "to_type": "integer",
+            "original_column": "inventory_count"
+          }
+        ],
+        "transformations_needed": [
+          "type_conversion",
+          "type_conversion",
+          "type_conversion",
+          "type_conversion"
+        ]
+      }
+    },
+    "transformations_needed": [
+      "add_columns",
+      "type_conversion",
+      "drop_columns",
+      "rename"
+    ],
+    "data_type_resolutions": {
+      "product_sku": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "product_name": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "product_category": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "brand": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "manufacturer": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "list_price": {
+        "consensus_type": "float",
+        "type_distribution": {
+          "float": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "weight_lbs": {
+        "consensus_type": "float",
+        "type_distribution": {
+          "float": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "dimensions": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "is_active": {
+        "consensus_type": "boolean",
+        "type_distribution": {
+          "boolean": 1,
+          "string": 1
+        },
+        "confidence": 0.5,
+        "requires_conversion": true
+      },
+      "inventory_count": {
+        "consensus_type": "integer",
+        "type_distribution": {
+          "integer": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      }
+    },
+    "warnings": []
+  },
+  "3": {
+    "cluster_id": 3,
+    "golden_schema_name": "Golden_Schema_12",
+    "golden_columns": [
+      "customer_id",
+      "first_name",
+      "last_name",
+      "email_address",
+      "phone_number",
+      "street_address",
+      "city",
+      "state",
+      "zip_code",
+      "country",
+      "registration_date",
+      "premium_member"
+    ],
+    "column_details": {
+      "customer_id": {
+        "name": "customer_id",
+        "original_reference": "customer_id",
+        "consensus_type": "string",
+        "confidence": 0.8317558592557908,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_customers.csv",
+            "column": "customer_id",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_customers.json",
+            "column": "customer_name",
+            "type": "string"
+          },
+          {
+            "schema": "modern_customers.csv",
+            "column": "user_id",
+            "type": "string"
+          }
+        ]
+      },
+      "first_name": {
+        "name": "first_name",
+        "original_reference": "first_name",
+        "consensus_type": "string",
+        "confidence": 0.7855752795934676,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_customers.csv",
+            "column": "first_name",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_customers.json",
+            "column": "customer_name",
+            "type": "string"
+          },
+          {
+            "schema": "modern_customers.csv",
+            "column": "full_name",
+            "type": "string"
+          }
+        ]
+      },
+      "last_name": {
+        "name": "last_name",
+        "original_reference": "last_name",
+        "consensus_type": "string",
+        "confidence": 0.7899783080816268,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_customers.csv",
+            "column": "last_name",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_customers.json",
+            "column": "customer_name",
+            "type": "string"
+          },
+          {
+            "schema": "modern_customers.csv",
+            "column": "full_name",
+            "type": "string"
+          }
+        ]
+      },
+      "email_address": {
+        "name": "email_address",
+        "original_reference": "email_address",
+        "consensus_type": "string",
+        "confidence": 0.8656224280595779,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_customers.csv",
+            "column": "email_address",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_customers.json",
+            "column": "email_addr",
+            "type": "string"
+          },
+          {
+            "schema": "modern_customers.csv",
+            "column": "email",
+            "type": "string"
+          }
+        ]
+      },
+      "phone_number": {
+        "name": "phone_number",
+        "original_reference": "phone_number",
+        "consensus_type": "string",
+        "confidence": 0.7893670862913131,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_customers.csv",
+            "column": "phone_number",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_customers.json",
+            "column": "contact_number",
+            "type": "string"
+          },
+          {
+            "schema": "modern_customers.csv",
+            "column": "phone",
+            "type": "string"
+          }
+        ]
+      },
+      "street_address": {
+        "name": "street_address",
+        "original_reference": "street_address",
+        "consensus_type": "string",
+        "confidence": 0.7256523805856705,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_customers.csv",
+            "column": "street_address",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_customers.json",
+            "column": "address_line",
+            "type": "string"
+          },
+          {
+            "schema": "modern_customers.csv",
+            "column": "full_name",
+            "type": "string"
+          }
+        ]
+      },
+      "city": {
+        "name": "city",
+        "original_reference": "city",
+        "consensus_type": "string",
+        "confidence": 0.6764594978094101,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_customers.csv",
+            "column": "city",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_customers.json",
+            "column": "city_name",
+            "type": "string"
+          },
+          {
+            "schema": "modern_customers.csv",
+            "column": "shipping_city",
+            "type": "string"
+          }
+        ]
+      },
+      "state": {
+        "name": "state",
+        "original_reference": "state",
+        "consensus_type": "string",
+        "confidence": 0.6357229173183441,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_customers.csv",
+            "column": "state",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_customers.json",
+            "column": "state_province",
+            "type": "string"
+          },
+          {
+            "schema": "modern_customers.csv",
+            "column": "shipping_state",
+            "type": "string"
+          }
+        ]
+      },
+      "zip_code": {
+        "name": "zip_code",
+        "original_reference": "zip_code",
+        "consensus_type": "integer",
+        "confidence": 0.818602928519249,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_customers.csv",
+            "column": "zip_code",
+            "type": "integer"
+          },
+          {
+            "schema": "third_system_customers.json",
+            "column": "postal_code",
+            "type": "integer"
+          },
+          {
+            "schema": "modern_customers.csv",
+            "column": "shipping_zip",
+            "type": "integer"
+          }
+        ]
+      },
+      "country": {
+        "name": "country",
+        "original_reference": "country",
+        "consensus_type": "string",
+        "confidence": 0.6760747671127321,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_customers.csv",
+            "column": "country",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_customers.json",
+            "column": "state_province",
+            "type": "string"
+          },
+          {
+            "schema": "modern_customers.csv",
+            "column": "phone",
+            "type": "string"
+          }
+        ]
+      },
+      "registration_date": {
+        "name": "registration_date",
+        "original_reference": "registration_date",
+        "consensus_type": "string",
+        "confidence": 0.8050538140535355,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_customers.csv",
+            "column": "registration_date",
+            "type": "string"
+          },
+          {
+            "schema": "third_system_customers.json",
+            "column": "signup_date",
+            "type": "string"
+          },
+          {
+            "schema": "modern_customers.csv",
+            "column": "account_created",
+            "type": "string"
+          }
+        ]
+      },
+      "premium_member": {
+        "name": "premium_member",
+        "original_reference": "premium_member",
+        "consensus_type": "string",
+        "confidence": 0.5438246214389801,
+        "mapped_schemas": 3,
+        "source_mappings": [
+          {
+            "schema": "legacy_customers.csv",
+            "column": "premium_member",
+            "type": "boolean"
+          },
+          {
+            "schema": "third_system_customers.json",
+            "column": "customer_name",
+            "type": "string"
+          },
+          {
+            "schema": "modern_customers.csv",
+            "column": "loyalty_tier",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "file_plans": {
+      "third_system_customers.json": {
+        "filename": "third_system_customers.json",
+        "golden_columns_mapped": [
+          "customer_id",
+          "first_name",
+          "last_name",
+          "email_address",
+          "phone_number",
+          "street_address",
+          "city",
+          "state",
+          "zip_code",
+          "country",
+          "registration_date",
+          "premium_member"
+        ],
+        "column_mappings": {
+          "customer_id": "customer_name",
+          "first_name": "customer_name",
+          "last_name": "customer_name",
+          "email_address": "email_addr",
+          "phone_number": "contact_number",
+          "street_address": "address_line",
+          "city": "city_name",
+          "state": "state_province",
+          "zip_code": "postal_code",
+          "country": "state_province",
+          "registration_date": "signup_date",
+          "premium_member": "customer_name"
+        },
+        "columns_to_add": [],
+        "columns_to_rename": [
+          {
+            "from": "customer_name",
+            "to": "customer_id"
+          },
+          {
+            "from": "customer_name",
+            "to": "first_name"
+          },
+          {
+            "from": "customer_name",
+            "to": "last_name"
+          },
+          {
+            "from": "email_addr",
+            "to": "email_address"
+          },
+          {
+            "from": "contact_number",
+            "to": "phone_number"
+          },
+          {
+            "from": "address_line",
+            "to": "street_address"
+          },
+          {
+            "from": "city_name",
+            "to": "city"
+          },
+          {
+            "from": "state_province",
+            "to": "state"
+          },
+          {
+            "from": "postal_code",
+            "to": "zip_code"
+          },
+          {
+            "from": "state_province",
+            "to": "country"
+          },
+          {
+            "from": "signup_date",
+            "to": "registration_date"
+          },
+          {
+            "from": "customer_name",
+            "to": "premium_member"
+          }
+        ],
+        "columns_to_drop": [
+          "account_id",
+          "country_code",
+          "membership_status"
+        ],
+        "type_conversions": [
+          {
+            "column": "zip_code",
+            "from_type": "object",
+            "to_type": "integer",
+            "original_column": "postal_code"
+          }
+        ],
+        "transformations_needed": [
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "type_conversion",
+          "rename",
+          "rename",
+          "rename",
+          "drop_columns"
+        ]
+      },
+      "modern_customers.csv": {
+        "filename": "modern_customers.csv",
+        "golden_columns_mapped": [
+          "customer_id",
+          "first_name",
+          "last_name",
+          "email_address",
+          "phone_number",
+          "street_address",
+          "city",
+          "state",
+          "zip_code",
+          "country",
+          "registration_date",
+          "premium_member"
+        ],
+        "column_mappings": {
+          "customer_id": "user_id",
+          "first_name": "full_name",
+          "last_name": "full_name",
+          "email_address": "email",
+          "phone_number": "phone",
+          "street_address": "full_name",
+          "city": "shipping_city",
+          "state": "shipping_state",
+          "zip_code": "shipping_zip",
+          "country": "phone",
+          "registration_date": "account_created",
+          "premium_member": "loyalty_tier"
+        },
+        "columns_to_add": [],
+        "columns_to_rename": [
+          {
+            "from": "user_id",
+            "to": "customer_id"
+          },
+          {
+            "from": "full_name",
+            "to": "first_name"
+          },
+          {
+            "from": "full_name",
+            "to": "last_name"
+          },
+          {
+            "from": "email",
+            "to": "email_address"
+          },
+          {
+            "from": "phone",
+            "to": "phone_number"
+          },
+          {
+            "from": "full_name",
+            "to": "street_address"
+          },
+          {
+            "from": "shipping_city",
+            "to": "city"
+          },
+          {
+            "from": "shipping_state",
+            "to": "state"
+          },
+          {
+            "from": "shipping_zip",
+            "to": "zip_code"
+          },
+          {
+            "from": "phone",
+            "to": "country"
+          },
+          {
+            "from": "account_created",
+            "to": "registration_date"
+          },
+          {
+            "from": "loyalty_tier",
+            "to": "premium_member"
+          }
+        ],
+        "columns_to_drop": [
+          "prime_member"
+        ],
+        "type_conversions": [
+          {
+            "column": "phone_number",
+            "from_type": "int64",
+            "to_type": "string",
+            "original_column": "phone"
+          },
+          {
+            "column": "zip_code",
+            "from_type": "int64",
+            "to_type": "integer",
+            "original_column": "shipping_zip"
+          },
+          {
+            "column": "country",
+            "from_type": "int64",
+            "to_type": "string",
+            "original_column": "phone"
+          }
+        ],
+        "transformations_needed": [
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "type_conversion",
+          "rename",
+          "rename",
+          "rename",
+          "rename",
+          "type_conversion",
+          "rename",
+          "type_conversion",
+          "rename",
+          "rename",
+          "drop_columns"
+        ]
+      },
+      "legacy_customers.csv": {
+        "filename": "legacy_customers.csv",
+        "golden_columns_mapped": [
+          "customer_id",
+          "first_name",
+          "last_name",
+          "email_address",
+          "phone_number",
+          "street_address",
+          "city",
+          "state",
+          "zip_code",
+          "country",
+          "registration_date",
+          "premium_member"
+        ],
+        "column_mappings": {
+          "customer_id": "customer_id",
+          "first_name": "first_name",
+          "last_name": "last_name",
+          "email_address": "email_address",
+          "phone_number": "phone_number",
+          "street_address": "street_address",
+          "city": "city",
+          "state": "state",
+          "zip_code": "zip_code",
+          "country": "country",
+          "registration_date": "registration_date",
+          "premium_member": "premium_member"
+        },
+        "columns_to_add": [],
+        "columns_to_rename": [],
+        "columns_to_drop": [],
+        "type_conversions": [
+          {
+            "column": "zip_code",
+            "from_type": "int64",
+            "to_type": "integer",
+            "original_column": "zip_code"
+          },
+          {
+            "column": "premium_member",
+            "from_type": "int64",
+            "to_type": "string",
+            "original_column": "premium_member"
+          }
+        ],
+        "transformations_needed": [
+          "type_conversion",
+          "type_conversion"
+        ]
+      }
+    },
+    "transformations_needed": [
+      "drop_columns",
+      "type_conversion",
+      "rename"
+    ],
+    "data_type_resolutions": {
+      "customer_id": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "first_name": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "last_name": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "email_address": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "phone_number": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "street_address": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "city": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "state": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "zip_code": {
+        "consensus_type": "integer",
+        "type_distribution": {
+          "integer": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "country": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "registration_date": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "string": 3
+        },
+        "confidence": 1.0,
+        "requires_conversion": false
+      },
+      "premium_member": {
+        "consensus_type": "string",
+        "type_distribution": {
+          "boolean": 1,
+          "string": 2
+        },
+        "confidence": 0.6666666666666666,
+        "requires_conversion": true
+      }
+    },
+    "warnings": []
+  }
+}

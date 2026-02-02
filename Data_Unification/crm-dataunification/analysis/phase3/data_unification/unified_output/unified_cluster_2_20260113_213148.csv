@@ -1,0 +1,59 @@
+inventory_count,asin,title,category,subcategory,seller,brand,manufacturer,dimensions,product,list,weight,is,
+59,,,,,,Optimum Nutrition,Glanbia,,ITEM-3015,54.68,2.04,False,third_system_products.json
+70,,,,,,Sony,Sony Electronics,,ITEM-3001,289.35,0.67,False,third_system_products.json
+85,,,,,,Hydro Flask,Helen of Troy,,ITEM-3008,37.6,0.63,False,third_system_products.json
+107,,,,,,Apple,Apple Inc,"""""",PROD-A014,249.99,0.19,True,legacy_products.csv
+122,,,,,,Ninja,SharkNinja,13.2x7.6x13.0,ITEM-3016,142.57,11.67,False,third_system_products.json
+123,B08N5WRWNW,Fitbit Charge 5 Advanced Fitness Tracker,Electronics,Wearables,Fitbit_Official,,Fitbit,"{""weight"":""0.11kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,139.99,0.113398,,modern_products.csv
+130,B08P4KCJVN,Apple AirPods Pro (2nd Generation),Electronics,Audio,Apple_Official,,Apple,"{""weight"":""0.09kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,239.99,0.08618248,,modern_products.csv
+133,B08HGH6J8X,Sony WH-1000XM4 Wireless Noise-Canceling Headphones,Electronics,Audio,Sony_Official,,Sony,"{""weight"":""0.31kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,289.99,0.30844256,,modern_products.csv
+135,B07T8JNXRP,The Midnight Library - Hardcover,Books,Fiction,Penguin_Official,,Penguin,"{""weight"":""0.50kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,24.99,0.4989512,,modern_products.csv
+144,B07ZPKN6YR,Manduka Pro Yoga Mat - 6mm Thick,Sports,Fitness,Manduka_Official,,Manduka,"{""weight"":""0.95kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,84.99,0.9525432,,modern_products.csv
+154,,,,,,Manduka,Manduka LLC,,ITEM-3005,82.23,2.13,False,third_system_products.json
+154,,,,,,Cuisinart,Conair Corp,15.3x13.8x17.7,ITEM-3012,86.4,7.51,False,third_system_products.json
+159,,,,,,Anker,Anker Innovations,"""""",PROD-A003,12.99,0.12,True,legacy_products.csv
+159,,,,,,JBL,Harman International,"""""",PROD-A011,89.99,1.2,True,legacy_products.csv
+161,,,,,,SwissGear,Wenger SA,,ITEM-3013,65.55,2.28,False,third_system_products.json
+165,,,,,,Ninja,SharkNinja,13.2x7.6x13.0,PROD-A016,129.99,11.8,True,legacy_products.csv
+167,B09NBLQH43,"Amazon Essentials Men's Cotton T-Shirt, Multipack",Clothing,Men's Fashion,Amazon_Essentials_Official,,Amazon Essentials,"{""weight"":""0.16kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,24.99,0.1587572,,modern_products.csv
+175,B07XJ8C8F5,Optimum Nutrition Gold Standard Whey Protein,Health,Supplements,Optimum_Nutrition_Official,,Optimum Nutrition,"{""weight"":""0.91kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,54.99,0.907184,,modern_products.csv
+197,B07XQZX9M2,Anker Powerline USB-C to USB-C Cable (6ft),Electronics,Accessories,Anker_Official,,Anker,"{""weight"":""0.05kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,14.99,0.05443104,,modern_products.csv
+205,,,,,,Amazon Essentials,Amazon Fashion,,ITEM-3002,20.75,0.34,False,third_system_products.json
+212,,,,,,Lululemon,Lululemon Athletica,"""""",PROD-A017,98.0,0.42,True,legacy_products.csv
+213,,,,,,KitchenAid,Whirlpool Corp,15.6x7.6x19.7,ITEM-3006,370.64,21.67,False,third_system_products.json
+218,,,,,,TaoTronics,Sunvalley Brands,"""""",PROD-A010,42.99,1.8,True,legacy_products.csv
+223,B07ZPML163,SwissGear 1900 ScanSmart Laptop Backpack,Luggage,Backpacks,SwissGear_Official,,SwissGear,"{""weight"":""1.04kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,69.99,1.0432616,,modern_products.csv
+227,,,,,,Amazon Basics,Amazon,"""""",PROD-A019,8.99,0.28,True,legacy_products.csv
+235,,,,,,Nike,Nike Inc,,ITEM-3007,119.53,1.5,False,third_system_products.json
+236,,,,,,Penguin,Penguin Random House,,ITEM-3018,26.2,1.11,False,third_system_products.json
+241,,,,,,SwissGear,Wenger SA,"""""",PROD-A013,64.99,2.3,True,legacy_products.csv
+244,,,,,,Neutrogena,Johnson & Johnson,,ITEM-3020,18.67,0.35,False,third_system_products.json
+246,B09CDTHXNL,Ninja Air Fryer Max XL 5.5 Quart,Home & Kitchen,Kitchen,Ninja_Official,,Ninja,"{""weight"":""5.35kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,119.99,5.3523856,,modern_products.csv
+267,,,,,,Fitbit,Fitbit Inc,,ITEM-3004,153.99,0.25,False,third_system_products.json
+280,B08XYDLC1P,JBL Flip 5 Waterproof Portable Speaker,Electronics,Audio,JBL_Official,Manduka,JBL,"{""weight"":""0.54kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,99.99,0.5443104,True,modern_products.csv
+282,B08J5F3J18,AmazonBasics High-Speed HDMI Cable 10ft,Electronics,Accessories,Amazon_Basics_Official,,Amazon Basics,"{""weight"":""0.13kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,9.99,0.12700576,,modern_products.csv
+298,,,,,,Fitbit,Fitbit Inc,"""""",PROD-A004,149.99,0.25,True,legacy_products.csv
+302,B07YNK87DD,Hydro Flask Wide Mouth Water Bottle 32oz,Sports,Outdoor,Hydro_Flask_Official,,Hydro Flask,"{""weight"":""0.28kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,39.99,0.28122704,,modern_products.csv
+307,B08TW5NKRQ,Logitech MX Master 3 Wireless Mouse,Electronics,Computers,Logitech_Official,,Logitech,"{""weight"":""0.14kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,94.99,0.14061352,,modern_products.csv
+311,,,,,,Penguin,Penguin Random House,"""""",PROD-A018,26.0,1.1,True,legacy_products.csv
+337,B09PQXDM7V,Neutrogena Hydro Boost Water Gel SPF 30,Beauty,Skincare,Neutrogena_Official,,Neutrogena,"{""weight"":""0.16kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,16.99,0.1587572,,modern_products.csv
+338,,,,,,Nike,Nike Inc,"""""",PROD-A007,119.99,1.5,True,legacy_products.csv
+347,,,,,,Neutrogena,Johnson & Johnson,"""""",PROD-A020,18.99,0.35,True,legacy_products.csv
+353,B08GGGM5D9,KitchenAid Artisan Series 5-Qt Mixer,Home & Kitchen,Kitchen,KitchenAid_Official,Optimum Nutrition,KitchenAid,"{""weight"":""9.98kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,329.99,9.979024,True,modern_products.csv
+354,,,,,,Amazon Essentials,Amazon Fashion,"""""",PROD-A002,19.99,0.35,True,legacy_products.csv
+375,B08KY654WZ,"Lululemon Align High-Rise Leggings 25""",Clothing,Women's Fashion,Lululemon_Official,,Lululemon,"{""weight"":""0.19kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,98.0,0.1905086399999999,,modern_products.csv
+384,,,,,,Amazon Basics,Amazon,,ITEM-3019,9.01,0.28,False,third_system_products.json
+409,B09KLDX7M3,Nike Air Zoom Pegasus 38 Running Shoes,Clothing,Footwear,Nike_Official,,Nike,"{""weight"":""0.68kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,129.99,0.680388,,modern_products.csv
+416,,,,,,Lululemon,Lululemon Athletica,,ITEM-3017,107.6,0.42,False,third_system_products.json
+423,B07VGRJDFY,TaoTronics LED Desk Lamp with USB Charging,Home & Kitchen,Lighting,TaoTronics_Official,,TaoTronics,"{""weight"":""0.82kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,45.99,0.8164656,,modern_products.csv
+427,B09C5RK5TV,Cuisinart DCC-3200 Coffee Maker 14-Cup,Home & Kitchen,Kitchen,Cuisinart_Official,,Cuisinart,"{""weight"":""3.40kg"",""condition"":""New"",""features"":[""Fast Shipping"",""Prime Eligible""]}",New,74.99,3.40194,,modern_products.csv
+435,,,,,,KitchenAid,Whirlpool Corp,15.6x7.6x19.7,PROD-A006,349.99,22.0,True,legacy_products.csv
+441,,,,,,Hydro Flask,Helen of Troy,"""""",PROD-A008,34.99,0.62,True,legacy_products.csv
+444,,,,,,Logitech,Logitech International,"""""",PROD-A009,99.99,0.31,True,legacy_products.csv
+456,,,,,,JBL,Harman International,,ITEM-3011,95.37,1.22,False,third_system_products.json
+465,,,,,,Anker,Anker Innovations,,ITEM-3003,14.26,0.12,False,third_system_products.json
+481,,,,,,Logitech,Logitech International,,ITEM-3009,96.29,0.31,False,third_system_products.json
+482,,,,,,Apple,Apple Inc,,ITEM-3014,246.69,0.19,False,third_system_products.json
+489,,,,,,TaoTronics,Sunvalley Brands,,ITEM-3010,46.12,1.77,False,third_system_products.json
+491,,,,,,Cuisinart,Conair Corp,15.3x13.8x17.7,PROD-A012,79.99,7.5,True,legacy_products.csv
+494,,,,,,Sony,Sony Electronics,"""""",PROD-A001,299.99,0.68,True,legacy_products.csv

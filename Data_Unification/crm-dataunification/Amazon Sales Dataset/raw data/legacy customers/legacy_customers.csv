@@ -1,0 +1,501 @@
+customer_id,first_name,last_name,email_address,phone_number,street_address,city,state,zip_code,country,registration_date,premium_member
+CUST-001,Linda,Thomas,linda.thomas16@protonmail.com,555.886.5964,"3590 River Drive, Apt 24C",Fort Worth,TX,76135,USA,2020-09-28,0
+CUST-002,Ruth,Martin,ruth.martin@icloud.com,(555) 356-2405,"1038 Broadway, Apt 3A",Philadelphia,PA,19062,USA,2020-04-26,0
+CUST-003,Helen,Mitchell,helen.mitchell@protonmail.com,555.275.6053,"8709 Park Place, Apt 47C",New York,NY,10045,USA,2020-03-28,0
+CUST-004,Michael,Wilson,michael.wilson@yahoo.com,555.915.6765,"9080 Hill Street, Apt 18C",Boston,MA,02188,USA,2020-02-20,1
+CUST-005,Donna,Bell,donna.bell@protonmail.com,555.163.6075,9066 Sunset Boulevard,San Antonio,TX,78240,USA,2020-01-08,0
+CUST-006,Jessica,Taylor,jessica.taylor97@hotmail.com,555.124.5067,"5063 Cedar Lane, Apt 32A",San Antonio,TX,78290,USA,2020-03-07,1
+CUST-007,Maria,Howard,maria.howard@aol.com,555.457.0286,3629 River Drive,Columbus,OH,43005,USA,2020-11-03,0
+CUST-008,William,Davis,william.davis76@gmail.com,(555) 986-6873,5250 Oak Avenue,Seattle,WA,98196,USA,2020-09-21,1
+CUST-009,Susan,Campbell,susan.campbell@hotmail.com,(555) 558-6506,6836 Main St,San Francisco,CA,94168,USA,2020-09-21,0
+CUST-010,Lisa,Smith,lisa.smith@protonmail.com,(555) 682-3382,"3080 River Drive, Apt 28B",Los Angeles,CA,90088,USA,2020-08-24,1
+CUST-011,Charles,Martinez,charles.martinez@outlook.com,(555) 735-0074,"2046 Sunset Boulevard, Apt 17C",San Francisco,CA,94140,USA,2020-12-03,0
+CUST-012,Brian,Cooper,brian.cooper@gmail.com,(555) 878-8957,"8570 Park Place, Apt 11B",Boston,MA,02137,USA,2020-11-09,0
+CUST-013,Susan,Adams,susan.adams@gmail.com,555.708.1964,1565 Maple Drive,Charlotte,NC,28216,USA,2020-11-15,1
+CUST-014,Nicholas,Roberts,nicholas.roberts@gmail.com,555.431.3689,5705 Hill Street,Boston,MA,02136,USA,2020-11-23,1
+CUST-015,Ryan,King,ryan.king@protonmail.com,(555) 933-1723,4321 Market Street,Phoenix,AZ,85054,USA,2020-04-05,0
+CUST-016,James,Parker,james.parker@icloud.com,555.547.6587,2077 Broadway,Houston,TX,77075,USA,2020-12-07,0
+CUST-017,Deborah,Evans,deborah.evans@yahoo.com,(555) 186-1749,6230 Washington Blvd,Chicago,IL,60647,USA,2020-08-28,1
+CUST-018,William,James,william.james@icloud.com,555.942.2060,5109 Lake Road,Fort Worth,TX,76195,USA,2020-10-28,0
+CUST-019,Brian,Martin,brian.martin@gmail.com,555.206.2215,"4985 Maple Drive, Apt 45B",Denver,CO,80254,USA,2020-03-27,0
+CUST-020,Emily,Richardson,emily.richardson22@aol.com,(555) 305-2788,3533 Sunset Boulevard,San Antonio,TX,78261,USA,2020-07-26,0
+CUST-021,Ruth,Cooper,ruth.cooper66@yahoo.com,555.102.6560,9069 Washington Blvd,Denver,CO,80268,USA,2020-07-12,0
+CUST-022,Ryan,Ward,ryan.ward@gmail.com,555.331.7535,"8725 River Drive, Apt 41D",Boston,MA,02152,USA,2020-10-08,0
+CUST-023,Mark,Martinez,mark.martinez@yahoo.com,555.501.6957,"6797 Market Street, Apt 36D",Boston,MA,02100,USA,2020-03-20,0
+CUST-024,Ruth,Johnson,ruth.johnson82@hotmail.com,(555) 489-4817,"3288 Forest Avenue, Apt 21C",Philadelphia,PA,19063,USA,2020-07-19,1
+CUST-025,Mary,Allen,mary.allen@icloud.com,(555) 480-2588,"2751 Pine Street, Apt 47B",Columbus,OH,43028,USA,2020-11-04,1
+CUST-026,Nancy,Mitchell,nancy.mitchell@yahoo.com,(555) 726-3744,"5414 Elm Avenue, Apt 2B",Dallas,TX,75218,USA,2020-12-16,0
+CUST-027,William,Thomas,william.thomas@aol.com,(555) 567-1902,4280 Elm Avenue,Phoenix,AZ,85074,USA,2020-04-01,0
+CUST-028,James,Moore,james.moore@yahoo.com,555.497.6683,"7675 Pine Street, Apt 1D",Charlotte,NC,28237,USA,2020-09-05,0
+CUST-029,Eric,Young,eric.young@outlook.com,(555) 333-6542,4295 Elm Avenue,Phoenix,AZ,85087,USA,2020-07-12,1
+CUST-030,Emily,Roberts,emily.roberts@outlook.com,555.404.1186,"7041 Park Place, Apt 8D",Chicago,IL,60650,USA,2020-07-25,0
+CUST-031,Jennifer,Lee,jennifer.lee@protonmail.com,(555) 484-0736,"4409 Pine Street, Apt 43B",Denver,CO,80281,USA,2020-01-19,0
+CUST-032,Michael,Lopez,michael.lopez76@aol.com,555.404.1442,1006 Lake Road,Los Angeles,CA,90097,USA,2020-09-12,0
+CUST-033,Ruth,Rodriguez,ruth.rodriguez61@protonmail.com,(555) 617-2289,"6149 Market Street, Apt 3C",New York,NY,10086,USA,2020-08-16,0
+CUST-034,Melissa,Lopez,melissa.lopez@protonmail.com,(555) 566-0877,"4058 River Drive, Apt 43B",Indianapolis,IN,46212,USA,2020-03-21,1
+CUST-035,Maria,Morgan,maria.morgan@protonmail.com,(555) 172-6122,"1829 Lake Road, Apt 15A",New York,NY,10037,USA,2020-08-09,1
+CUST-036,Daniel,Collins,daniel.collins@outlook.com,555.390.2291,7965 Lake Road,Austin,TX,78760,USA,2020-03-26,1
+CUST-037,Michael,Collins,michael.collins@yahoo.com,(555) 414-7855,7978 Market Street,Nashville,TN,37275,USA,2020-02-20,1
+CUST-038,Melissa,Murphy,melissa.murphy@outlook.com,555.273.6733,"2627 Forest Avenue, Apt 42D",Denver,CO,80258,USA,2020-03-11,1
+CUST-039,Sharon,Garcia,sharon.garcia@aol.com,(555) 536-5999,2349 Washington Blvd,Nashville,TN,37225,USA,2020-05-19,0
+CUST-040,Eric,Campbell,eric.campbell@yahoo.com,(555) 267-5940,2115 Broadway,Philadelphia,PA,19098,USA,2020-02-15,0
+CUST-041,Donna,Moore,donna.moore27@hotmail.com,555.271.9443,"6074 Forest Avenue, Apt 44D",Nashville,TN,37230,USA,2020-01-12,1
+CUST-042,Paul,Jones,paul.jones79@icloud.com,(555) 317-6846,1005 Market Street,San Francisco,CA,94128,USA,2020-06-28,0
+CUST-043,Richard,Adams,richard.adams8@outlook.com,(555) 252-8598,"6783 Hill Street, Apt 30C",San Francisco,CA,94126,USA,2020-12-14,0
+CUST-044,Matthew,Rogers,matthew.rogers@outlook.com,555.100.8776,5623 River Drive,Denver,CO,80239,USA,2020-01-21,1
+CUST-045,Patricia,Cox,patricia.cox@icloud.com,555.394.9638,4010 Maple Drive,Boston,MA,02195,USA,2020-01-02,0
+CUST-046,Ruth,Wilson,ruth.wilson6@aol.com,(555) 353-3415,"1516 Forest Avenue, Apt 35A",Columbus,OH,43070,USA,2020-10-16,0
+CUST-047,Christopher,Carter,christopher.carter@icloud.com,555.542.0575,2566 River Drive,Boston,MA,02170,USA,2020-11-20,1
+CUST-048,Susan,Turner,susan.turner@aol.com,(555) 167-3523,5319 Elm Avenue,Austin,TX,78759,USA,2020-09-04,0
+CUST-049,Thomas,Adams,thomas.adams@protonmail.com,(555) 561-0181,"3200 Main St, Apt 16A",San Francisco,CA,94106,USA,2020-01-05,0
+CUST-050,Brandon,Green,brandon.green@outlook.com,555.820.4352,6868 Park Place,Philadelphia,PA,19042,USA,2020-08-13,0
+CUST-051,Charles,Adams,charles.adams@aol.com,(555) 687-2864,7183 Market Street,San Diego,CA,92122,USA,2020-08-15,0
+CUST-052,Jennifer,Wright,jennifer.wright54@gmail.com,555.591.8791,8880 Park Place,Jacksonville,FL,32028,USA,2020-06-10,0
+CUST-053,Daniel,Cooper,daniel.cooper@aol.com,(555) 978-9395,6984 Elm Avenue,Chicago,IL,60620,USA,2020-12-04,1
+CUST-054,David,Baker,david.baker@protonmail.com,(555) 438-5112,"4804 Park Place, Apt 6D",San Diego,CA,92173,USA,2020-12-09,1
+CUST-055,John,Turner,john.turner@aol.com,(555) 575-0907,"5464 Maple Drive, Apt 22D",Philadelphia,PA,19083,USA,2020-12-24,0
+CUST-056,Donald,Scott,donald.scott@icloud.com,(555) 792-5191,"2156 Market Street, Apt 5A",Chicago,IL,60692,USA,2020-11-20,1
+CUST-057,Eric,Morris,eric.morris@hotmail.com,(555) 378-4242,9055 Lake Road,Philadelphia,PA,19052,USA,2020-08-08,0
+CUST-058,James,Wright,james.wright@outlook.com,555.966.7774,"8561 Broadway, Apt 14D",San Francisco,CA,94112,USA,2020-08-14,0
+CUST-059,Jason,Williams,jason.williams@outlook.com,(555) 943-2757,5447 Broadway,San Diego,CA,92158,USA,2020-12-18,0
+CUST-060,Susan,Brooks,susan.brooks@gmail.com,555.206.1900,"6649 Elm Avenue, Apt 10A",Fort Worth,TX,76190,USA,2020-11-02,1
+CUST-061,Ruth,Campbell,ruth.campbell42@gmail.com,(555) 950-7559,304 Market Street,Nashville,TN,37245,USA,2020-02-13,1
+CUST-062,Nancy,Allen,nancy.allen@hotmail.com,555.761.2144,7182 Elm Avenue,Seattle,WA,98171,USA,2020-06-08,0
+CUST-063,Joshua,Johnson,joshua.johnson@gmail.com,(555) 513-8437,169 Main St,Chicago,IL,60623,USA,2020-11-25,0
+CUST-064,Anthony,Lee,anthony.lee21@hotmail.com,555.479.5981,"4569 Oak Avenue, Apt 31A",Dallas,TX,75292,USA,2020-03-20,0
+CUST-065,William,Thomas,william.thomas@protonmail.com,(555) 973-2068,5620 Sunset Boulevard,Fort Worth,TX,76134,USA,2020-12-04,0
+CUST-066,Jessica,Hill,jessica.hill26@hotmail.com,555.474.5128,6306 Washington Blvd,Houston,TX,77001,USA,2020-07-08,0
+CUST-067,Kenneth,Brown,kenneth.brown@gmail.com,(555) 183-7496,4854 Cedar Lane,Denver,CO,80202,USA,2020-04-21,1
+CUST-068,Michael,Smith,michael.smith76@aol.com,(555) 475-8187,188 Hill Street,Indianapolis,IN,46298,USA,2020-11-28,0
+CUST-069,Richard,Peterson,richard.peterson@outlook.com,(555) 701-4995,6261 Pine Street,San Francisco,CA,94134,USA,2020-02-11,0
+CUST-070,Paul,King,paul.king@yahoo.com,555.174.1185,6015 Lake Road,Austin,TX,78784,USA,2020-11-01,0
+CUST-071,Betty,Turner,betty.turner@aol.com,555.974.0838,"2421 Market Street, Apt 12B",Denver,CO,80270,USA,2020-04-19,1
+CUST-072,Thomas,Lopez,thomas.lopez@hotmail.com,(555) 143-6406,6313 Elm Avenue,New York,NY,10064,USA,2020-05-27,1
+CUST-073,Ashley,Gonzalez,ashley.gonzalez@hotmail.com,(555) 595-0533,"736 Forest Avenue, Apt 35B",Nashville,TN,37210,USA,2020-10-08,0
+CUST-074,Brian,Martin,brian.martin34@hotmail.com,(555) 828-1200,3856 Main St,Los Angeles,CA,90005,USA,2020-06-08,0
+CUST-075,Maria,Thomas,maria.thomas@icloud.com,555.875.6425,5173 Washington Blvd,Philadelphia,PA,19055,USA,2020-08-11,0
+CUST-076,Michael,Hill,michael.hill@yahoo.com,(555) 397-7853,5351 Park Place,Chicago,IL,60619,USA,2020-12-19,0
+CUST-077,Mary,Allen,mary.allen38@icloud.com,555.718.1195,2960 Washington Blvd,Indianapolis,IN,46269,USA,2020-07-01,0
+CUST-078,Anthony,Anderson,anthony.anderson@aol.com,(555) 259-0580,"2234 Main St, Apt 22B",Dallas,TX,75268,USA,2020-10-18,1
+CUST-079,Kimberly,Hall,kimberly.hall36@hotmail.com,555.719.4285,334 Maple Drive,Fort Worth,TX,76167,USA,2020-10-13,1
+CUST-080,Jennifer,Johnson,jennifer.johnson53@protonmail.com,555.269.3849,4955 Market Street,San Francisco,CA,94124,USA,2020-12-26,0
+CUST-081,Robert,Green,robert.green@outlook.com,(555) 620-3946,5278 Cedar Lane,Columbus,OH,43058,USA,2020-02-20,1
+CUST-082,Ryan,Wright,ryan.wright59@outlook.com,555.266.6357,4413 Pine Street,Chicago,IL,60669,USA,2020-12-08,1
+CUST-083,Mary,Young,mary.young@icloud.com,(555) 304-8943,4141 Elm Avenue,Columbus,OH,43096,USA,2020-02-24,0
+CUST-084,Richard,Gray,richard.gray@aol.com,555.998.3973,4513 Main St,Fort Worth,TX,76145,USA,2020-05-26,0
+CUST-085,Jennifer,Walker,jennifer.walker@hotmail.com,(555) 823-9826,"1334 Cedar Lane, Apt 6A",Austin,TX,78716,USA,2020-10-02,1
+CUST-086,Kimberly,Anderson,kimberly.anderson17@aol.com,555.591.1848,"6241 Oak Avenue, Apt 18C",Chicago,IL,60681,USA,2020-07-27,1
+CUST-087,Jason,Thomas,jason.thomas@gmail.com,555.966.6732,1667 Washington Blvd,Austin,TX,78770,USA,2020-05-15,0
+CUST-088,Linda,Davis,linda.davis@yahoo.com,(555) 715-0543,6555 Maple Drive,Columbus,OH,43062,USA,2020-03-12,0
+CUST-089,James,Rogers,james.rogers43@protonmail.com,(555) 118-6014,"8135 River Drive, Apt 47C",Houston,TX,77050,USA,2020-06-04,1
+CUST-090,Jason,Peterson,jason.peterson@aol.com,555.307.7488,"2616 Park Place, Apt 30B",Fort Worth,TX,76181,USA,2020-06-12,0
+CUST-091,Nancy,Carter,nancy.carter@outlook.com,(555) 449-1697,3674 Broadway,Nashville,TN,37298,USA,2020-03-22,1
+CUST-092,Charles,Moore,charles.moore35@outlook.com,(555) 926-7380,"6859 Forest Avenue, Apt 5C",New York,NY,10040,USA,2020-07-01,0
+CUST-093,Dorothy,Campbell,dorothy.campbell1@gmail.com,(555) 243-9220,4372 Washington Blvd,Dallas,TX,75248,USA,2020-04-26,1
+CUST-094,Tyler,Hernandez,tyler.hernandez91@gmail.com,555.369.7185,"7911 Sunset Boulevard, Apt 40D",Jacksonville,FL,32011,USA,2020-08-28,0
+CUST-095,Emily,Martin,emily.martin59@gmail.com,555.441.2642,7725 Lake Road,Fort Worth,TX,76193,USA,2020-04-28,0
+CUST-096,Angela,Allen,angela.allen@aol.com,555.702.3921,1792 Park Place,San Francisco,CA,94161,USA,2020-08-08,0
+CUST-097,Kevin,Campbell,kevin.campbell32@hotmail.com,555.644.3189,5449 Forest Avenue,Chicago,IL,60631,USA,2020-11-01,0
+CUST-098,Kimberly,Martinez,kimberly.martinez@icloud.com,555.132.8552,"7772 Oak Avenue, Apt 21C",Philadelphia,PA,19055,USA,2020-05-19,0
+CUST-099,Ryan,Moore,ryan.moore@gmail.com,(555) 609-5000,1470 Hill Street,Denver,CO,80273,USA,2020-06-27,0
+CUST-100,Daniel,Brown,daniel.brown48@protonmail.com,(555) 531-8707,"5829 Sunset Boulevard, Apt 2A",Indianapolis,IN,46245,USA,2020-09-27,0
+CUST-101,Joseph,Young,joseph.young@protonmail.com,555.457.5038,480 Market Street,Philadelphia,PA,19068,USA,2020-04-27,0
+CUST-102,Jason,Martin,jason.martin@hotmail.com,(555) 560-1951,8992 Elm Avenue,Indianapolis,IN,46281,USA,2020-02-25,1
+CUST-103,Donna,Rodriguez,donna.rodriguez@aol.com,(555) 316-9328,2405 Sunset Boulevard,Charlotte,NC,28256,USA,2020-06-20,0
+CUST-104,Thomas,Brooks,thomas.brooks@yahoo.com,555.268.3531,6053 River Drive,Indianapolis,IN,46227,USA,2020-01-20,0
+CUST-105,William,Watson,william.watson@protonmail.com,(555) 731-4607,4857 Main St,San Francisco,CA,94104,USA,2020-12-11,0
+CUST-106,Sharon,Thomas,sharon.thomas85@outlook.com,(555) 354-0085,"1192 Cedar Lane, Apt 13D",Houston,TX,77029,USA,2020-02-11,1
+CUST-107,Steven,Mitchell,steven.mitchell@icloud.com,555.839.6519,5196 Park Place,Denver,CO,80273,USA,2020-09-11,0
+CUST-108,John,Turner,john.turner@icloud.com,(555) 590-5409,"2603 Forest Avenue, Apt 46D",Houston,TX,77084,USA,2020-11-01,0
+CUST-109,Carol,Smith,carol.smith@yahoo.com,(555) 755-5290,804 Lake Road,Denver,CO,80258,USA,2020-08-02,0
+CUST-110,Jason,Lopez,jason.lopez@icloud.com,(555) 503-0120,"5587 Main St, Apt 11D",Houston,TX,77077,USA,2020-01-06,0
+CUST-111,Deborah,Howard,deborah.howard@icloud.com,(555) 139-1391,5543 Oak Avenue,Dallas,TX,75225,USA,2020-11-23,1
+CUST-112,Betty,Bell,betty.bell89@outlook.com,(555) 989-8597,3316 Market Street,Charlotte,NC,28227,USA,2020-11-09,0
+CUST-113,Kimberly,Anderson,kimberly.anderson@aol.com,(555) 151-7210,"8276 Main St, Apt 29B",Chicago,IL,60663,USA,2020-07-24,0
+CUST-114,James,Wright,james.wright@protonmail.com,(555) 999-2409,"2559 River Drive, Apt 14B",San Francisco,CA,94155,USA,2020-04-05,1
+CUST-115,Paul,Bell,paul.bell@icloud.com,555.566.1893,629 Main St,Charlotte,NC,28267,USA,2020-03-23,1
+CUST-116,Michael,Watson,michael.watson@outlook.com,555.100.9154,1675 Lake Road,Charlotte,NC,28261,USA,2020-04-13,0
+CUST-117,Nancy,Wilson,nancy.wilson69@hotmail.com,555.130.2602,3556 Oak Avenue,Phoenix,AZ,85017,USA,2020-07-09,0
+CUST-118,John,Morgan,john.morgan@yahoo.com,555.913.0543,"831 Park Place, Apt 10A",Philadelphia,PA,19040,USA,2020-01-15,0
+CUST-119,Patricia,Mitchell,patricia.mitchell@aol.com,(555) 731-5646,"8056 Washington Blvd, Apt 48D",Philadelphia,PA,19021,USA,2020-12-20,0
+CUST-120,Amanda,Rogers,amanda.rogers@outlook.com,(555) 656-4027,"7014 Main St, Apt 13B",Chicago,IL,60645,USA,2020-03-19,1
+CUST-121,Michael,Wright,michael.wright95@gmail.com,(555) 922-6630,"1749 Maple Drive, Apt 21C",Denver,CO,80289,USA,2020-07-07,0
+CUST-122,Emily,Brooks,emily.brooks@hotmail.com,(555) 639-1081,4505 Pine Street,Chicago,IL,60619,USA,2020-12-21,0
+CUST-123,Dorothy,Evans,dorothy.evans@outlook.com,555.526.1772,3690 Park Place,New York,NY,10082,USA,2020-08-14,0
+CUST-124,Linda,Hall,linda.hall@protonmail.com,555.100.2475,"2949 Pine Street, Apt 38B",San Diego,CA,92127,USA,2020-06-01,1
+CUST-125,Steven,Smith,steven.smith41@aol.com,555.811.4841,"5800 Park Place, Apt 42C",San Francisco,CA,94148,USA,2020-08-17,0
+CUST-126,Christopher,Wilson,christopher.wilson44@hotmail.com,555.332.0801,"3288 Main St, Apt 2D",Austin,TX,78769,USA,2020-06-07,1
+CUST-127,Kimberly,Cox,kimberly.cox@outlook.com,(555) 633-1374,3202 Lake Road,Chicago,IL,60662,USA,2020-10-27,1
+CUST-128,Sharon,Edwards,sharon.edwards@outlook.com,555.880.6861,"1737 Hill Street, Apt 25B",New York,NY,10093,USA,2020-01-11,0
+CUST-129,Mark,Rogers,mark.rogers@aol.com,555.933.0906,"2028 Broadway, Apt 29C",Columbus,OH,43089,USA,2020-02-04,0
+CUST-130,Jennifer,Edwards,jennifer.edwards2@hotmail.com,(555) 996-5862,3598 Washington Blvd,New York,NY,10061,USA,2020-04-01,1
+CUST-131,Paul,Johnson,paul.johnson@yahoo.com,555.233.6934,2117 Market Street,San Francisco,CA,94158,USA,2020-04-05,0
+CUST-132,Ashley,Thomas,ashley.thomas26@icloud.com,555.276.8004,1438 Market Street,Dallas,TX,75248,USA,2020-03-04,0
+CUST-133,Jessica,Brown,jessica.brown@protonmail.com,(555) 503-1171,8768 Pine Street,Dallas,TX,75203,USA,2020-04-10,0
+CUST-134,Helen,Parker,helen.parker@gmail.com,555.630.9361,4748 Sunset Boulevard,Los Angeles,CA,90064,USA,2020-10-16,0
+CUST-135,Daniel,Richardson,daniel.richardson@aol.com,555.233.7018,4120 Sunset Boulevard,San Francisco,CA,94113,USA,2020-05-06,0
+CUST-136,Angela,Murphy,angela.murphy@icloud.com,555.825.9515,7552 Elm Avenue,Jacksonville,FL,32051,USA,2020-09-22,0
+CUST-137,Michelle,Wright,michelle.wright@aol.com,(555) 845-9463,"2914 Forest Avenue, Apt 38A",Los Angeles,CA,90069,USA,2020-05-15,0
+CUST-138,Deborah,Morgan,deborah.morgan@aol.com,(555) 271-9763,3339 Sunset Boulevard,Columbus,OH,43098,USA,2020-08-16,1
+CUST-139,Patricia,Turner,patricia.turner84@gmail.com,(555) 653-6304,7055 Market Street,Columbus,OH,43044,USA,2020-06-20,0
+CUST-140,Donna,Allen,donna.allen@aol.com,(555) 784-5081,1645 Oak Avenue,San Antonio,TX,78262,USA,2020-06-11,0
+CUST-141,Maria,Howard,maria.howard@yahoo.com,(555) 743-5396,1732 Pine Street,Los Angeles,CA,90061,USA,2020-01-28,1
+CUST-142,Mark,Garcia,mark.garcia@yahoo.com,555.848.6952,"1915 Oak Avenue, Apt 47C",Columbus,OH,43026,USA,2020-07-26,0
+CUST-143,Robert,Baker,robert.baker@gmail.com,(555) 528-1537,2817 Main St,Austin,TX,78746,USA,2020-12-16,1
+CUST-144,Richard,Baker,richard.baker@gmail.com,555.538.5113,6959 Park Place,Seattle,WA,98124,USA,2020-03-09,0
+CUST-145,Elizabeth,Peterson,elizabeth.peterson79@aol.com,(555) 470-1247,5535 River Drive,Houston,TX,77025,USA,2020-08-07,0
+CUST-146,Paul,Allen,paul.allen@yahoo.com,(555) 186-0035,2022 Maple Drive,Los Angeles,CA,90029,USA,2020-02-04,0
+CUST-147,Paul,Wright,paul.wright@outlook.com,(555) 981-9816,6631 Pine Street,Philadelphia,PA,19066,USA,2020-12-04,1
+CUST-148,Donald,Rogers,donald.rogers35@gmail.com,555.812.2730,"4554 Broadway, Apt 50A",New York,NY,10014,USA,2020-04-16,0
+CUST-149,Andrew,Jackson,andrew.jackson@icloud.com,555.364.2577,2597 Washington Blvd,Charlotte,NC,28246,USA,2020-10-11,0
+CUST-150,Joseph,Hill,joseph.hill6@protonmail.com,(555) 943-3408,301 Broadway,Columbus,OH,43075,USA,2020-03-10,0
+CUST-151,Michael,Morgan,michael.morgan@gmail.com,(555) 579-4401,8897 Maple Drive,Boston,MA,02151,USA,2020-10-10,1
+CUST-152,David,Jackson,david.jackson@protonmail.com,(555) 531-9252,6981 River Drive,Phoenix,AZ,85022,USA,2020-02-20,0
+CUST-153,Daniel,Garcia,daniel.garcia@yahoo.com,(555) 262-5065,3093 River Drive,Austin,TX,78739,USA,2020-05-16,0
+CUST-154,Anthony,Brown,anthony.brown79@icloud.com,(555) 310-4691,1106 River Drive,Austin,TX,78712,USA,2020-10-04,0
+CUST-155,Eric,Cook,eric.cook@icloud.com,(555) 634-3468,6081 Washington Blvd,Charlotte,NC,28287,USA,2020-12-11,0
+CUST-156,Maria,Green,maria.green14@gmail.com,555.737.7788,"5782 Sunset Boulevard, Apt 9C",Philadelphia,PA,19013,USA,2020-01-14,0
+CUST-157,Carol,Phillips,carol.phillips@aol.com,(555) 632-5316,"2460 Pine Street, Apt 41D",Jacksonville,FL,32096,USA,2020-03-08,0
+CUST-158,William,Peterson,william.peterson43@yahoo.com,555.475.7867,"1545 Lake Road, Apt 39A",Charlotte,NC,28285,USA,2020-10-03,0
+CUST-159,Donald,Johnson,donald.johnson78@outlook.com,(555) 485-2376,"1066 Market Street, Apt 31B",Austin,TX,78754,USA,2020-03-16,1
+CUST-160,John,Ward,john.ward@gmail.com,(555) 248-4730,3130 Pine Street,Jacksonville,FL,32076,USA,2020-06-08,0
+CUST-161,Lisa,Gonzalez,lisa.gonzalez@outlook.com,(555) 172-2087,"8848 Forest Avenue, Apt 35B",New York,NY,10093,USA,2020-07-11,0
+CUST-162,Elizabeth,Garcia,elizabeth.garcia@protonmail.com,555.690.9753,1065 Park Place,Indianapolis,IN,46211,USA,2020-11-15,0
+CUST-163,Mark,King,mark.king@gmail.com,555.438.1195,7144 Lake Road,Austin,TX,78750,USA,2020-08-21,1
+CUST-164,Ryan,Young,ryan.young@hotmail.com,(555) 773-0444,5555 Market Street,Boston,MA,02175,USA,2020-04-13,0
+CUST-165,Emily,Howard,emily.howard13@hotmail.com,(555) 208-7855,6073 Broadway,Seattle,WA,98145,USA,2020-09-12,1
+CUST-166,Sandra,Mitchell,sandra.mitchell13@aol.com,(555) 260-7447,7533 Maple Drive,Charlotte,NC,28240,USA,2020-08-14,1
+CUST-167,Tyler,Stewart,tyler.stewart@aol.com,(555) 830-3244,8191 Oak Avenue,Denver,CO,80292,USA,2020-11-10,0
+CUST-168,Mary,Brown,mary.brown44@icloud.com,555.877.3493,4655 River Drive,Nashville,TN,37202,USA,2020-12-03,0
+CUST-169,Andrew,James,andrew.james@gmail.com,555.417.0209,"8654 Market Street, Apt 33C",Dallas,TX,75217,USA,2020-04-02,0
+CUST-170,Patricia,Wilson,patricia.wilson64@gmail.com,555.381.3994,"1069 Oak Avenue, Apt 29C",Philadelphia,PA,19026,USA,2020-12-26,1
+CUST-171,Jessica,Edwards,jessica.edwards88@icloud.com,555.756.1580,4142 Elm Avenue,Dallas,TX,75214,USA,2020-08-07,0
+CUST-172,William,Garcia,william.garcia@outlook.com,(555) 803-7969,7446 Sunset Boulevard,Jacksonville,FL,32041,USA,2020-01-07,1
+CUST-173,Amanda,Baker,amanda.baker@outlook.com,(555) 327-4292,8707 Forest Avenue,Chicago,IL,60697,USA,2020-01-12,0
+CUST-174,Lisa,Turner,lisa.turner@yahoo.com,(555) 841-0113,3151 Oak Avenue,Jacksonville,FL,32022,USA,2020-09-18,0
+CUST-175,Ryan,Rodriguez,ryan.rodriguez@aol.com,555.249.0136,"6972 Market Street, Apt 25B",Indianapolis,IN,46252,USA,2020-07-24,1
+CUST-176,Brandon,Edwards,brandon.edwards84@icloud.com,555.899.7758,"8203 Lake Road, Apt 40B",Chicago,IL,60622,USA,2020-08-05,1
+CUST-177,Helen,Howard,helen.howard@icloud.com,555.510.6817,3754 Cedar Lane,Austin,TX,78712,USA,2020-05-19,1
+CUST-178,Michael,Hill,michael.hill@outlook.com,555.787.6741,"348 Pine Street, Apt 47A",Nashville,TN,37226,USA,2020-07-05,0
+CUST-179,Karen,James,karen.james@outlook.com,555.760.6261,"1864 Lake Road, Apt 50C",Charlotte,NC,28233,USA,2020-08-19,0
+CUST-180,Brandon,Watson,brandon.watson@outlook.com,555.819.8720,"4011 Forest Avenue, Apt 31D",Denver,CO,80202,USA,2020-01-20,1
+CUST-181,Tyler,Parker,tyler.parker@protonmail.com,(555) 560-3817,5017 Pine Street,Denver,CO,80274,USA,2020-07-08,0
+CUST-182,Daniel,Hill,daniel.hill@yahoo.com,555.919.7809,4271 Elm Avenue,Boston,MA,02111,USA,2020-04-28,1
+CUST-183,Kevin,Johnson,kevin.johnson@aol.com,555.853.9692,316 Elm Avenue,Jacksonville,FL,32065,USA,2020-05-18,0
+CUST-184,John,Martinez,john.martinez@aol.com,555.401.5329,"4615 Market Street, Apt 13B",Fort Worth,TX,76151,USA,2020-03-16,1
+CUST-185,Ashley,Jones,ashley.jones@yahoo.com,(555) 251-8466,5176 Forest Avenue,Denver,CO,80275,USA,2020-02-07,0
+CUST-186,Jennifer,Ward,jennifer.ward51@aol.com,(555) 927-1623,8708 River Drive,Austin,TX,78794,USA,2020-12-10,1
+CUST-187,Brian,Brown,brian.brown22@protonmail.com,555.871.0682,4773 Main St,Austin,TX,78719,USA,2020-10-07,0
+CUST-188,Jennifer,Brown,jennifer.brown43@icloud.com,(555) 521-7897,"4906 Main St, Apt 39C",San Antonio,TX,78270,USA,2020-08-13,1
+CUST-189,Brandon,Moore,brandon.moore@protonmail.com,555.283.3533,"2884 Park Place, Apt 17C",Nashville,TN,37245,USA,2020-12-16,0
+CUST-190,Mary,Cox,mary.cox@protonmail.com,(555) 855-3112,"5961 Maple Drive, Apt 14A",Charlotte,NC,28233,USA,2020-06-05,1
+CUST-191,Nancy,Wilson,nancy.wilson34@yahoo.com,555.784.7531,"7535 Washington Blvd, Apt 28C",Jacksonville,FL,32000,USA,2020-02-13,0
+CUST-192,Dorothy,Watson,dorothy.watson@outlook.com,555.517.2135,"140 Market Street, Apt 29B",Phoenix,AZ,85060,USA,2020-04-01,0
+CUST-193,Andrew,Cooper,andrew.cooper@aol.com,555.936.4343,"6923 Forest Avenue, Apt 40D",San Diego,CA,92131,USA,2020-02-27,0
+CUST-194,Angela,Morris,angela.morris47@gmail.com,(555) 316-8518,"6281 Pine Street, Apt 44C",San Antonio,TX,78209,USA,2020-05-28,1
+CUST-195,Michael,Carter,michael.carter96@hotmail.com,555.520.3661,2607 Broadway,San Antonio,TX,78276,USA,2020-06-16,0
+CUST-196,Maria,Reed,maria.reed42@aol.com,(555) 627-0885,2550 Hill Street,Denver,CO,80252,USA,2020-11-21,0
+CUST-197,Donald,Miller,donald.miller@protonmail.com,(555) 311-8730,5555 Maple Drive,Boston,MA,02119,USA,2020-09-01,0
+CUST-198,Patricia,Stewart,patricia.stewart@hotmail.com,(555) 682-4692,"5092 River Drive, Apt 6A",Los Angeles,CA,90045,USA,2020-08-08,1
+CUST-199,Donna,Moore,donna.moore76@protonmail.com,(555) 919-6362,8709 Cedar Lane,San Diego,CA,92156,USA,2020-03-21,0
+CUST-200,Barbara,Jones,barbara.jones@hotmail.com,(555) 512-1856,4550 Forest Avenue,Austin,TX,78757,USA,2020-04-04,1
+CUST-201,Elizabeth,Peterson,elizabeth.peterson@aol.com,(555) 962-8201,"7876 River Drive, Apt 43B",Fort Worth,TX,76131,USA,2020-02-01,0
+CUST-202,Helen,Roberts,helen.roberts@outlook.com,(555) 371-6619,6264 Oak Avenue,Austin,TX,78729,USA,2020-05-25,0
+CUST-203,Angela,Brooks,angela.brooks46@gmail.com,(555) 973-9653,7932 Maple Drive,Houston,TX,77028,USA,2020-01-27,1
+CUST-204,Jason,Peterson,jason.peterson24@gmail.com,555.879.6749,"6629 Hill Street, Apt 44C",Nashville,TN,37220,USA,2020-09-27,0
+CUST-205,Eric,Taylor,eric.taylor@gmail.com,(555) 100-1050,186 Main St,Fort Worth,TX,76168,USA,2020-07-03,1
+CUST-206,David,Hall,david.hall78@aol.com,(555) 260-6227,"2201 Cedar Lane, Apt 29B",Philadelphia,PA,19062,USA,2020-10-12,0
+CUST-207,Donna,Miller,donna.miller@yahoo.com,(555) 872-8619,2278 Market Street,Los Angeles,CA,90015,USA,2020-08-26,0
+CUST-208,Justin,Ward,justin.ward@yahoo.com,(555) 282-8989,"4809 Maple Drive, Apt 17D",Austin,TX,78780,USA,2020-02-21,0
+CUST-209,Elizabeth,Reed,elizabeth.reed@aol.com,555.306.6376,5802 Hill Street,Jacksonville,FL,32050,USA,2020-12-07,1
+CUST-210,Kevin,Green,kevin.green@hotmail.com,(555) 596-8131,5669 Washington Blvd,Dallas,TX,75245,USA,2020-02-14,0
+CUST-211,Justin,Smith,justin.smith@outlook.com,555.660.1550,"6052 Broadway, Apt 30D",San Antonio,TX,78211,USA,2020-01-09,0
+CUST-212,Susan,Morgan,susan.morgan34@icloud.com,(555) 369-9409,8647 Sunset Boulevard,Indianapolis,IN,46238,USA,2020-09-18,0
+CUST-213,Jason,Murphy,jason.murphy@aol.com,(555) 911-4381,4621 Sunset Boulevard,San Diego,CA,92120,USA,2020-07-09,0
+CUST-214,Matthew,Campbell,matthew.campbell56@outlook.com,555.590.2215,"2557 Pine Street, Apt 5B",Los Angeles,CA,90073,USA,2020-08-14,1
+CUST-215,Helen,Phillips,helen.phillips@hotmail.com,(555) 654-7551,6690 Market Street,Dallas,TX,75286,USA,2020-10-26,0
+CUST-216,Tyler,Martinez,tyler.martinez@hotmail.com,(555) 446-5482,4591 Hill Street,New York,NY,10042,USA,2020-03-02,0
+CUST-217,Ashley,Martin,ashley.martin@protonmail.com,555.886.6514,2808 Broadway,Houston,TX,77034,USA,2020-02-28,1
+CUST-218,Robert,Turner,robert.turner13@protonmail.com,555.285.7005,2074 Park Place,Seattle,WA,98128,USA,2020-08-19,1
+CUST-219,Christopher,Cox,christopher.cox72@protonmail.com,(555) 769-4891,8665 Washington Blvd,Indianapolis,IN,46260,USA,2020-10-10,0
+CUST-220,Brian,Watson,brian.watson90@gmail.com,(555) 349-6615,"8532 Maple Drive, Apt 38C",Charlotte,NC,28211,USA,2020-02-23,0
+CUST-221,Kevin,Baker,kevin.baker@hotmail.com,555.217.4597,7134 River Drive,Chicago,IL,60678,USA,2020-12-13,0
+CUST-222,Brandon,Peterson,brandon.peterson@protonmail.com,(555) 608-3398,6845 Hill Street,Los Angeles,CA,90000,USA,2020-10-09,0
+CUST-223,Matthew,Jones,matthew.jones49@outlook.com,(555) 847-2688,"7631 Broadway, Apt 25B",Phoenix,AZ,85000,USA,2020-12-12,0
+CUST-224,Brian,Lee,brian.lee80@yahoo.com,555.250.4093,2465 Maple Drive,Charlotte,NC,28217,USA,2020-11-25,1
+CUST-225,Amanda,Rogers,amanda.rogers88@protonmail.com,(555) 568-7014,"2211 Market Street, Apt 19A",Phoenix,AZ,85042,USA,2020-02-10,1
+CUST-226,Amanda,Murphy,amanda.murphy@gmail.com,(555) 633-1316,"7763 Pine Street, Apt 42D",Indianapolis,IN,46290,USA,2020-07-05,1
+CUST-227,Barbara,Walker,barbara.walker@outlook.com,555.791.9054,"1035 Washington Blvd, Apt 16B",Jacksonville,FL,32011,USA,2020-08-15,1
+CUST-228,Kimberly,Hall,kimberly.hall32@yahoo.com,(555) 189-6699,"7313 Cedar Lane, Apt 40D",Charlotte,NC,28235,USA,2020-05-18,0
+CUST-229,Lisa,Murphy,lisa.murphy@outlook.com,(555) 819-9208,741 Main St,Charlotte,NC,28291,USA,2020-03-01,0
+CUST-230,Matthew,Miller,matthew.miller@yahoo.com,555.762.0431,6543 Washington Blvd,Indianapolis,IN,46261,USA,2020-07-02,1
+CUST-231,Susan,Davis,susan.davis44@outlook.com,555.397.2708,2182 Oak Avenue,New York,NY,10027,USA,2020-08-21,1
+CUST-232,James,Miller,james.miller79@hotmail.com,555.608.5198,5761 Lake Road,Houston,TX,77012,USA,2020-03-21,1
+CUST-233,Jason,Jackson,jason.jackson@yahoo.com,555.545.6690,6585 Park Place,San Antonio,TX,78280,USA,2020-03-17,0
+CUST-234,Barbara,Reed,barbara.reed@yahoo.com,(555) 158-5891,5256 Cedar Lane,Dallas,TX,75211,USA,2020-03-24,1
+CUST-235,Karen,Parker,karen.parker@yahoo.com,(555) 360-6710,8786 River Drive,Los Angeles,CA,90072,USA,2020-10-05,0
+CUST-236,Susan,Mitchell,susan.mitchell67@protonmail.com,(555) 630-6917,4838 Washington Blvd,Dallas,TX,75296,USA,2020-01-26,0
+CUST-237,Justin,Evans,justin.evans@protonmail.com,(555) 378-5204,"8936 Sunset Boulevard, Apt 16B",Denver,CO,80201,USA,2020-08-08,0
+CUST-238,Nancy,Rodriguez,nancy.rodriguez@gmail.com,(555) 203-1211,"1272 Market Street, Apt 30D",Chicago,IL,60639,USA,2020-02-01,0
+CUST-239,Kimberly,Green,kimberly.green@outlook.com,(555) 961-1998,"8168 Hill Street, Apt 9C",Dallas,TX,75232,USA,2020-06-25,0
+CUST-240,Amanda,Young,amanda.young@icloud.com,555.294.7278,"6076 Hill Street, Apt 30A",San Francisco,CA,94132,USA,2020-04-13,1
+CUST-241,Ruth,Parker,ruth.parker61@protonmail.com,555.111.1350,"7289 Maple Drive, Apt 11A",San Francisco,CA,94127,USA,2020-08-09,0
+CUST-242,Linda,Wilson,linda.wilson40@protonmail.com,555.193.1438,7430 Broadway,Indianapolis,IN,46220,USA,2020-08-04,1
+CUST-243,Betty,Ward,betty.ward@hotmail.com,(555) 192-5018,6485 Washington Blvd,San Francisco,CA,94155,USA,2020-12-04,0
+CUST-244,Ryan,Lopez,ryan.lopez@protonmail.com,555.107.3479,3326 Sunset Boulevard,Nashville,TN,37257,USA,2020-08-03,1
+CUST-245,Elizabeth,Taylor,elizabeth.taylor@aol.com,(555) 549-5927,5370 Elm Avenue,Charlotte,NC,28271,USA,2020-09-24,1
+CUST-246,Elizabeth,Evans,elizabeth.evans82@icloud.com,(555) 635-1939,"2410 Cedar Lane, Apt 8B",Charlotte,NC,28251,USA,2020-03-15,0
+CUST-247,Carol,Baker,carol.baker64@outlook.com,(555) 664-5200,5159 Sunset Boulevard,Philadelphia,PA,19065,USA,2020-07-12,0
+CUST-248,Matthew,Brooks,matthew.brooks@icloud.com,555.536.1456,"8496 Hill Street, Apt 40D",Indianapolis,IN,46272,USA,2020-10-19,1
+CUST-249,Joseph,Anderson,joseph.anderson78@hotmail.com,(555) 770-3318,2045 Elm Avenue,Columbus,OH,43017,USA,2020-03-11,1
+CUST-250,Sandra,Lopez,sandra.lopez@aol.com,(555) 735-6158,"9034 Forest Avenue, Apt 39C",Chicago,IL,60695,USA,2020-11-26,0
+CUST-251,Melissa,Walker,melissa.walker@aol.com,555.296.3303,860 Park Place,Los Angeles,CA,90089,USA,2020-08-05,1
+CUST-252,Linda,Turner,linda.turner85@protonmail.com,(555) 989-8008,4607 River Drive,Chicago,IL,60684,USA,2020-12-11,0
+CUST-253,Mary,Davis,mary.davis@aol.com,555.920.0134,6237 Forest Avenue,Jacksonville,FL,32029,USA,2020-01-09,0
+CUST-254,Ashley,Jones,ashley.jones@outlook.com,555.579.6685,"6631 Oak Avenue, Apt 16C",Jacksonville,FL,32054,USA,2020-02-14,0
+CUST-255,Laura,Brown,laura.brown@icloud.com,(555) 659-9782,"5473 Forest Avenue, Apt 43A",Seattle,WA,98143,USA,2020-10-08,0
+CUST-256,Steven,Young,steven.young52@aol.com,(555) 180-4527,2519 Lake Road,Phoenix,AZ,85009,USA,2020-10-24,0
+CUST-257,Jason,Brooks,jason.brooks@yahoo.com,(555) 700-4234,6038 Elm Avenue,Denver,CO,80206,USA,2020-12-11,1
+CUST-258,Patricia,Adams,patricia.adams@protonmail.com,(555) 128-2496,2481 Washington Blvd,Columbus,OH,43034,USA,2020-04-25,0
+CUST-259,James,Cooper,james.cooper@yahoo.com,(555) 199-7990,7475 Forest Avenue,Charlotte,NC,28211,USA,2020-06-16,1
+CUST-260,Steven,Murphy,steven.murphy@yahoo.com,(555) 993-5634,"2549 Washington Blvd, Apt 6A",Denver,CO,80259,USA,2020-11-14,0
+CUST-261,Betty,Collins,betty.collins@yahoo.com,(555) 222-2696,"1295 Main St, Apt 24D",Chicago,IL,60613,USA,2020-05-25,0
+CUST-262,Mary,Wilson,mary.wilson@gmail.com,555.249.7438,"1863 Main St, Apt 40D",Fort Worth,TX,76175,USA,2020-02-04,0
+CUST-263,Sandra,Gonzalez,sandra.gonzalez@yahoo.com,555.815.3979,"5211 Pine Street, Apt 25C",Indianapolis,IN,46269,USA,2020-10-02,0
+CUST-264,Ashley,Turner,ashley.turner@protonmail.com,555.624.5251,"316 Washington Blvd, Apt 2C",Jacksonville,FL,32008,USA,2020-09-02,0
+CUST-265,Christopher,Cook,christopher.cook@yahoo.com,555.911.0817,5432 Elm Avenue,Denver,CO,80246,USA,2020-04-03,1
+CUST-266,Andrew,Murphy,andrew.murphy64@yahoo.com,(555) 652-2683,3777 Maple Drive,San Diego,CA,92149,USA,2020-09-12,1
+CUST-267,Sharon,Wright,sharon.wright@aol.com,(555) 587-5285,1908 Pine Street,Charlotte,NC,28204,USA,2020-09-02,1
+CUST-268,Kimberly,Reed,kimberly.reed@gmail.com,(555) 590-4865,"2834 Sunset Boulevard, Apt 39C",Fort Worth,TX,76154,USA,2020-03-12,0
+CUST-269,Betty,Roberts,betty.roberts@icloud.com,(555) 850-7802,"6487 Market Street, Apt 43D",Jacksonville,FL,32062,USA,2020-08-20,1
+CUST-270,William,Evans,william.evans@yahoo.com,(555) 964-6628,3736 Broadway,Indianapolis,IN,46272,USA,2020-06-22,0
+CUST-271,Barbara,Allen,barbara.allen@protonmail.com,(555) 774-1923,6609 Park Place,Charlotte,NC,28259,USA,2020-01-01,0
+CUST-272,Mark,Carter,mark.carter@hotmail.com,(555) 864-1922,6458 Cedar Lane,Columbus,OH,43032,USA,2020-03-10,0
+CUST-273,Thomas,Peterson,thomas.peterson@hotmail.com,555.477.5187,"6365 River Drive, Apt 34A",Austin,TX,78744,USA,2020-04-21,1
+CUST-274,Michelle,Ward,michelle.ward@icloud.com,(555) 276-0338,7558 River Drive,Nashville,TN,37290,USA,2020-08-20,0
+CUST-275,Charles,Martinez,charles.martinez86@gmail.com,(555) 880-5615,3306 Maple Drive,Seattle,WA,98123,USA,2020-07-24,1
+CUST-276,Laura,Cook,laura.cook@hotmail.com,(555) 627-6157,7257 Main St,Denver,CO,80248,USA,2020-01-24,0
+CUST-277,Elizabeth,Wilson,elizabeth.wilson@protonmail.com,555.660.3085,"3716 Pine Street, Apt 14C",Columbus,OH,43055,USA,2020-01-19,0
+CUST-278,Betty,Mitchell,betty.mitchell@protonmail.com,555.789.9530,7083 Broadway,Fort Worth,TX,76196,USA,2020-01-15,0
+CUST-279,Helen,Richardson,helen.richardson75@protonmail.com,555.247.0772,4303 Main St,Austin,TX,78781,USA,2020-03-03,0
+CUST-280,Emily,Green,emily.green@protonmail.com,(555) 534-5098,6283 River Drive,Denver,CO,80274,USA,2020-01-24,1
+CUST-281,Jason,Jackson,jason.jackson28@outlook.com,555.611.9663,7414 Elm Avenue,Fort Worth,TX,76147,USA,2020-04-23,0
+CUST-282,James,Hall,james.hall@icloud.com,(555) 223-4643,7147 Sunset Boulevard,Chicago,IL,60602,USA,2020-04-16,0
+CUST-283,Nicholas,Peterson,nicholas.peterson@icloud.com,555.227.8354,"4121 Sunset Boulevard, Apt 32D",Seattle,WA,98103,USA,2020-02-06,1
+CUST-284,Justin,Brooks,justin.brooks@aol.com,555.121.2209,"6331 Maple Drive, Apt 24C",San Antonio,TX,78287,USA,2020-06-04,1
+CUST-285,Ashley,Campbell,ashley.campbell@protonmail.com,555.331.3441,3076 Elm Avenue,New York,NY,10051,USA,2020-03-01,0
+CUST-286,Christopher,Carter,christopher.carter@gmail.com,555.900.0229,534 River Drive,Indianapolis,IN,46246,USA,2020-02-06,0
+CUST-287,Lisa,Watson,lisa.watson56@icloud.com,(555) 801-5772,2228 Lake Road,San Francisco,CA,94181,USA,2020-06-13,0
+CUST-288,Susan,Carter,susan.carter@icloud.com,(555) 461-4990,3039 Forest Avenue,Indianapolis,IN,46256,USA,2020-12-09,0
+CUST-289,Brian,Adams,brian.adams57@hotmail.com,555.644.3462,6813 Washington Blvd,Jacksonville,FL,32052,USA,2020-12-23,0
+CUST-290,Nancy,Phillips,nancy.phillips71@protonmail.com,(555) 703-7173,"1973 Market Street, Apt 18D",Austin,TX,78717,USA,2020-01-13,0
+CUST-291,Tyler,Adams,tyler.adams@icloud.com,(555) 305-3579,6442 Main St,Los Angeles,CA,90022,USA,2020-06-04,1
+CUST-292,Betty,Anderson,betty.anderson@hotmail.com,555.867.4365,8605 Pine Street,Fort Worth,TX,76183,USA,2020-06-19,0
+CUST-293,Dorothy,Hall,dorothy.hall@icloud.com,555.679.1630,8282 Oak Avenue,San Diego,CA,92132,USA,2020-09-02,0
+CUST-294,Patricia,Evans,patricia.evans@icloud.com,(555) 230-6974,"6342 Lake Road, Apt 47C",Dallas,TX,75267,USA,2020-12-01,0
+CUST-295,Jessica,Turner,jessica.turner@hotmail.com,555.750.1240,"6966 Cedar Lane, Apt 24C",Los Angeles,CA,90075,USA,2020-12-28,0
+CUST-296,David,Howard,david.howard17@protonmail.com,555.100.4752,"4034 Main St, Apt 31C",Charlotte,NC,28276,USA,2020-10-25,1
+CUST-297,Charles,Evans,charles.evans@aol.com,555.752.6142,5441 River Drive,Austin,TX,78726,USA,2020-10-04,0
+CUST-298,Christopher,Thomas,christopher.thomas@yahoo.com,555.914.3381,7194 Forest Avenue,Los Angeles,CA,90070,USA,2020-03-07,0
+CUST-299,Kenneth,Cook,kenneth.cook@yahoo.com,(555) 286-0259,"115 River Drive, Apt 50D",Denver,CO,80267,USA,2020-09-10,0
+CUST-300,Ryan,Hernandez,ryan.hernandez@gmail.com,(555) 413-8616,7453 Main St,Chicago,IL,60690,USA,2020-07-24,0
+CUST-301,Jessica,Rogers,jessica.rogers@outlook.com,(555) 433-2831,2215 Sunset Boulevard,San Diego,CA,92144,USA,2020-01-04,1
+CUST-302,Carol,Brooks,carol.brooks73@icloud.com,(555) 156-8419,8264 Park Place,Los Angeles,CA,90013,USA,2020-10-21,0
+CUST-303,Donald,Brooks,donald.brooks@yahoo.com,555.977.8031,1583 Forest Avenue,Columbus,OH,43037,USA,2020-12-14,0
+CUST-304,Sandra,Mitchell,sandra.mitchell59@hotmail.com,(555) 671-0580,4570 Pine Street,Seattle,WA,98143,USA,2020-01-20,1
+CUST-305,Maria,Moore,maria.moore26@hotmail.com,555.991.4693,"5296 Hill Street, Apt 47C",Nashville,TN,37264,USA,2020-10-17,0
+CUST-306,Brian,Hernandez,brian.hernandez5@hotmail.com,(555) 481-6476,"7425 Hill Street, Apt 27B",Phoenix,AZ,85082,USA,2020-07-13,0
+CUST-307,Andrew,Johnson,andrew.johnson@yahoo.com,(555) 152-3652,"5661 Hill Street, Apt 43A",San Diego,CA,92184,USA,2020-06-28,1
+CUST-308,Nicholas,Johnson,nicholas.johnson@aol.com,(555) 487-3778,"3356 Main St, Apt 8A",Seattle,WA,98155,USA,2020-11-19,0
+CUST-309,Patricia,Stewart,patricia.stewart71@hotmail.com,555.807.4358,297 Oak Avenue,Indianapolis,IN,46235,USA,2020-03-21,1
+CUST-310,William,Morgan,william.morgan40@aol.com,(555) 503-0332,2072 Broadway,Austin,TX,78701,USA,2020-09-09,0
+CUST-311,Christopher,Watson,christopher.watson@aol.com,555.923.5027,"2141 Oak Avenue, Apt 18C",San Francisco,CA,94175,USA,2020-02-02,0
+CUST-312,David,Morgan,david.morgan@gmail.com,(555) 183-1222,"455 Broadway, Apt 37C",Boston,MA,02158,USA,2020-07-23,1
+CUST-313,William,Adams,william.adams@protonmail.com,555.114.6557,"1023 Washington Blvd, Apt 23B",New York,NY,10086,USA,2020-05-07,0
+CUST-314,Thomas,Campbell,thomas.campbell43@outlook.com,555.834.9996,147 Park Place,Columbus,OH,43063,USA,2020-01-07,0
+CUST-315,Barbara,Hall,barbara.hall@protonmail.com,555.238.9232,9086 Maple Drive,Jacksonville,FL,32091,USA,2020-05-28,0
+CUST-316,Elizabeth,Smith,elizabeth.smith@hotmail.com,(555) 273-5196,"3583 River Drive, Apt 25C",Indianapolis,IN,46209,USA,2020-04-17,0
+CUST-317,Ruth,Adams,ruth.adams7@yahoo.com,(555) 512-9971,"3080 Main St, Apt 45C",Indianapolis,IN,46253,USA,2020-04-06,1
+CUST-318,Ruth,Rodriguez,ruth.rodriguez@hotmail.com,555.333.7873,5633 Washington Blvd,Denver,CO,80257,USA,2020-10-09,0
+CUST-319,Nancy,Howard,nancy.howard88@yahoo.com,555.673.6465,"7189 Forest Avenue, Apt 41C",Phoenix,AZ,85047,USA,2020-04-12,0
+CUST-320,Mary,Gray,mary.gray@protonmail.com,(555) 961-0805,5643 Hill Street,Jacksonville,FL,32013,USA,2020-05-15,0
+CUST-321,Sharon,Young,sharon.young@aol.com,(555) 142-5565,"465 Sunset Boulevard, Apt 39D",Phoenix,AZ,85030,USA,2020-06-20,0
+CUST-322,Robert,Miller,robert.miller@aol.com,(555) 965-6044,"6289 Washington Blvd, Apt 1C",Nashville,TN,37264,USA,2020-06-22,1
+CUST-323,Richard,Campbell,richard.campbell@aol.com,(555) 934-3739,"2042 Washington Blvd, Apt 42A",Fort Worth,TX,76126,USA,2020-05-01,0
+CUST-324,Karen,Jones,karen.jones@hotmail.com,555.111.8280,6908 Maple Drive,Dallas,TX,75211,USA,2020-03-16,0
+CUST-325,Carol,Parker,carol.parker@protonmail.com,555.889.6240,"1133 Cedar Lane, Apt 40D",Dallas,TX,75282,USA,2020-02-24,0
+CUST-326,James,Miller,james.miller49@aol.com,555.304.2481,5926 Cedar Lane,Dallas,TX,75222,USA,2020-09-10,0
+CUST-327,Michael,Williams,michael.williams@gmail.com,555.194.5125,6907 River Drive,San Antonio,TX,78280,USA,2020-12-06,1
+CUST-328,William,Brooks,william.brooks@hotmail.com,555.127.5976,"1674 Cedar Lane, Apt 24A",Phoenix,AZ,85094,USA,2020-06-23,0
+CUST-329,Patricia,Green,patricia.green@gmail.com,555.808.0157,7388 Hill Street,Chicago,IL,60688,USA,2020-12-19,1
+CUST-330,Charles,Bell,charles.bell@protonmail.com,555.794.5270,8148 Elm Avenue,Nashville,TN,37243,USA,2020-06-13,0
+CUST-331,Jennifer,Williams,jennifer.williams71@outlook.com,(555) 754-0957,"4930 Oak Avenue, Apt 32B",San Francisco,CA,94134,USA,2020-05-22,0
+CUST-332,Karen,Baker,karen.baker@hotmail.com,(555) 616-2147,"6613 Maple Drive, Apt 35A",Chicago,IL,60615,USA,2020-07-14,1
+CUST-333,Steven,Martin,steven.martin@hotmail.com,555.956.9747,5576 Broadway,Philadelphia,PA,19073,USA,2020-05-08,0
+CUST-334,Ashley,Morgan,ashley.morgan@icloud.com,555.560.1963,6135 Forest Avenue,Boston,MA,02192,USA,2020-10-16,1
+CUST-335,Steven,Baker,steven.baker@hotmail.com,555.277.1824,"8610 Forest Avenue, Apt 23A",Philadelphia,PA,19019,USA,2020-09-18,0
+CUST-336,Emily,Walker,emily.walker@protonmail.com,555.492.9186,5065 Maple Drive,Seattle,WA,98177,USA,2020-09-20,0
+CUST-337,Sarah,Jones,sarah.jones56@gmail.com,(555) 450-6024,5511 Market Street,San Francisco,CA,94192,USA,2020-11-06,0
+CUST-338,Mark,Turner,mark.turner@yahoo.com,555.509.4933,"4734 Park Place, Apt 17D",Los Angeles,CA,90097,USA,2020-06-24,0
+CUST-339,Andrew,Phillips,andrew.phillips@aol.com,(555) 841-6103,"7264 Cedar Lane, Apt 32D",Nashville,TN,37233,USA,2020-07-14,0
+CUST-340,Donald,Lee,donald.lee@hotmail.com,(555) 882-0653,1946 Hill Street,Fort Worth,TX,76174,USA,2020-04-24,0
+CUST-341,Melissa,Adams,melissa.adams@hotmail.com,(555) 419-9148,"5507 Washington Blvd, Apt 22D",Boston,MA,02127,USA,2020-07-28,1
+CUST-342,Ruth,Anderson,ruth.anderson@icloud.com,(555) 195-9010,6627 Cedar Lane,Jacksonville,FL,32035,USA,2020-12-22,0
+CUST-343,Brian,Anderson,brian.anderson29@icloud.com,555.730.7646,"640 Forest Avenue, Apt 27D",Charlotte,NC,28283,USA,2020-12-07,1
+CUST-344,Kimberly,Peterson,kimberly.peterson@protonmail.com,555.885.0877,"2020 River Drive, Apt 23A",Boston,MA,02123,USA,2020-12-16,1
+CUST-345,Mark,Gonzalez,mark.gonzalez55@outlook.com,(555) 111-5685,3701 Maple Drive,Houston,TX,77002,USA,2020-06-06,0
+CUST-346,Robert,Lee,robert.lee77@gmail.com,(555) 925-2183,"5391 Main St, Apt 4A",Seattle,WA,98143,USA,2020-11-25,0
+CUST-347,Robert,Edwards,robert.edwards@hotmail.com,555.581.7754,"526 Main St, Apt 36D",Philadelphia,PA,19023,USA,2020-11-28,0
+CUST-348,Donna,King,donna.king8@aol.com,555.544.9863,5596 Cedar Lane,Seattle,WA,98108,USA,2020-04-08,0
+CUST-349,Brian,Johnson,brian.johnson@outlook.com,555.746.3228,"8407 Park Place, Apt 8C",Denver,CO,80240,USA,2020-08-03,0
+CUST-350,Karen,Lee,karen.lee@aol.com,555.381.5650,"4236 Elm Avenue, Apt 36A",Los Angeles,CA,90043,USA,2020-07-16,0
+CUST-351,Sharon,Baker,sharon.baker@gmail.com,(555) 661-9269,3040 Sunset Boulevard,Austin,TX,78761,USA,2020-06-26,1
+CUST-352,Mary,Parker,mary.parker33@gmail.com,(555) 572-0131,438 Hill Street,Charlotte,NC,28286,USA,2020-03-27,0
+CUST-353,Lisa,Parker,lisa.parker@aol.com,(555) 734-7113,"7165 Hill Street, Apt 21D",Seattle,WA,98133,USA,2020-03-15,0
+CUST-354,Karen,Young,karen.young@outlook.com,(555) 223-2915,"7042 River Drive, Apt 41A",Houston,TX,77073,USA,2020-05-04,0
+CUST-355,Deborah,Hernandez,deborah.hernandez78@protonmail.com,(555) 619-5445,"1828 Maple Drive, Apt 7D",Columbus,OH,43023,USA,2020-08-24,1
+CUST-356,Anthony,Edwards,anthony.edwards@hotmail.com,555.422.6391,2404 Park Place,Houston,TX,77030,USA,2020-12-12,1
+CUST-357,Emily,Reed,emily.reed@gmail.com,(555) 727-1777,"6009 Main St, Apt 7C",Fort Worth,TX,76138,USA,2020-09-26,0
+CUST-358,Robert,Ward,robert.ward@outlook.com,555.995.9277,"8073 Oak Avenue, Apt 48A",Indianapolis,IN,46212,USA,2020-02-05,0
+CUST-359,Eric,Morris,eric.morris11@hotmail.com,(555) 490-0228,7915 Main St,Phoenix,AZ,85097,USA,2020-11-26,0
+CUST-360,Joshua,Jackson,joshua.jackson@protonmail.com,(555) 386-7922,5536 Washington Blvd,Indianapolis,IN,46206,USA,2020-12-24,1
+CUST-361,William,Anderson,william.anderson38@icloud.com,555.434.6233,5127 Oak Avenue,Houston,TX,77080,USA,2020-01-02,0
+CUST-362,Linda,Miller,linda.miller50@yahoo.com,555.317.6517,5440 Washington Blvd,Denver,CO,80297,USA,2020-02-25,0
+CUST-363,Jason,Watson,jason.watson55@hotmail.com,(555) 216-8818,2663 Washington Blvd,San Antonio,TX,78267,USA,2020-03-15,1
+CUST-364,Barbara,Lopez,barbara.lopez24@protonmail.com,555.875.2250,3479 Cedar Lane,Indianapolis,IN,46242,USA,2020-01-22,0
+CUST-365,Jennifer,Smith,jennifer.smith@aol.com,(555) 309-2130,4275 Forest Avenue,New York,NY,10071,USA,2020-12-20,0
+CUST-366,Sarah,Hill,sarah.hill@yahoo.com,(555) 154-3079,"4175 Hill Street, Apt 48C",Seattle,WA,98128,USA,2020-04-28,0
+CUST-367,Patricia,Anderson,patricia.anderson@outlook.com,555.365.0082,7940 Lake Road,Denver,CO,80295,USA,2020-01-19,0
+CUST-368,James,Miller,james.miller@hotmail.com,555.675.0742,"4440 Market Street, Apt 32A",Philadelphia,PA,19045,USA,2020-09-10,1
+CUST-369,Donna,Garcia,donna.garcia34@protonmail.com,555.217.7918,8576 Pine Street,New York,NY,10085,USA,2020-05-19,1
+CUST-370,James,Johnson,james.johnson@yahoo.com,(555) 846-2744,2442 Broadway,Houston,TX,77091,USA,2020-01-03,0
+CUST-371,David,Campbell,david.campbell@protonmail.com,555.501.8544,"6385 Lake Road, Apt 1D",Chicago,IL,60652,USA,2020-05-17,0
+CUST-372,Karen,Lopez,karen.lopez92@hotmail.com,(555) 571-4422,7369 Lake Road,Columbus,OH,43019,USA,2020-06-09,0
+CUST-373,Charles,Turner,charles.turner@gmail.com,555.336.1826,"491 Main St, Apt 16D",Fort Worth,TX,76166,USA,2020-07-17,0
+CUST-374,Patricia,James,patricia.james@yahoo.com,555.452.0246,5387 Cedar Lane,Seattle,WA,98175,USA,2020-03-05,0
+CUST-375,Donald,Thomas,donald.thomas@protonmail.com,(555) 974-5621,6687 Main St,Austin,TX,78775,USA,2020-07-05,0
+CUST-376,Brandon,Smith,brandon.smith@outlook.com,(555) 217-1733,"6174 Broadway, Apt 13A",Austin,TX,78751,USA,2020-06-24,0
+CUST-377,John,Baker,john.baker22@yahoo.com,(555) 861-5335,"8381 River Drive, Apt 25C",Chicago,IL,60653,USA,2020-03-03,1
+CUST-378,Andrew,Rogers,andrew.rogers@gmail.com,555.185.5007,4790 River Drive,San Antonio,TX,78289,USA,2020-10-27,0
+CUST-379,Kevin,Brooks,kevin.brooks@hotmail.com,(555) 450-3288,"7181 Oak Avenue, Apt 48A",Columbus,OH,43021,USA,2020-05-02,0
+CUST-380,Betty,Johnson,betty.johnson@protonmail.com,555.693.1817,"6961 Forest Avenue, Apt 32B",San Diego,CA,92192,USA,2020-06-16,0
+CUST-381,Matthew,Anderson,matthew.anderson@gmail.com,555.984.6633,4556 Maple Drive,Los Angeles,CA,90071,USA,2020-07-28,0
+CUST-382,William,Bell,william.bell43@outlook.com,555.580.6681,"2514 Oak Avenue, Apt 47B",Fort Worth,TX,76160,USA,2020-04-13,0
+CUST-383,Eric,Morris,eric.morris42@outlook.com,555.410.6827,"1400 Park Place, Apt 31A",Houston,TX,77064,USA,2020-10-22,0
+CUST-384,Ryan,Gonzalez,ryan.gonzalez@gmail.com,(555) 951-9874,654 Pine Street,Columbus,OH,43076,USA,2020-11-25,0
+CUST-385,Patricia,Edwards,patricia.edwards@protonmail.com,555.142.8571,"8674 Lake Road, Apt 49C",Los Angeles,CA,90071,USA,2020-05-17,1
+CUST-386,Charles,Mitchell,charles.mitchell@yahoo.com,(555) 294-0839,985 Hill Street,Boston,MA,02101,USA,2020-01-06,1
+CUST-387,Kenneth,Allen,kenneth.allen@hotmail.com,555.850.5336,4126 Oak Avenue,Seattle,WA,98139,USA,2020-06-26,0
+CUST-388,Andrew,Moore,andrew.moore98@icloud.com,(555) 572-0901,1692 Lake Road,Houston,TX,77067,USA,2020-07-22,0
+CUST-389,Linda,Jones,linda.jones@protonmail.com,555.697.6122,"5639 Pine Street, Apt 26A",Austin,TX,78770,USA,2020-02-15,1
+CUST-390,Nicholas,Williams,nicholas.williams@outlook.com,(555) 497-7938,"6678 Sunset Boulevard, Apt 17A",Jacksonville,FL,32046,USA,2020-01-26,0
+CUST-391,Nancy,Scott,nancy.scott@protonmail.com,(555) 415-7865,8284 Park Place,Seattle,WA,98114,USA,2020-09-02,0
+CUST-392,Laura,Green,laura.green@hotmail.com,(555) 771-7658,6437 Forest Avenue,Jacksonville,FL,32069,USA,2020-11-09,0
+CUST-393,Nicholas,Stewart,nicholas.stewart@gmail.com,555.309.6946,"5695 Hill Street, Apt 30C",San Diego,CA,92138,USA,2020-09-08,0
+CUST-394,Donald,Taylor,donald.taylor81@yahoo.com,555.335.3619,5863 Market Street,Jacksonville,FL,32076,USA,2020-02-06,0
+CUST-395,Barbara,Miller,barbara.miller@outlook.com,(555) 604-1654,6329 Sunset Boulevard,Austin,TX,78706,USA,2020-01-17,0
+CUST-396,William,Morris,william.morris@protonmail.com,(555) 174-2582,3074 Market Street,Austin,TX,78745,USA,2020-10-19,0
+CUST-397,Donna,Wilson,donna.wilson@yahoo.com,(555) 278-0503,8538 Park Place,San Diego,CA,92183,USA,2020-02-11,1
+CUST-398,Deborah,Turner,deborah.turner@protonmail.com,555.837.8001,"3582 Oak Avenue, Apt 28C",Columbus,OH,43086,USA,2020-08-15,1
+CUST-399,Mark,Lopez,mark.lopez71@hotmail.com,555.979.1938,8843 Elm Avenue,San Francisco,CA,94183,USA,2020-02-20,0
+CUST-400,Daniel,Cox,daniel.cox@protonmail.com,555.811.8733,2028 Sunset Boulevard,Indianapolis,IN,46216,USA,2020-11-12,0
+CUST-401,Melissa,Cox,melissa.cox@aol.com,555.825.6534,5190 River Drive,Dallas,TX,75282,USA,2020-02-04,1
+CUST-402,Richard,Young,richard.young16@yahoo.com,(555) 156-3980,"6110 Hill Street, Apt 23D",Nashville,TN,37252,USA,2020-06-08,0
+CUST-403,Michelle,Murphy,michelle.murphy48@outlook.com,555.866.0442,1820 Oak Avenue,San Antonio,TX,78280,USA,2020-03-09,0
+CUST-404,Daniel,Baker,daniel.baker@aol.com,555.130.9706,4800 Hill Street,Columbus,OH,43094,USA,2020-07-14,1
+CUST-405,Donna,Nelson,donna.nelson53@gmail.com,(555) 442-1793,"5095 Broadway, Apt 7C",Denver,CO,80205,USA,2020-06-24,1
+CUST-406,Ryan,Martinez,ryan.martinez89@gmail.com,(555) 170-2407,"5343 Pine Street, Apt 28C",San Diego,CA,92149,USA,2020-02-08,1
+CUST-407,Nicholas,Cook,nicholas.cook@aol.com,(555) 983-9516,5321 Market Street,Charlotte,NC,28202,USA,2020-06-02,1
+CUST-408,Kevin,Parker,kevin.parker@hotmail.com,(555) 945-1972,"1869 Market Street, Apt 29D",New York,NY,10005,USA,2020-10-19,1
+CUST-409,Richard,Gray,richard.gray@yahoo.com,555.267.5512,"3609 Hill Street, Apt 25D",Dallas,TX,75219,USA,2020-08-24,1
+CUST-410,Linda,Smith,linda.smith@outlook.com,555.158.6702,"2677 Sunset Boulevard, Apt 4A",Los Angeles,CA,90016,USA,2020-10-16,1
+CUST-411,Michelle,Garcia,michelle.garcia@protonmail.com,(555) 522-3856,7250 Main St,San Diego,CA,92182,USA,2020-01-13,1
+CUST-412,Emily,Ward,emily.ward46@gmail.com,555.414.2501,"198 Park Place, Apt 24D",Philadelphia,PA,19091,USA,2020-05-15,0
+CUST-413,Patricia,James,patricia.james@yahoo.com,(555) 621-6132,"6672 River Drive, Apt 12D",Boston,MA,02184,USA,2020-04-20,0
+CUST-414,Steven,Martinez,steven.martinez0@icloud.com,555.539.3826,1083 Market Street,Chicago,IL,60641,USA,2020-04-20,0
+CUST-415,Dorothy,Adams,dorothy.adams13@protonmail.com,(555) 576-9622,7769 Main St,Houston,TX,77012,USA,2020-10-26,1
+CUST-416,John,Allen,john.allen14@protonmail.com,555.789.3791,"8578 Washington Blvd, Apt 37A",Charlotte,NC,28257,USA,2020-08-10,0
+CUST-417,Steven,Taylor,steven.taylor76@aol.com,555.787.6001,5836 Washington Blvd,Los Angeles,CA,90066,USA,2020-08-27,1
+CUST-418,Charles,Baker,charles.baker@icloud.com,555.513.4716,5540 Sunset Boulevard,New York,NY,10028,USA,2020-04-03,0
+CUST-419,Michelle,Wright,michelle.wright18@yahoo.com,(555) 497-2627,4274 Park Place,San Antonio,TX,78297,USA,2020-04-20,0
+CUST-420,Steven,Miller,steven.miller@yahoo.com,(555) 147-8971,3245 Maple Drive,Nashville,TN,37281,USA,2020-04-18,1
+CUST-421,Paul,Martin,paul.martin@gmail.com,555.498.0351,2200 Oak Avenue,Fort Worth,TX,76151,USA,2020-02-19,1
+CUST-422,Richard,Brown,richard.brown61@hotmail.com,555.756.2747,"3784 Maple Drive, Apt 13B",San Diego,CA,92198,USA,2020-09-11,0
+CUST-423,Sharon,Scott,sharon.scott11@icloud.com,555.433.5391,"252 Oak Avenue, Apt 49A",Chicago,IL,60610,USA,2020-04-20,0
+CUST-424,Tyler,Green,tyler.green58@aol.com,(555) 774-6401,"1730 Sunset Boulevard, Apt 12A",Philadelphia,PA,19093,USA,2020-06-11,0
+CUST-425,Justin,Jones,justin.jones@aol.com,(555) 798-4936,8445 Park Place,San Diego,CA,92121,USA,2020-07-12,1
+CUST-426,Christopher,Bell,christopher.bell@hotmail.com,(555) 373-5414,4523 Washington Blvd,Austin,TX,78747,USA,2020-10-16,0
+CUST-427,Steven,Watson,steven.watson@aol.com,555.953.3551,4935 Oak Avenue,Dallas,TX,75212,USA,2020-06-09,0
+CUST-428,Laura,King,laura.king@yahoo.com,(555) 466-9270,"8919 Oak Avenue, Apt 33A",Philadelphia,PA,19079,USA,2020-02-02,1
+CUST-429,Ryan,Peterson,ryan.peterson@hotmail.com,555.453.7761,"907 Oak Avenue, Apt 15B",Los Angeles,CA,90054,USA,2020-08-01,1
+CUST-430,Karen,Parker,karen.parker@icloud.com,(555) 386-0884,1937 Park Place,Phoenix,AZ,85096,USA,2020-11-23,1
+CUST-431,Steven,Adams,steven.adams11@gmail.com,(555) 833-8298,"7612 Forest Avenue, Apt 50B",Phoenix,AZ,85039,USA,2020-08-10,1
+CUST-432,Barbara,Davis,barbara.davis@aol.com,555.583.2316,8313 Park Place,Nashville,TN,37279,USA,2020-08-01,0
+CUST-433,Brandon,Baker,brandon.baker@icloud.com,(555) 378-2663,"3097 Forest Avenue, Apt 6A",Columbus,OH,43006,USA,2020-08-01,1
+CUST-434,Angela,Miller,angela.miller@gmail.com,(555) 328-2983,680 Lake Road,Austin,TX,78704,USA,2020-01-03,1
+CUST-435,Nancy,Collins,nancy.collins@icloud.com,555.158.5546,"2678 Park Place, Apt 45D",Seattle,WA,98192,USA,2020-06-26,1
+CUST-436,Richard,Carter,richard.carter@protonmail.com,(555) 763-1399,4376 Main St,Denver,CO,80291,USA,2020-07-07,0
+CUST-437,Donna,Brown,donna.brown@gmail.com,(555) 813-5136,7735 Broadway,Phoenix,AZ,85017,USA,2020-07-13,1
+CUST-438,Dorothy,Johnson,dorothy.johnson93@hotmail.com,555.431.3981,"7312 Market Street, Apt 41B",Indianapolis,IN,46282,USA,2020-10-19,0
+CUST-439,Brandon,Taylor,brandon.taylor23@protonmail.com,(555) 248-6630,4305 Park Place,San Antonio,TX,78243,USA,2020-07-25,1
+CUST-440,Emily,Collins,emily.collins21@icloud.com,(555) 919-5515,1232 Sunset Boulevard,Chicago,IL,60614,USA,2020-03-10,1
+CUST-441,Laura,Brown,laura.brown@hotmail.com,(555) 161-3488,7848 River Drive,Denver,CO,80278,USA,2020-05-02,0
+CUST-442,Paul,Phillips,paul.phillips@yahoo.com,(555) 990-3293,1761 Broadway,New York,NY,10072,USA,2020-11-28,1
+CUST-443,Joseph,Davis,joseph.davis@protonmail.com,555.840.2654,"4726 Washington Blvd, Apt 42A",Dallas,TX,75251,USA,2020-02-02,0
+CUST-444,Michelle,Martin,michelle.martin@icloud.com,(555) 519-0395,1469 Cedar Lane,Houston,TX,77096,USA,2020-03-06,0
+CUST-445,Susan,Evans,susan.evans9@icloud.com,(555) 498-5607,8264 Hill Street,Jacksonville,FL,32090,USA,2020-09-08,1
+CUST-446,Kimberly,Mitchell,kimberly.mitchell@aol.com,555.282.1439,3912 Elm Avenue,Austin,TX,78778,USA,2020-03-03,0
+CUST-447,Paul,Morris,paul.morris@hotmail.com,(555) 249-9310,8573 Maple Drive,Fort Worth,TX,76153,USA,2020-06-05,0
+CUST-448,Deborah,Martin,deborah.martin31@aol.com,(555) 742-5390,"6003 Broadway, Apt 14C",San Diego,CA,92131,USA,2020-10-09,0
+CUST-449,Laura,Morris,laura.morris@hotmail.com,(555) 870-4502,"607 Main St, Apt 13D",San Francisco,CA,94184,USA,2020-09-19,0
+CUST-450,Deborah,Rodriguez,deborah.rodriguez18@aol.com,555.485.6463,3713 River Drive,Fort Worth,TX,76109,USA,2020-06-15,0
+CUST-451,Richard,Howard,richard.howard@protonmail.com,(555) 122-0455,"975 Oak Avenue, Apt 49A",Los Angeles,CA,90018,USA,2020-05-21,0
+CUST-452,Sarah,Stewart,sarah.stewart7@hotmail.com,555.596.3972,1019 Lake Road,Philadelphia,PA,19089,USA,2020-08-11,0
+CUST-453,Deborah,Reed,deborah.reed11@icloud.com,(555) 442-2031,2981 Market Street,Fort Worth,TX,76185,USA,2020-09-27,1
+CUST-454,Sarah,Phillips,sarah.phillips@yahoo.com,555.510.4081,8330 Park Place,Columbus,OH,43070,USA,2020-09-17,0
+CUST-455,Thomas,Rodriguez,thomas.rodriguez@outlook.com,(555) 514-3815,722 Sunset Boulevard,San Diego,CA,92198,USA,2020-05-22,0
+CUST-456,Christopher,Miller,christopher.miller@outlook.com,555.128.4194,2829 Market Street,Jacksonville,FL,32036,USA,2020-10-03,0
+CUST-457,Robert,Morgan,robert.morgan@outlook.com,555.287.1804,"3245 Sunset Boulevard, Apt 27C",San Antonio,TX,78262,USA,2020-03-04,1
+CUST-458,Donald,Roberts,donald.roberts@outlook.com,555.384.6238,"5445 Hill Street, Apt 23D",San Antonio,TX,78240,USA,2020-09-24,0
+CUST-459,Nancy,Roberts,nancy.roberts@yahoo.com,555.314.4732,"1723 Park Place, Apt 47A",Jacksonville,FL,32057,USA,2020-02-19,1
+CUST-460,Joseph,Cook,joseph.cook@hotmail.com,(555) 303-4409,"1680 Oak Avenue, Apt 9C",Columbus,OH,43011,USA,2020-07-13,0
+CUST-461,Lisa,James,lisa.james@yahoo.com,555.218.7616,1953 Hill Street,San Antonio,TX,78256,USA,2020-05-05,0
+CUST-462,Dorothy,Garcia,dorothy.garcia14@hotmail.com,(555) 886-3010,8089 Oak Avenue,Nashville,TN,37243,USA,2020-02-20,0
+CUST-463,Barbara,Mitchell,barbara.mitchell@yahoo.com,(555) 246-8812,"9026 Pine Street, Apt 15D",Chicago,IL,60696,USA,2020-01-24,0
+CUST-464,Helen,Hernandez,helen.hernandez@hotmail.com,555.842.4770,"8268 Washington Blvd, Apt 4D",Houston,TX,77006,USA,2020-05-06,1
+CUST-465,Mark,Hernandez,mark.hernandez@aol.com,555.175.5425,"7326 Cedar Lane, Apt 31C",Fort Worth,TX,76157,USA,2020-07-23,0
+CUST-466,Ryan,Davis,ryan.davis@hotmail.com,(555) 853-3841,"6673 Sunset Boulevard, Apt 10A",New York,NY,10084,USA,2020-01-03,1
+CUST-467,Emily,Johnson,emily.johnson@aol.com,(555) 634-9786,"8409 Main St, Apt 26D",Charlotte,NC,28290,USA,2020-05-02,0
+CUST-468,Patricia,Howard,patricia.howard@aol.com,(555) 272-9971,"382 Oak Avenue, Apt 31C",Charlotte,NC,28219,USA,2020-11-06,0
+CUST-469,Christopher,Parker,christopher.parker@icloud.com,555.374.9929,"7679 Lake Road, Apt 46B",Indianapolis,IN,46236,USA,2020-07-09,1
+CUST-470,Brandon,Morris,brandon.morris22@protonmail.com,(555) 945-1469,"8135 Main St, Apt 34C",Jacksonville,FL,32049,USA,2020-01-02,0
+CUST-471,Daniel,Turner,daniel.turner@protonmail.com,555.900.8387,5874 Broadway,New York,NY,10004,USA,2020-06-26,0
+CUST-472,Eric,Hall,eric.hall@protonmail.com,(555) 851-1470,8649 Broadway,Indianapolis,IN,46246,USA,2020-11-17,0
+CUST-473,William,Brooks,william.brooks21@aol.com,(555) 746-2014,1726 Market Street,Dallas,TX,75208,USA,2020-09-03,0
+CUST-474,Ruth,Young,ruth.young27@outlook.com,(555) 470-0959,8789 Hill Street,Los Angeles,CA,90019,USA,2020-05-15,0
+CUST-475,Patricia,Nelson,patricia.nelson@gmail.com,(555) 783-3537,979 Maple Drive,Charlotte,NC,28282,USA,2020-01-19,0
+CUST-476,Michelle,Green,michelle.green@gmail.com,(555) 456-4786,"2944 Cedar Lane, Apt 10A",San Diego,CA,92148,USA,2020-07-11,0
+CUST-477,Brian,Miller,brian.miller29@hotmail.com,555.544.3001,5376 River Drive,Jacksonville,FL,32086,USA,2020-11-25,1
+CUST-478,Betty,Roberts,betty.roberts@icloud.com,555.284.2368,6225 Washington Blvd,Fort Worth,TX,76167,USA,2020-01-06,1
+CUST-479,Emily,Davis,emily.davis76@icloud.com,(555) 978-0890,7205 Park Place,San Antonio,TX,78259,USA,2020-09-05,0
+CUST-480,Michael,Scott,michael.scott@outlook.com,(555) 112-7894,2087 Sunset Boulevard,Philadelphia,PA,19041,USA,2020-12-21,0
+CUST-481,Christopher,Peterson,christopher.peterson38@outlook.com,(555) 220-9443,7848 Sunset Boulevard,San Francisco,CA,94125,USA,2020-09-03,0
+CUST-482,James,Lopez,james.lopez@hotmail.com,(555) 135-0844,6096 Elm Avenue,Seattle,WA,98165,USA,2020-08-02,0
+CUST-483,Jason,Ward,jason.ward@hotmail.com,555.834.8914,3228 River Drive,Columbus,OH,43044,USA,2020-10-04,0
+CUST-484,Amanda,Ward,amanda.ward93@icloud.com,(555) 790-5183,"1177 Maple Drive, Apt 42C",Dallas,TX,75221,USA,2020-02-28,0
+CUST-485,Brian,Morris,brian.morris@aol.com,(555) 945-4151,7523 River Drive,San Diego,CA,92166,USA,2020-05-14,0
+CUST-486,Michelle,Evans,michelle.evans@aol.com,555.521.7720,"5104 River Drive, Apt 47A",New York,NY,10058,USA,2020-09-12,1
+CUST-487,Barbara,Richardson,barbara.richardson@hotmail.com,555.830.9616,3730 Lake Road,Chicago,IL,60640,USA,2020-03-06,1
+CUST-488,Betty,Davis,betty.davis90@icloud.com,(555) 652-6754,"4221 Pine Street, Apt 9B",Denver,CO,80242,USA,2020-04-15,0
+CUST-489,Lisa,Richardson,lisa.richardson@protonmail.com,555.479.9808,6328 Lake Road,Denver,CO,80232,USA,2020-04-02,0
+CUST-490,Charles,Gray,charles.gray@outlook.com,(555) 669-2933,8307 Broadway,Columbus,OH,43089,USA,2020-04-17,0
+CUST-491,Brandon,Scott,brandon.scott@yahoo.com,(555) 708-0704,"1313 Washington Blvd, Apt 26C",San Antonio,TX,78255,USA,2020-02-23,0
+CUST-492,Susan,Allen,susan.allen@aol.com,555.772.0652,"2834 Cedar Lane, Apt 36B",Nashville,TN,37239,USA,2020-01-13,0
+CUST-493,Elizabeth,Williams,elizabeth.williams@hotmail.com,(555) 311-3465,"2968 River Drive, Apt 18B",San Francisco,CA,94185,USA,2020-11-24,0
+CUST-494,Linda,Rogers,linda.rogers95@hotmail.com,555.736.5695,523 Broadway,Chicago,IL,60641,USA,2020-04-22,0
+CUST-495,William,Gray,william.gray@hotmail.com,555.891.7206,6613 Market Street,Philadelphia,PA,19049,USA,2020-06-02,1
+CUST-496,Robert,Murphy,robert.murphy78@outlook.com,(555) 280-9836,4927 Lake Road,Dallas,TX,75226,USA,2020-09-14,1
+CUST-497,Amanda,Watson,amanda.watson6@aol.com,555.845.1800,8983 Forest Avenue,Chicago,IL,60636,USA,2020-08-22,1
+CUST-498,Helen,Howard,helen.howard@aol.com,555.424.8047,"6415 Washington Blvd, Apt 42D",Dallas,TX,75214,USA,2020-06-27,0
+CUST-499,Justin,Hill,justin.hill1@hotmail.com,555.891.8494,5236 Forest Avenue,Seattle,WA,98117,USA,2020-01-19,0
+CUST-500,Thomas,Peterson,thomas.peterson@protonmail.com,(555) 942-7763,8035 Forest Avenue,Dallas,TX,75211,USA,2020-03-12,0
