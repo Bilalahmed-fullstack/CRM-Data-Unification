@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Logs
+*.log
+
+# Maven
+target/
+*.jar
+*.war
+
+# Node
+node_modules/
+package-lock.json
+
+# Data files (uncomment if you don't want to track large data files)
+# *.csv
+# *.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+
